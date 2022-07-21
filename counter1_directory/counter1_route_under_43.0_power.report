@@ -1,0 +1,44 @@
+Power Report for counter1_route
+
+
+Generated at 2021-09-07 03:25:52
+
+
+-----------------------------------------------------------------------------------------
+Circuit infomation
+
+	Primary inputs (PIs): 2
+	Primary outputs (POs): 1
+	Gates: 8
+		Combinational cells (clock tree cells excluded): 1
+		Clock tree cells: 3
+		Register cells: 4
+-----------------------------------------------------------------------------------------
+Input constraint:
+
+	Each input is independent, with 50% probability to be 0 and 50% probability to be 1
+-----------------------------------------------------------------------------------------
+Clock period: 43.0ps
+-----------------------------------------------------------------------------------------
+Power analysis report summary
+
+	Unit:uW
+
+	                                        power consumption		    percentage
+	Total power consumption:                23.11               		100
+	Static power consumption:               22.79               		98.64     
+	Register cell power consumption:        0.12                		0.51                
+	Combinational cell power consumption:   0.03                		0.11                
+	Clock tree power consumption:           0.17                		0.74                
+-----------------------------------------------------------------------------------------
+Power analysis report detail
+
+	name	   cell	    pattern_probability_dictionary                                        power consumption percentage
+	X1       AND2T    {'01': 0.25, '11': 0.25, '00': 0.25, '10': 0.25}                      2.71             11.73     
+	X2       XOR2T    {'10': 0.25, '11': 0.25, '00': 0.5}                                   2.90             12.55     
+	X3       DFFT     {'0': 0.75, '1': 0.25}                                                3.02             13.05     
+	X4       NOTT     {'1': 0.5, '0': 0.5}                                                  2.32             10.05     
+	X5       SPLITT   {'0': 0.75, '1': 0.25}                                                3.02             13.05     
+	X6       SPLITT   {'1': 1}                                                              3.05             13.19     
+	X7       SPLITT   {'1': 1}                                                              3.05             13.19     
+	X8       SPLITT   {'1': 1}                                                              3.05             13.19     

@@ -1,0 +1,10 @@
+UCLA levels 1.0
+# Written by BLIF2BOOKSHELF on Tue Sep  7 03:25:49 2021
+# SPORT Lab, University of Southern California, Los Angeles, CA 90089
+# Developers: Ting-Ru Lin <tingruli@usc.edu> and Massoud Pedram <pedram@usc.edu>
+
+AND2T_7_n10	2
+XOR2T_6_n9	1
+DFFT_8__FBL_n11	3
+NOTT_5_n8	1
+Split_9_count	3

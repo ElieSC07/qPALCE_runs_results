@@ -1,0 +1,1 @@
+read_verilog counter1.v; hierarchy; proc; opt;  memory; opt; techmap; opt; write_blif counter1_yosys.blif

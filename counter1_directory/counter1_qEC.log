@@ -1,0 +1,17 @@
+ABC command line: "source counter1_qEC_source.ys".
+
+Entered genlib library with 8 gates from file "qSyn/qABC/src/qEC/qEC_Lib/SFQ.genlib".
+Nodes Created 
+Cycles Found 
+There are 1 cycles
+Cycle 0 has 3 elements - 
+Cycles Checked 
+---8---
+The loops are equal in length
+Circuit is path balanced
+---8---
+Warning: 1 registers in this network have don't-care init values.
+The don't-care are assumed to be 0. The result may not verify.
+Use command "print_latch" to see the init values of registers.
+Use command "zero" to convert or "init" to change the values.
+Networks are equivalent.  Time =     0.01 sec

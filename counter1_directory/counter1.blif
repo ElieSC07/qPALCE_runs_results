@@ -1,0 +1,17 @@
+############################################################################################
+# Benchmark: "counter" written by qABC on Tue Sep  7 03:25:49 2021
+# Developer: Ghasem Pasandi (pasandi@usc.edu), University of Southern California (USC), CA.
+############################################################################################
+
+.model counter
+
+.inputs clk rst en
+.outputs count
+
+.gate NOTT       a=rst O=n8
+.gate XOR2T      a=count b=en O=n9
+.gate AND2T      a=n9 b=n8 O=n10
+.gate DFFT  a=n10 O=_FBL_n11
+.gate Splitter  a=_FBL_n11 O=count
+
+.end

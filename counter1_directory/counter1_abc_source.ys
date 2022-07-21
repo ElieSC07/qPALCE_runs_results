@@ -1,0 +1,17 @@
+read_library /home/mingyel/qPALACE_release_9_7/Tools/qPALACE/qLib/1.5.1/SFQ.genlib
+read counter1_yosys_mini.blif
+blnc_syn2 
+BM 
+adj -C 4 -l 
+adjPI -C 4 
+cl 
+IsSeq
+bfl -b 
+addLr -L 
+repL 
+pf -n -i -l
+InsS -B -v counter1_abc
+sprsl /home/mingyel/qPALACE_release_9_7/Tools/qPALACE/qLib/1.5.1/qSyn_config.txt
+black -i -o -d
+qWrite_blif  -s counter1_abc.blif
+quit

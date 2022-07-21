@@ -1,0 +1,19 @@
+UCLA nodes 1.0
+# Created by Soheil Nazar Shahsavani (nazarsha@usc.edu) 
+# Platform
+
+NumNodes : 13
+NumTerminals : 5
+	AND2T_7_n10	100	70
+	XOR2T_6_n9	100	70
+	DFFT_8__FBL_n11	80	70
+	NOTT_5_n8	100	70
+	Split_9_count	50	70
+	en_Pad	100	120 terminal
+	clk_Pad	100	120 terminal
+	rst_Pad	100	120 terminal
+	GCLK_Pad	100	120 terminal
+	count_Pad	100	120 terminal
+	SplitCLK_4_5	50	70
+	SplitCLK_4_6	50	70
+	SplitCLK_0_7	50	70

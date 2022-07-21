@@ -1,0 +1,9 @@
+DEF2DEF: Converting 'counter1_route.def' from version 4.X to version 5.X
+----------------------------------------------------------------------
+Reading from file: counter1_route
+Perform SFQ mode mapping
+End of DEF2DEF
+Total Process Time (msec): 60
+
+No failed routes!
+Total Time (s): 0.10538315773

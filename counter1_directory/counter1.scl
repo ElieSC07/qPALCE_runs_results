@@ -1,0 +1,34 @@
+UCLA scl 1.0
+# Written by BLIF2BOOKSHELF on Tue Sep  7 03:25:49 2021
+# SPORT Lab, University of Southern California, Los Angeles, CA 90089
+# Developers: Ting-Ru Lin <tingruli@usc.edu> and Massoud Pedram <pedram@usc.edu>
+
+NumRows : 3
+
+CoreRow Horizontal
+  Coordinate    :   500
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   5
+End
+CoreRow Horizontal
+  Coordinate    :   570
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   5
+End
+CoreRow Horizontal
+  Coordinate    :   640
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   5
+End

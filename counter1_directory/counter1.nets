@@ -1,0 +1,32 @@
+UCLA nets 1.0
+# Written by BLIF2BOOKSHELF on Tue Sep  7 03:25:49 2021
+# SPORT Lab, University of Southern California, Los Angeles, CA 90089
+# Developers: Ting-Ru Lin <tingruli@usc.edu> and Massoud Pedram <pedram@usc.edu>
+
+NumNets : 8
+NumPins : 16
+
+NetDegree : 2   n8
+	NOTT_5_n8	O : 0.100000	0.100000
+	AND2T_7_n10	I : 0.100000	0.100000
+NetDegree : 2   n9
+	XOR2T_6_n9	O : 0.200000	0.200000
+	AND2T_7_n10	I : 0.000000	0.000000
+NetDegree : 2   en
+	en_Pad	O : 0.000000	0.000000
+	XOR2T_6_n9	I : 0.100000	0.100000
+NetDegree : 2   n10
+	AND2T_7_n10	O : 0.200000	0.200000
+	DFFT_8__FBL_n11	I : 0.000000	0.000000
+NetDegree : 2   rst
+	rst_Pad	O : 0.000000	0.000000
+	NOTT_5_n8	I : 0.000000	0.000000
+NetDegree : 2   count
+	XOR2T_6_n9	I : 0.000000	0.000000
+	Split_9_count	O : 0.100000	0.100000
+NetDegree : 2   count_2
+	count_Pad	I : 0.000000	0.000000
+	Split_9_count	O : 0.200000	0.200000
+NetDegree : 2   _FBL_n11
+	DFFT_8__FBL_n11	O : 0.100000	0.100000
+	Split_9_count	I : 0.000000	0.000000
