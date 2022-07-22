@@ -1,0 +1,1 @@
+read_verilog ID4s.v; hierarchy; proc; opt;  memory; opt; techmap; opt; write_blif ID4s_yosys.blif

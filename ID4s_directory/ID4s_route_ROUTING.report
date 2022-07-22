@@ -1,0 +1,77 @@
+General report
+
+General setting:
+    Net model: ROUTING
+    Clock scheme: HTREE
+    
+    -----------------------------------------------------------------------
+    ID4s_route                                             |  Number       
+    -----------------------------------------------------------------------
+    Primary inputs  (PIs)                                  |  9            
+    Primary outputs (POs)                                  |  8            
+    Gates                                                  |  1669         
+    Register gates                                         |  524          
+    Combinational gates                                    |  1145         
+    Nets                                                   |  2304         
+    Stages                                                 |  20           
+    Paths from primary inputs to register gates  (PI-RI)   |  21           
+    Paths from register gates to register gates  (RO-RI)   |  606          
+    Paths from register gates to primary outputs (RO-PO)   |  8            
+    -----------------------------------------------------------------------
+    
+    -----------------------------------------------------------------------
+    Parameter              |  Resistance   |  Inductance   |  Area of JJ   
+    -----------------------------------------------------------------------
+    Standard Deviation (%) |  0            |  0            |  0            
+    -----------------------------------------------------------------------
+    
+    -----------------------------------------------------------------------
+    PTL distances                                          | Statistics    
+    -----------------------------------------------------------------------
+    Maximum (um)                                           |  6340.0       
+    Minimum (um)                                           |  30.0         
+    Average (um)                                           |  279.2        
+    Standard deviation (um)                                |  407.8        
+    -----------------------------------------------------------------------
+
+Static timing analysis:
+    Period was not specified and is set as 80.4ps (12.4GHz)
+    
+    -----------------------------------------------------------------------
+    STA (ignore paths about PI & PO)       |  Corner       |  Nominal      
+    -----------------------------------------------------------------------
+    Minimum workable clock period (ps)     |  80.4         |  80.4         
+    Maximum workable clock frequency (GHz) |  12.4         |  12.4         
+    -----------------------------------------------------------------------
+    
+    -----------------------------------------------------------------------
+    Timing                 |  Violations   |  TNS (ps)     |  WNS (ps)     
+    -----------------------------------------------------------------------
+    Setup (Corner)         |  0            |  0            |  0            
+    Setup (Nominal)        |  0            |  0            |  0            
+    Hold (Corner)          |  0            |  0            |  0            
+    Hold (Nominal)         |  0            |  0            |  0            
+    -----------------------------------------------------------------------
+    
+    -----------------------------------------------------------------------
+    Skew                                   | Maximum skew  | Minimum skew  
+    -----------------------------------------------------------------------
+    Maximum (ps)                           |  15.9         |  15.9         
+    Minimum (ps)                           |  -15.1        |  -15.1        
+    Average (ps)                           |  0.1          |  0.1          
+    Standard deviation (ps)                |  3.7          |  3.7          
+    -----------------------------------------------------------------------
+    
+    -----------------------------------------------------------------------
+    STA (consider PI & PO & uncertainty)   |  Corner       |  Nominal      
+    -----------------------------------------------------------------------
+    Status                                 |  True         |  True         
+    Period (ps)                            |  104.0        |  104.0        
+    Uncertainty (ps)                       |  10.0         |  10.0         
+    Latency (cycles)                       |  21           |  21           
+    Maximum arrival time (ps)              |  61.0         |  61.0         
+    Minimum arrival time (ps)              |  34.4         |  34.4         
+    Maximum departure time (ps)            |  82.3         |  82.3         
+    Minimum departure time (ps)            |  53.5         |  53.5         
+    -----------------------------------------------------------------------
+
