@@ -1,0 +1,9 @@
+DEF2DEF: Converting 'KSA4_route.def' from version 4.X to version 5.X
+----------------------------------------------------------------------
+Reading from file: KSA4_route
+Perform SFQ mode mapping
+End of DEF2DEF
+Total Process Time (msec): 401
+
+No failed routes!
+Total Time (s): 0.5921330451965332

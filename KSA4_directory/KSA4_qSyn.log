@@ -1,0 +1,57 @@
+ABC command line: "source KSA4_abc_source.ys".
+
+Entered genlib library with 7 gates from file "/home/elijah/Documents/qPALACE/qLib/1.5.1/SFQ.genlib".
+Warning: The network was strashed and balanced before mapping.
+[Called: AdjustFanouts]
+Adjustment of fanout count finished successfully!
+[Called: SPORT_adjustFanoutsPI_Command]
+Adjustment of fanout counts for primary inputs finished successfully!
+0 DFFs are added to adjust fanout count of PIs.
+[Called: CorrectLevels_Command] 
+[Called: Setup Latches] 
+[Called: init_in_loop_field] 
+no cycle (FBL) was found in the netlist, no change needed
+Number of initial latches: 0
+[Called: SPORT_NtkWireNFBLs] 
+Cleanup removed 0 dangling nodes.
+Number of latches now: 0
+[Called: Correct_Levels_fast] 
+[Called: Topological_Sort] 
+Done: Topological sort. 
+Correcting levels of Nodes (not PI/PO/BI/BO/Latches in topological order
+CL Done-Partially: corrected levels of Nodes
+Done CL-fast 
+Done: CL!
+[Called: BalanceFLatch]
+No feedback latches were found in this network. 
+Done with balancing feedback latches
+[Called: addLatchRetime] 
+[Called: SPORT_NtkPathBalance]
+
+Maximum level: 6
+[Called: repLatches]
+Latch-count: 30
+NDRO-count:  0
+[Called: SPORT_NtkReplaceLwDFF] 
+Replacing latches with SFQ DRO DFFs finished successfully!
+Max fanout count is : 4
+[Called: SPORT_InsertSplitters_Command]
+[Called: SPORT_Command_addSplitters_to_Ntk]
+Inserting gate splitters finished successfully!
+*************************************************************
+Gate Count : 31
+Total NDRO DFF Count  : 0
+Total DRO DFF Count  : 30
+Splitter Count (without clock) : 0
+Splitter Count (with clock) : 60
+Total( Gates + DFFs + Splitters) : 121
+Total Area (Gates) : 173600.00 um^2
+Total Area (Gates + DFFs) : 341600.00 um^2
+Total Area (Gates + DFFs + Splitters) : 551600.00 um^2
+Total JJs : 1036
+Worst Stage Delay : 23.30 ps
+Latency : 139.80 ps
+Static power in ERSFQ technology: 3.15 uW
+Static power in RSFQ technology: 98.37 uW
+*************************************************************
+[Called: qWire_BLIF_Command]

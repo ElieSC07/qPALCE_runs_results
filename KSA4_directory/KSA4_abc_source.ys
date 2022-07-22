@@ -1,0 +1,15 @@
+read_library /home/elijah/Documents/qPALACE/qLib/1.5.1/SFQ.genlib
+read KSA4_yosys_mini.blif
+map
+adj -C 4 -l 
+adjPI -C 4 
+cl 
+bfl -b 
+addLr -L 
+repL 
+pf -n -i -l
+InsS  -B KSA4_abc
+sprsl /home/elijah/Documents/qPALACE/qLib/1.5.1/qSyn_config.txt
+black -i -o -d
+qWrite_blif -s KSA4_abc.blif
+quit

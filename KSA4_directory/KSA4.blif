@@ -1,0 +1,100 @@
+############################################################################################
+# Benchmark: "KSA4_new" written by qABC on Fri Jul 22 11:38:15 2022
+# Developer: Ghasem Pasandi (pasandi@usc.edu), University of Southern California (USC), CA.
+############################################################################################
+
+.model KSA4_new
+
+.inputs a0 a1 a2 a3 b0 b1 b2 b3 cin
+.outputs sum0 sum1 sum2 sum3 cout
+
+.gate XOR2T      a=n170 b=n166 O=n15
+.gate XOR2T      a=n177 b=_FPB_n136 O=n16
+.gate XOR2T      a=n171 b=n167 O=n17
+.gate AND2T      a=n177 b=_FPB_n137 O=n18
+.gate AND2T      a=n170 b=n166 O=n19
+.gate OR2T       a=n18 b=_FPB_n138 O=n20
+.gate XOR2T      a=n182 b=_FPB_n140 O=n21
+.gate XOR2T      a=n172 b=n168 O=n22
+.gate AND2T      a=n179 b=n176 O=n23
+.gate AND2T      a=n23 b=_FPB_n142 O=n24
+.gate AND2T      a=n181 b=n179 O=n25
+.gate AND2T      a=n171 b=n167 O=n26
+.gate OR2T       a=n25 b=_FPB_n143 O=n27
+.gate OR2T       a=n188 b=n186 O=n28
+.gate XOR2T      a=n28 b=_FPB_n146 O=n29
+.gate XOR2T      a=n173 b=n169 O=n30
+.gate AND2T      a=n184 b=n180 O=n31
+.gate AND2T      a=n182 b=_FPB_n147 O=n32
+.gate AND2T      a=n187 b=n184 O=n33
+.gate AND2T      a=n172 b=n168 O=n34
+.gate OR2T       a=n33 b=_FPB_n148 O=n35
+.gate OR2T       a=n32 b=_FPB_n149 O=n36
+.gate XOR2T      a=n36 b=_FPB_n153 O=sum3
+.gate AND2T      a=n190 b=n185 O=n38
+.gate AND2T      a=n188 b=_FPB_n154 O=n39
+.gate AND2T      a=n186 b=_FPB_n155 O=n40
+.gate AND2T      a=n191 b=n190 O=n41
+.gate AND2T      a=n173 b=n169 O=n42
+.gate OR2T       a=n41 b=_FPB_n156 O=n43
+.gate OR2T       a=n40 b=_FPB_n157 O=n44
+.gate OR2T       a=n44 b=_FPB_n158 O=cout
+.gate DFFT  a=n175 O=_FPB_n136
+.gate DFFT  a=n175 O=_FPB_n137
+.gate DFFT  a=n181 O=_FPB_n138
+.gate DFFT  a=n180 O=_FPB_n139
+.gate DFFT  a=_FPB_n139 O=_FPB_n140
+.gate DFFT  a=n174 O=_FPB_n141
+.gate DFFT  a=_FPB_n141 O=_FPB_n142
+.gate DFFT  a=n187 O=_FPB_n143
+.gate DFFT  a=n185 O=_FPB_n144
+.gate DFFT  a=_FPB_n144 O=_FPB_n145
+.gate DFFT  a=_FPB_n145 O=_FPB_n146
+.gate DFFT  a=n31 O=_FPB_n147
+.gate DFFT  a=n191 O=_FPB_n148
+.gate DFFT  a=n35 O=_FPB_n149
+.gate DFFT  a=n189 O=_FPB_n150
+.gate DFFT  a=_FPB_n150 O=_FPB_n151
+.gate DFFT  a=_FPB_n151 O=_FPB_n152
+.gate DFFT  a=_FPB_n152 O=_FPB_n153
+.gate DFFT  a=n192 O=_FPB_n154
+.gate DFFT  a=n192 O=_FPB_n155
+.gate DFFT  a=n42 O=_FPB_n156
+.gate DFFT  a=n43 O=_FPB_n157
+.gate DFFT  a=n39 O=_FPB_n158
+.gate DFFT  a=n16 O=_FPB_n159
+.gate DFFT  a=_FPB_n159 O=_FPB_n160
+.gate DFFT  a=_FPB_n160 O=_FPB_n161
+.gate DFFT  a=_FPB_n161 O=sum0
+.gate DFFT  a=n21 O=_FPB_n163
+.gate DFFT  a=_FPB_n163 O=sum1
+.gate DFFT  a=n29 O=sum2
+.gate Splitter  a=a0 O=n166
+.gate Splitter  a=a1 O=n167
+.gate Splitter  a=a2 O=n168
+.gate Splitter  a=a3 O=n169
+.gate Splitter  a=b0 O=n170
+.gate Splitter  a=b1 O=n171
+.gate Splitter  a=b2 O=n172
+.gate Splitter  a=b3 O=n173
+.gate Splitter  a=cin O=n174
+.gate Splitter  a=n174 O=n175
+.gate Splitter  a=n15 O=n176
+.gate Splitter  a=n176 O=n177
+.gate Splitter  a=n17 O=n178
+.gate Splitter  a=n178 O=n179
+.gate Splitter  a=n178 O=n180
+.gate Splitter  a=n19 O=n181
+.gate Splitter  a=n20 O=n182
+.gate Splitter  a=n22 O=n183
+.gate Splitter  a=n183 O=n184
+.gate Splitter  a=n183 O=n185
+.gate Splitter  a=n24 O=n186
+.gate Splitter  a=n26 O=n187
+.gate Splitter  a=n27 O=n188
+.gate Splitter  a=n30 O=n189
+.gate Splitter  a=n189 O=n190
+.gate Splitter  a=n34 O=n191
+.gate Splitter  a=n38 O=n192
+
+.end

@@ -1,0 +1,106 @@
+UCLA scl 1.0
+# Written by BLIF2BOOKSHELF on Fri Jul 22 11:38:16 2022
+# SPORT Lab, University of Southern California, Los Angeles, CA 90089
+# Developers: Ting-Ru Lin <tingruli@usc.edu> and Massoud Pedram <pedram@usc.edu>
+
+NumRows : 11
+
+CoreRow Horizontal
+  Coordinate    :   500
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   16
+End
+CoreRow Horizontal
+  Coordinate    :   570
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   16
+End
+CoreRow Horizontal
+  Coordinate    :   640
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   16
+End
+CoreRow Horizontal
+  Coordinate    :   710
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   16
+End
+CoreRow Horizontal
+  Coordinate    :   780
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   16
+End
+CoreRow Horizontal
+  Coordinate    :   850
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   16
+End
+CoreRow Horizontal
+  Coordinate    :   920
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   16
+End
+CoreRow Horizontal
+  Coordinate    :   990
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   16
+End
+CoreRow Horizontal
+  Coordinate    :   1060
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   16
+End
+CoreRow Horizontal
+  Coordinate    :   1130
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   16
+End
+CoreRow Horizontal
+  Coordinate    :   1200
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   16
+End

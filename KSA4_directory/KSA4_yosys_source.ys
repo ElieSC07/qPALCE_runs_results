@@ -1,0 +1,1 @@
+read_verilog KSA4.v; proc; techmap; opt; write_blif KSA4_yosys.blif

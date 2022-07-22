@@ -1,0 +1,12 @@
+BOOKSHELF2DEF: Converting 'KSA4_placed.aux' to DEF
+----------------------------------------------------------------------
+Horizontal pitch (X_space): 0.000000
+Vertical pitch (Y_space): 0.000000
+Reading from KSA4_placed.aux
+Reading from KSA4_placed.nodes
+Reading from KSA4_placed.nets
+15 pad(s) connected to net.
+Reading from KSA4_placed.pl
+Reading from KSA4_placed.scl
+Reading from file: ../../qLib/1.5.1/lef/lef_2_metals.lef
+Writing 'KSA4_placed.def' (DEF file)
