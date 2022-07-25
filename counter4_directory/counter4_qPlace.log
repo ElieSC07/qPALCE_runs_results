@@ -38,7 +38,7 @@ Max Cell Level : 6
 
 
 
-TotalParseTime: 0.002908
+TotalParseTime: 0.00274
 
 
 	Name of the LEF file is: /home/elijah/Documents/qPALACE/qLib/2.1//lef/lef_2_metals.lef
@@ -8676,7 +8676,7 @@ Post Legalization HPWL: Total =  16142
 (E): inst/pad name Split_69_count[3]  not in the library
 
 File seeds.out is in use; random seeds from this process will not be logged.
-Initial non-deterministic seed is 4179579781.
+Initial non-deterministic seed is 4014187020.
 If there is no other process running in this directory, then an earlier
 process may have terminated
 abnormally. You should remove or rename seeds.out
@@ -9106,10 +9106,10 @@ Writing 'counter4_placed.def' (DEF file)
 ['counter4_tmpdir/', 'counter4_placed', '-PLACEMENT', '-STA', '-SLACK', '-RPT_HOLD', '-LEF', '/home/elijah/Documents/qPALACE/qLib/2.1//lef/lef_2_metals.lef']
 bnchFullPath is:  /home/elijah/Documents/qPALACE/qPlace/counter4_tmpdir
  ./bookshelf2def counter4_placed.aux  -M 2 -lef /home/elijah/Documents/qPALACE/qLib/2.1//lef/lef_2_metals.lef
-Created directory  /home/elijah/Documents/qPALACE/qSSTA/Circuits/counter4_placed-2022-07-25_1
-python3 qSSTA.py counter4_placed-2022-07-25_1/counter4_placed-2022-07-25_1_route -PLACEMENT -STA -SLACK -LEF /home/elijah/Documents/qPALACE/qLib/2.1//lef/lef_2_metals.lef 
-Changing dir to:  /home/elijah/Documents/qPALACE/qSSTA/Circuits/counter4_placed-2022-07-25_1
-cp  counter4_placed-2022-07-25_1_route_PLACEMENT_skew.slack   /home/elijah/Documents/qPALACE/qPlace/counter4_tmpdir/counter4_hold.slack
+Created directory  /home/elijah/Documents/qPALACE/qSSTA/Circuits/counter4_placed-2022-07-25_2
+python3 qSSTA.py counter4_placed-2022-07-25_2/counter4_placed-2022-07-25_2_route -PLACEMENT -STA -SLACK -LEF /home/elijah/Documents/qPALACE/qLib/2.1//lef/lef_2_metals.lef 
+Changing dir to:  /home/elijah/Documents/qPALACE/qSSTA/Circuits/counter4_placed-2022-07-25_2
+cp  counter4_placed-2022-07-25_2_route_PLACEMENT_skew.slack   /home/elijah/Documents/qPALACE/qPlace/counter4_tmpdir/counter4_hold.slack
 
 
 Hold time analysis; iteration: 0
@@ -9209,10 +9209,10 @@ Saved the plot: counter4_tmpdir/counter4_final.plt
 	Writing to pl file   : 	counter4_tmpdir/counter4_placed.pl
 
 	Writing to scl file: counter4_tmpdir/counter4_placed.scl
-Current Date and time: 2022_7_25_19_39_
+Current Date and time: 2022_7_25_19_48_
 
 
-Writing statistics to file: counter4_tmpdir//counter4_2022_7_25_19_39__ALG_1_GS1.stat
+Writing statistics to file: counter4_tmpdir//counter4_2022_7_25_19_48__ALG_1_GS1.stat
   (Successfull Test in /qPlace_main.cpp:918): test_fullCircuits
 
 ***********************************************************************************************************
