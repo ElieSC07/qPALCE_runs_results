@@ -1,0 +1,43 @@
+############################################################################################
+# Benchmark: "KSA2" written by qABC on Mon Jul 25 11:10:38 2022
+# Developer: Ghasem Pasandi (pasandi@usc.edu), University of Southern California (USC), CA.
+############################################################################################
+
+.model KSA2
+
+.inputs a0 a1 b0 b1 cin
+.outputs sum0 sum1 cout
+
+.gate XOR2T      a=n59 b=n57 O=n9
+.gate XOR2T      a=n62 b=_FPB_n48 O=n10
+.gate XOR2T      a=n60 b=n58 O=n11
+.gate AND2T      a=n62 b=_FPB_n49 O=n12
+.gate AND2T      a=n59 b=n57 O=n13
+.gate OR2T       a=n65 b=_FPB_n50 O=n14
+.gate XOR2T      a=n14 b=_FPB_n52 O=sum1
+.gate AND2T      a=n65 b=_FPB_n53 O=n16
+.gate AND2T      a=n66 b=n64 O=n17
+.gate AND2T      a=n60 b=n58 O=n18
+.gate OR2T       a=n17 b=_FPB_n54 O=n19
+.gate OR2T       a=n19 b=n16 O=cout
+.gate DFFT  a=n61 O=_FPB_n48
+.gate DFFT  a=n61 O=_FPB_n49
+.gate DFFT  a=n66 O=_FPB_n50
+.gate DFFT  a=n64 O=_FPB_n51
+.gate DFFT  a=_FPB_n51 O=_FPB_n52
+.gate DFFT  a=n63 O=_FPB_n53
+.gate DFFT  a=n18 O=_FPB_n54
+.gate DFFT  a=n10 O=_FPB_n55
+.gate DFFT  a=_FPB_n55 O=sum0
+.gate Splitter  a=a0 O=n57
+.gate Splitter  a=a1 O=n58
+.gate Splitter  a=b0 O=n59
+.gate Splitter  a=b1 O=n60
+.gate Splitter  a=cin O=n61
+.gate Splitter  a=n9 O=n62
+.gate Splitter  a=n11 O=n63
+.gate Splitter  a=n63 O=n64
+.gate Splitter  a=n12 O=n65
+.gate Splitter  a=n13 O=n66
+
+.end

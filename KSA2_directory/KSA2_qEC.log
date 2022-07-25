@@ -1,0 +1,11 @@
+ABC command line: "source KSA2_qEC_source.ys".
+
+Entered genlib library with 8 gates from file "qSyn/qABC/src/qEC/qEC_Lib/SFQ.genlib".
+-------------- Preprocessing -------------
+number of initial nodes of first netlist: 20 
+number of initial nodes of second netlist: 31 
+Checking the fanout count  ...
+Second netlist is path balanced 
+No transformation is needed  ...
+------------ Modified LEC functions -----------
+Networks are equivalent.  Time =     0.02 sec

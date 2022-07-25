@@ -1,0 +1,47 @@
+UCLA nodes 1.0
+# Written by BLIF2BOOKSHELF on Mon Jul 25 11:10:38 2022
+# SPORT Lab, University of Southern California, Los Angeles, CA 90089
+# Developers: Ting-Ru Lin <tingruli@usc.edu> and Massoud Pedram <pedram@usc.edu>
+
+NumNodes : 40
+NumTerminals : 9
+	XOR2T_10_n10	100	70
+	XOR2T_11_n11	100	70
+	XOR2T_15_sum1	100	70
+	XOR2T_9_n9	100	70
+	AND2T_12_n12	100	70
+	AND2T_13_n13	100	70
+	AND2T_16_n16	100	70
+	AND2T_17_n17	100	70
+	AND2T_18_n18	100	70
+	DFFT_21__FPB_n48	80	70
+	DFFT_22__FPB_n49	80	70
+	DFFT_23__FPB_n50	80	70
+	DFFT_24__FPB_n51	80	70
+	DFFT_25__FPB_n52	80	70
+	DFFT_26__FPB_n53	80	70
+	DFFT_27__FPB_n54	80	70
+	OR2T_14_n14	100	70
+	OR2T_19_n19	100	70
+	DFFT_28__FPB_n55	80	70
+	DFFT_29_sum0	80	70
+	OR2T_20_cout	100	70
+	Split_30_n57	50	70
+	Split_31_n58	50	70
+	Split_32_n59	50	70
+	Split_33_n60	50	70
+	Split_34_n61	50	70
+	Split_35_n62	50	70
+	Split_36_n63	50	70
+	Split_37_n64	50	70
+	Split_38_n65	50	70
+	Split_39_n66	50	70
+	a0_Pad	100	120	terminal
+	a1_Pad	100	120	terminal
+	b0_Pad	100	120	terminal
+	b1_Pad	100	120	terminal
+	cin_Pad	100	120	terminal
+	GCLK_Pad	100	120	terminal
+	cout_Pad	100	120	terminal
+	sum0_Pad	100	120	terminal
+	sum1_Pad	100	120	terminal

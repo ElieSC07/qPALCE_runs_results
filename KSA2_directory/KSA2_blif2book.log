@@ -1,0 +1,18 @@
+BILF2BOOKSHELF: Converting 'KSA2.blif' to bookshelf files
+----------------------------------------------------------------------
+BLIF2BOOKSHELF: Converting 'KSA2.blif' to Bookshelf format
+----------------------------------------------------------------------
+Reading from file: ../../../qLib/1.5.1/lef/lef_2_metals.lef
+Reading from file: KSA2.blif
+Reading from file: KSA2.levels
+Reading primary inputs
+Reading primary outputs
+Reading gate information
+Writing .aux file
+Writing .net file
+Writing .node file
+Writing .pl file
+Writing .scl file
+Writing .wts file
+Writing .levels file
+----------------------------------------------------------------------

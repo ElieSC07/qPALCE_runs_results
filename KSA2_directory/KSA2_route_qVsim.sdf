@@ -1,0 +1,1820 @@
+ /* C-style comments. */
+
+
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "SFQ_Cir")
+(PROGRAM "Hand Coded")
+(VERSION "1.0")
+(DIVIDER /)
+(TIMESCALE 1ps)
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/a0_Pad_Split_30_n57/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (14.3:14.3:14.3) (14.3:14.3:14.3))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/a1_Pad_Split_31_n58/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (4.6:4.6:4.6) (4.6:4.6:4.6))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/b0_Pad_Split_32_n59/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.7:7.7:7.7) (7.7:7.7:7.7))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/b1_Pad_Split_33_n60/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.6:7.6:7.6) (7.6:7.6:7.6))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/XOR2T_9_n9_Split_35_n62/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (4.7:4.7:4.7) (4.7:4.7:4.7))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/XOR2T_10_n10_DFFT_28__FPB_n55/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (6.9:6.9:6.9) (6.9:6.9:6.9))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/XOR2T_11_n11_Split_36_n63/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.0:2.0:2.0) (2.0:2.0:2.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/AND2T_12_n12_Split_38_n65/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (3.6:3.6:3.6) (3.6:3.6:3.6))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/AND2T_13_n13_Split_39_n66/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (4.6:4.6:4.6) (4.6:4.6:4.6))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/OR2T_14_n14_XOR2T_15_sum1/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.3:1.3:1.3) (1.3:1.3:1.3))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/AND2T_16_n16_OR2T_20_cout/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.9:1.9:1.9) (1.9:1.9:1.9))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/AND2T_17_n17_OR2T_19_n19/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (9.5:9.5:9.5) (9.5:9.5:9.5))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/AND2T_18_n18_DFFT_27__FPB_n54/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.1:2.1:2.1) (2.1:2.1:2.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/OR2T_19_n19_OR2T_20_cout/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (4.0:4.0:4.0) (4.0:4.0:4.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_33_n60_AND2T_18_n18/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (5.5:5.5:5.5) (5.5:5.5:5.5))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_34_n61_DFFT_22__FPB_n49/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.8:1.8:1.8) (1.8:1.8:1.8))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_35_n62_AND2T_12_n12/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (4.6:4.6:4.6) (4.6:4.6:4.6))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_36_n63_Split_37_n64/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.5:1.5:1.5) (1.5:1.5:1.5))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_37_n64_DFFT_24__FPB_n51/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (5.8:5.8:5.8) (5.8:5.8:5.8))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_38_n65_AND2T_16_n16/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (3.0:3.0:3.0) (3.0:3.0:3.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_30_n57_AND2T_13_n13/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (4.2:4.2:4.2) (4.2:4.2:4.2))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_39_n66_DFFT_23__FPB_n50/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (6.7:6.7:6.7) (6.7:6.7:6.7))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_31_n58_AND2T_18_n18/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.9:2.9:2.9) (2.9:2.9:2.9))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_32_n59_AND2T_13_n13/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (5.0:5.0:5.0) (5.0:5.0:5.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/cin_Pad_Split_34_n61/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (4.5:4.5:4.5) (4.5:4.5:4.5))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/OR2T_20_cout_cout_Pad/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (4.0:4.0:4.0) (4.0:4.0:4.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_29_sum0_sum0_Pad/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (6.3:6.3:6.3) (6.3:6.3:6.3))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/XOR2T_15_sum1_sum1_Pad/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (4.5:4.5:4.5) (4.5:4.5:4.5))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_33_n60_XOR2T_11_n11/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.2:2.2:2.2) (2.2:2.2:2.2))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_34_n61_DFFT_21__FPB_n48/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.8:2.8:2.8) (2.8:2.8:2.8))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_35_n62_XOR2T_10_n10/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.3:2.3:2.3) (2.3:2.3:2.3))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_36_n63_DFFT_26__FPB_n53/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.6:1.6:1.6) (1.6:1.6:1.6))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_37_n64_AND2T_17_n17/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.0:2.0:2.0) (2.0:2.0:2.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_38_n65_OR2T_14_n14/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (4.2:4.2:4.2) (4.2:4.2:4.2))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_30_n57_XOR2T_9_n9/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.9:2.9:2.9) (2.9:2.9:2.9))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_39_n66_AND2T_17_n17/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.9:2.9:2.9) (2.9:2.9:2.9))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_31_n58_XOR2T_11_n11/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.9:0.9:0.9) (0.9:0.9:0.9))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_32_n59_XOR2T_9_n9/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.2:2.2:2.2) (2.2:2.2:2.2))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_23__FPB_n50_OR2T_14_n14/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.4:2.4:2.4) (2.4:2.4:2.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_24__FPB_n51_DFFT_25__FPB_n52/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (4.1:4.1:4.1) (4.1:4.1:4.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_25__FPB_n52_XOR2T_15_sum1/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.5:2.5:2.5) (2.5:2.5:2.5))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_26__FPB_n53_AND2T_16_n16/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (3.9:3.9:3.9) (3.9:3.9:3.9))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_27__FPB_n54_OR2T_19_n19/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.3:1.3:1.3) (1.3:1.3:1.3))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_28__FPB_n55_DFFT_29_sum0/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (3.5:3.5:3.5) (3.5:3.5:3.5))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_21__FPB_n48_XOR2T_10_n10/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (6.2:6.2:6.2) (6.2:6.2:6.2))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_22__FPB_n49_AND2T_12_n12/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (5.0:5.0:5.0) (5.0:5.0:5.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_0_52_SplitCLK_0_31/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.9:2.9:2.9) (2.9:2.9:2.9))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_0_52_SplitCLK_2_40/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.3:2.3:2.3) (2.3:2.3:2.3))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_51_OR2T_20_cout/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.8:0.8:0.8) (0.8:0.8:0.8))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_50_DFFT_29_sum0/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.0:1.0:1.0) (1.0:1.0:1.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_49_OR2T_19_n19/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.4:0.4:0.4) (0.4:0.4:0.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_48_OR2T_14_n14/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.8:0.8:0.8) (0.8:0.8:0.8))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_47_DFFT_27__FPB_n54/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.9:0.9:0.9) (0.9:0.9:0.9))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_46_DFFT_25__FPB_n52/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.4:0.4:0.4) (0.4:0.4:0.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_45_DFFT_23__FPB_n50/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.1:1.1:1.1) (1.1:1.1:1.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_44_DFFT_21__FPB_n48/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.0:1.0:1.0) (1.0:1.0:1.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_43_AND2T_18_n18/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.9:0.9:0.9) (0.9:0.9:0.9))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_42_AND2T_16_n16/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.7:0.7:0.7) (0.7:0.7:0.7))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_41_AND2T_12_n12/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.7:0.7:0.7) (0.7:0.7:0.7))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_40_SplitCLK_6_35/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.9:1.9:1.9) (1.9:1.9:1.9))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_40_SplitCLK_4_39/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.6:1.6:1.6) (1.6:1.6:1.6))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_39_SplitCLK_2_37/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (3.4:3.4:3.4) (3.4:3.4:3.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_39_SplitCLK_6_38/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.1:2.1:2.1) (2.1:2.1:2.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_38_SplitCLK_2_42/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (3.5:3.5:3.5) (3.5:3.5:3.5))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_38_SplitCLK_4_50/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.4:0.4:0.4) (0.4:0.4:0.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_37_SplitCLK_2_51/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.6:2.6:2.6) (2.6:2.6:2.6))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_37_SplitCLK_4_36/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.0:1.0:1.0) (1.0:1.0:1.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_36_DFFT_24__FPB_n51/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (3.5:3.5:3.5) (3.5:3.5:3.5))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_36_DFFT_28__FPB_n55/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.5:0.5:0.5) (0.5:0.5:0.5))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_35_SplitCLK_4_33/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.2:1.2:1.2) (1.2:1.2:1.2))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_35_SplitCLK_6_34/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.0:2.0:2.0) (2.0:2.0:2.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_34_SplitCLK_2_43/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (3.6:3.6:3.6) (3.6:3.6:3.6))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_34_SplitCLK_4_47/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.4:0.4:0.4) (0.4:0.4:0.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_33_SplitCLK_2_49/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.8:0.8:0.8) (0.8:0.8:0.8))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_33_SplitCLK_4_32/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.8:0.8:0.8) (0.8:0.8:0.8))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_32_XOR2T_11_n11/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.3:1.3:1.3) (1.3:1.3:1.3))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_32_DFFT_26__FPB_n53/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.7:0.7:0.7) (0.7:0.7:0.7))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_0_31_SplitCLK_6_26/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.0:1.0:1.0) (1.0:1.0:1.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_0_31_SplitCLK_4_30/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.6:0.6:0.6) (0.6:0.6:0.6))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_30_SplitCLK_4_28/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.3:1.3:1.3) (1.3:1.3:1.3))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_30_SplitCLK_2_29/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.1:2.1:2.1) (2.1:2.1:2.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_29_SplitCLK_2_45/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.8:0.8:0.8) (0.8:0.8:0.8))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_29_SplitCLK_4_46/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.2:2.2:2.2) (2.2:2.2:2.2))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_28_SplitCLK_2_48/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (3.3:3.3:3.3) (3.3:3.3:3.3))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_28_SplitCLK_4_27/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.0:1.0:1.0) (1.0:1.0:1.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_27_XOR2T_10_n10/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.7:1.7:1.7) (1.7:1.7:1.7))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_27_XOR2T_15_sum1/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.5:0.5:0.5) (0.5:0.5:0.5))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_26_SplitCLK_4_23/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (8.4:8.4:8.4) (8.4:8.4:8.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_26_SplitCLK_2_25/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (0.6:0.6:0.6) (0.6:0.6:0.6))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_25_SplitCLK_4_41/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.5:1.5:1.5) (1.5:1.5:1.5))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_25_SplitCLK_4_24/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.0:1.0:1.0) (1.0:1.0:1.0))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_24_AND2T_13_n13/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.6:2.6:2.6) (2.6:2.6:2.6))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_24_AND2T_17_n17/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.2:1.2:1.2) (1.2:1.2:1.2))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_23_SplitCLK_4_44/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.4:1.4:1.4) (1.4:1.4:1.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_23_SplitCLK_4_22/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (4.4:4.4:4.4) (4.4:4.4:4.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_22_XOR2T_9_n9/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (1.5:1.5:1.5) (1.5:1.5:1.5))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_22_DFFT_22__FPB_n49/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (2.8:2.8:2.8) (2.8:2.8:2.8))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/GCLK_Pad_SplitCLK_0_52/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (11.3:11.3:11.3) (11.3:11.3:11.3))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/XOR2T_10_n10/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (5.8:5.8:5.8) (5.8:5.8:5.8))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/XOR2T_11_n11/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (5.8:5.8:5.8) (5.8:5.8:5.8))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/XOR2T_15_sum1/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (5.8:5.8:5.8) (5.8:5.8:5.8))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/XOR2T_9_n9/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (5.8:5.8:5.8) (5.8:5.8:5.8))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/AND2T_12_n12/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (8.4:8.4:8.4) (8.4:8.4:8.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/AND2T_13_n13/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (8.4:8.4:8.4) (8.4:8.4:8.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/AND2T_16_n16/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (8.4:8.4:8.4) (8.4:8.4:8.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/AND2T_17_n17/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (8.4:8.4:8.4) (8.4:8.4:8.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/AND2T_18_n18/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (8.4:8.4:8.4) (8.4:8.4:8.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_21__FPB_n48/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (10.4:10.4:10.4) (10.4:10.4:10.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_22__FPB_n49/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (10.4:10.4:10.4) (10.4:10.4:10.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_23__FPB_n50/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (10.4:10.4:10.4) (10.4:10.4:10.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_24__FPB_n51/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (10.4:10.4:10.4) (10.4:10.4:10.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_25__FPB_n52/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (10.4:10.4:10.4) (10.4:10.4:10.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_26__FPB_n53/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (10.4:10.4:10.4) (10.4:10.4:10.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_27__FPB_n54/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (10.4:10.4:10.4) (10.4:10.4:10.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/OR2T_14_n14/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (6.1:6.1:6.1) (6.1:6.1:6.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/OR2T_19_n19/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (6.1:6.1:6.1) (6.1:6.1:6.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_28__FPB_n55/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (10.4:10.4:10.4) (10.4:10.4:10.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/DFFT_29_sum0/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (10.4:10.4:10.4) (10.4:10.4:10.4))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/OR2T_20_cout/gPD/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (6.1:6.1:6.1) (6.1:6.1:6.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_30_n57/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_30_n57/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_31_n58/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_31_n58/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_32_n59/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_32_n59/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_33_n60/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_33_n60/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_34_n61/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_34_n61/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_35_n62/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_35_n62/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_36_n63/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_36_n63/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_37_n64/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_37_n64/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_38_n65/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_38_n65/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_39_n66/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/Split_39_n66/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_22/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_22/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_23/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_23/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_24/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_24/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_25/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_25/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_26/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_26/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_27/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_27/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_28/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_28/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_29/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_29/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_30/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_30/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_0_31/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_0_31/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_32/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_32/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_33/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_33/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_34/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_34/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_35/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_35/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_36/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_36/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_37/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_37/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_38/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_6_38/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_39/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_39/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_40/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_40/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_41/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_41/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_42/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_42/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_43/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_43/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_44/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_44/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_45/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_45/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_46/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_46/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_47/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_47/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_48/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_48/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_49/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_49/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_50/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_4_50/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_51/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_2_51/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_0_52/gPD1/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+ (CELL
+   (CELLTYPE "GateDelay")
+   (INSTANCE topLevel/SplitCLK_0_52/gPD2/g0)
+   (DELAY
+     (ABSOLUTE
+     (IOPATH in out (7.1:7.1:7.1) (7.1:7.1:7.1))
+     )
+   )
+ )
+)
