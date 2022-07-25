@@ -8,5 +8,5 @@ Reading from counter4_placed.nets
 7 pad(s) connected to net.
 Reading from counter4_placed.pl
 Reading from counter4_placed.scl
-Reading from file: ../../qLib/1.5.1/lef/lef_2_metals.lef
+Reading from file: ../../qLib/2.1/lef/lef_2_metals.lef
 Writing 'counter4_placed.def' (DEF file)
