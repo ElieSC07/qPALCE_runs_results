@@ -1,0 +1,80 @@
+UCLA nodes 1.0
+# Written by BLIF2BOOKSHELF on Mon Jul 25 21:14:21 2022
+# SPORT Lab, University of Southern California, Los Angeles, CA 90089
+# Developers: Ting-Ru Lin <tingruli@usc.edu> and Massoud Pedram <pedram@usc.edu>
+
+NumNodes : 73
+NumTerminals : 8
+	XOR2T_10_n22	100	70
+	XOR2T_13_n25	100	70
+	XOR2T_29_n41	100	70
+	AND2T_9_n21	100	70
+	NOTT_8_n20	100	70
+	AND2T_11_n23	100	70
+	AND2T_12_n24	100	70
+	AND2T_14_n26	100	70
+	AND2T_23_n35	100	70
+	AND2T_24_n36	100	70
+	AND2T_27_n39	100	70
+	AND2T_28_n40	100	70
+	Split_71_count1	50	70
+	Split_65_count0	50	70
+	OR2T_21_n33	100	70
+	OR2T_22_n34	100	70
+	OR2T_15_n27	100	70
+	OR2T_18_n30	100	70
+	OR2T_26_n38	100	70
+	DFFT_31__ADJFBL_n106	80	70
+	Split_68_count2	50	70
+	Split_69_count3	50	70
+	NOTT_20_n32	100	70
+	NOTT_16_n28	100	70
+	NOTT_25_n37	100	70
+	NOTT_17_n29	100	70
+	NOTT_19_n31	100	70
+	DFFT_30__FBL_n105	80	70
+	DFFT_32__FBL_n107	80	70
+	DFFT_40__FPB_n115	80	70
+	DFFT_33__FBL_n108	80	70
+	DFFT_41__FPB_n116	80	70
+	DFFT_34__FBL_n109	80	70
+	DFFT_50__FPB_n125	80	70
+	DFFT_42__FPB_n117	80	70
+	DFFT_35__FPB_n110	80	70
+	DFFT_51__FPB_n126	80	70
+	DFFT_43__FPB_n118	80	70
+	DFFT_36__FPB_n111	80	70
+	DFFT_52__FPB_n127	80	70
+	DFFT_44__FPB_n119	80	70
+	DFFT_45__FPB_n120	80	70
+	DFFT_37__FPB_n112	80	70
+	DFFT_53__FPB_n128	80	70
+	DFFT_46__FPB_n121	80	70
+	DFFT_38__FPB_n113	80	70
+	DFFT_54__FPB_n129	80	70
+	DFFT_47__FPB_n122	80	70
+	DFFT_39__FPB_n114	80	70
+	DFFT_48__FPB_n123	80	70
+	DFFT_49__FPB_n124	80	70
+	Split_60_n135	50	70
+	Split_61_n136	50	70
+	Split_62_n137	50	70
+	Split_70_n145	50	70
+	Split_55_n130	50	70
+	Split_63_n138	50	70
+	Split_56_n131	50	70
+	Split_64_n139	50	70
+	Split_72_n147	50	70
+	Split_57_n132	50	70
+	Split_58_n133	50	70
+	Split_66_n141	50	70
+	Split_59_n134	50	70
+	Split_67_n142	50	70
+	en_Pad	100	120	terminal
+	clk_Pad	100	120	terminal
+	rst_Pad	100	120	terminal
+	GCLK_Pad	100	120	terminal
+	count0_Pad	100	120	terminal
+	count1_Pad	100	120	terminal
+	count2_Pad	100	120	terminal
+	count3_Pad	100	120	terminal

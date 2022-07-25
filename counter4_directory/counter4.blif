@@ -1,0 +1,77 @@
+############################################################################################
+# Benchmark: "counter" written by qABC on Mon Jul 25 21:14:21 2022
+# Developer: Ghasem Pasandi (pasandi@usc.edu), University of Southern California (USC), CA.
+############################################################################################
+
+.model counter
+
+.inputs clk rst en
+.outputs count[0] count[1] count[2] count[3]
+
+.gate NOTT       a=rst O=n20
+.gate AND2T      a=n22 b=n133 O=n21
+.gate XOR2T      a=count[0] b=n131 O=n22
+.gate AND2T      a=n141 b=n131 O=n23
+.gate AND2T      a=n25 b=_FPB_n117 O=n24
+.gate XOR2T      a=n135 b=_FPB_n118 O=n25
+.gate AND2T      a=n135 b=_FPB_n119 O=n26
+.gate OR2T       a=n26 b=_FPB_n121 O=n27
+.gate NOTT       a=n130 O=n28
+.gate NOTT       a=n141 O=n29
+.gate OR2T       a=n29 b=n28 O=n30
+.gate NOTT       a=count[1] O=n31
+.gate NOTT       a=count[2] O=n32
+.gate OR2T       a=n32 b=n31 O=n33
+.gate OR2T       a=n33 b=n30 O=n34
+.gate AND2T      a=n137 b=_FPB_n123 O=n35
+.gate AND2T      a=n35 b=_FPB_n124 O=n36
+.gate NOTT       a=count[3] O=n37
+.gate OR2T       a=n138 b=_FPB_n125 O=n38
+.gate AND2T      a=n38 b=_FPB_n126 O=n39
+.gate AND2T      a=n41 b=_FPB_n129 O=n40
+.gate XOR2T      a=n39 b=n137 O=n41
+.gate DFFT  a=_FPB_n112 O=_FBL_n105
+.gate DFFT  a=_FPB_n114 O=_ADJFBL_n106
+.gate DFFT  a=n36 O=_FBL_n107
+.gate DFFT  a=n40 O=_FBL_n108
+.gate DFFT  a=_FPB_n116 O=_FBL_n109
+.gate DFFT  a=n21 O=_FPB_n110
+.gate DFFT  a=_FPB_n110 O=_FPB_n111
+.gate DFFT  a=_FPB_n111 O=_FPB_n112
+.gate DFFT  a=n136 O=_FPB_n113
+.gate DFFT  a=_FPB_n113 O=_FPB_n114
+.gate DFFT  a=n136 O=_FPB_n115
+.gate DFFT  a=_FPB_n115 O=_FPB_n116
+.gate DFFT  a=n133 O=_FPB_n117
+.gate DFFT  a=n147 O=_FPB_n118
+.gate DFFT  a=n147 O=_FPB_n119
+.gate DFFT  a=n142 O=_FPB_n120
+.gate DFFT  a=_FPB_n120 O=_FPB_n121
+.gate DFFT  a=n134 O=_FPB_n122
+.gate DFFT  a=_FPB_n122 O=_FPB_n123
+.gate DFFT  a=n27 O=_FPB_n124
+.gate DFFT  a=_ADJFBL_n106 O=_FPB_n125
+.gate DFFT  a=n138 O=_FPB_n126
+.gate DFFT  a=n134 O=_FPB_n127
+.gate DFFT  a=_FPB_n127 O=_FPB_n128
+.gate DFFT  a=_FPB_n128 O=_FPB_n129
+.gate Splitter  a=en O=n130
+.gate Splitter  a=n130 O=n131
+.gate Splitter  a=n20 O=n132
+.gate Splitter  a=n132 O=n133
+.gate Splitter  a=n132 O=n134
+.gate Splitter  a=n23 O=n135
+.gate Splitter  a=n24 O=n136
+.gate Splitter  a=n34 O=n137
+.gate Splitter  a=n37 O=n138
+.gate Splitter  a=_FBL_n105 O=n139
+.gate Splitter  a=n139 O=count[0]
+.gate Splitter  a=n139 O=n141
+.gate Splitter  a=_FBL_n107 O=n142
+.gate Splitter  a=n142 O=count[2]
+.gate Splitter  a=_FBL_n108 O=count[3]
+.gate Splitter  a=_FBL_n109 O=n145
+.gate Splitter  a=n145 O=count[1]
+.gate Splitter  a=n145 O=n147
+
+.end

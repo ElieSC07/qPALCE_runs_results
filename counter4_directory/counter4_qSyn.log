@@ -1,0 +1,66 @@
+ABC command line: "source counter4_abc_source.ys".
+
+Entered genlib library with 7 gates from file "/home/elijah/Documents/qPALACE/qLib/1.5.1/SFQ.genlib".
+Technology mapping finished successfully!
+[Called: AdjustFanouts]
+Adjustment of fanout count finished successfully!
+[Called: SPORT_adjustFanoutsPI_Command]
+Adjustment of fanout counts for primary inputs finished successfully!
+0 DFFs are added to adjust fanout count of PIs.
+[Called: CorrectLevels_Command] 
+[Called: Setup Latches] 
+[Called: init_in_loop_field] 
+Number of initial latches: 5
+[Called: SPORT_NtkWireNFBLs] 
+NetworkCheck: CI with ID 43 is in the network but not in the name table.
+Abc_NtkCleanup: The network check has failed.
+Cleanup removed 0 dangling nodes.
+Number of latches now: 5
+[Called: Correct_Levels_fast] 
+[Called: Topological_Sort] 
+Done: Topological sort. 
+Correcting levels of Nodes (not PI/PO/BI/BO/Latches in topological order
+CL Done-Partially: corrected levels of Nodes
+Done CL-fast 
+The maximum level among feedback latches is : 6
+Every 6 fast clock cycle, a new set of inputs should be applied to the circuit.
+Done: CL!
+###Number of latches in the given circuit is : 1
+[Called: BalanceFLatch]
+Max level of feedback lacthes: 6
+Balancing feedback latches with respect to each other ... 
+
+
+[Done: BalanceFLatch] 
+[Called: addLatchRetime] 
+[Called: SPORT_NtkPathBalance]
+
+Maximum level: 6
+[Called: repLatches]
+Latch-count: 25
+NDRO-count:  0
+[Called: SPORT_NtkReplaceLwDFF] 
+Replacing latches with SFQ DRO DFFs finished successfully!
+Max fanout count is : 4
+[Called: SPORT_InsertSplitters_Command]
+[Called: SPORT_Command_addSplitters_to_Ntk]
+Warning! : There is an input pin (clk) which is not connected to anywhere!
+There are no objects with out-degrees of more than 2!
+Inserting gate splitters finished successfully!
+*************************************************************
+Gate Count : 22
+Total NDRO DFF Count  : 0
+Total DRO DFF Count  : 25
+Splitter Count (without clock) : 0
+Splitter Count (with clock) : 46
+Total( Gates + DFFs + Splitters) : 93
+Total Area (Gates) : 123200.00 um^2
+Total Area (Gates + DFFs) : 263200.00 um^2
+Total Area (Gates + DFFs + Splitters) : 424200.00 um^2
+Total JJs : 758
+Worst Stage Delay : 29.80 ps
+Latency : 178.80 ps
+Static power in ERSFQ technology: 2.42 uW
+Static power in RSFQ technology: 75.61 uW
+*************************************************************
+[Called: qWire_BLIF_Command]

@@ -1,0 +1,17 @@
+read_library /home/elijah/Documents/qPALACE/qLib/1.5.1/SFQ.genlib
+read counter8_yosys_mini.blif
+blnc_syn2 
+BM 
+adj -C 4 -l 
+adjPI -C 4 
+cl 
+IsSeq
+bfl -b 
+addLr -L 
+repL 
+pf -n -i -l
+InsS -B -v counter8_abc
+sprsl /home/elijah/Documents/qPALACE/qLib/1.5.1/qSyn_config.txt
+black -i -o -d
+qWrite_blif  -s counter8_abc.blif
+quit

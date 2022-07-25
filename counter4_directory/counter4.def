@@ -1,0 +1,934 @@
+# Written by BOOKSHELF2DEF on Mon Jul 25 21:14:25 2022
+# SPORT Lab, University of Southern California, Los Angeles, CA 90089
+# Developers: Ting-Ru Lin <tingruli@usc.edu> and Massoud Pedram <pedram@usc.edu>
+
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN counter4_placed ;
+UNITS DISTANCE MICRONS 1000 ;
+
+
+PROPERTYDEFINITIONS
+    COMPONENTPIN designRuleWidth REAL ;
+    DESIGN FE_CORE_BOX_LL_X REAL 0.0000 ;
+    DESIGN FE_CORE_BOX_UR_X REAL 2280.0000 ;
+    DESIGN FE_CORE_BOX_LL_Y REAL 0.0000 ;
+    DESIGN FE_CORE_BOX_UR_Y REAL 1740.0000 ;
+END PROPERTYDEFINITIONS
+
+DIEAREA ( 0 0 ) ( 2280000 1740000 ) ;
+
+ROW CORE_ROW_0 CoreSite 0 0 N DO 2280 BY 1 STEP 1000 0 
+ ;
+ROW CORE_ROW_1 CoreSite 0 160000 FS DO 2280 BY 1 STEP 1000 0 
+ ;
+ROW CORE_ROW_2 CoreSite 0 320000 N DO 2280 BY 1 STEP 1000 0 
+ ;
+ROW CORE_ROW_3 CoreSite 0 480000 FS DO 2280 BY 1 STEP 1000 0 
+ ;
+ROW CORE_ROW_4 CoreSite 0 640000 N DO 2280 BY 1 STEP 1000 0 
+ ;
+ROW CORE_ROW_5 CoreSite 0 800000 FS DO 2280 BY 1 STEP 1000 0 
+ ;
+ROW CORE_ROW_6 CoreSite 0 960000 N DO 2280 BY 1 STEP 1000 0 
+ ;
+ROW CORE_ROW_7 CoreSite 0 1120000 FS DO 2280 BY 1 STEP 1000 0 
+ ;
+ROW CORE_ROW_8 CoreSite 0 1280000 N DO 2280 BY 1 STEP 1000 0 
+ ;
+ROW CORE_ROW_9 CoreSite 0 1440000 FS DO 2280 BY 1 STEP 1000 0 
+ ;
+
+TRACKS Y 0 DO 174 STEP 10000 LAYER M1 ;
+TRACKS Y 0 DO 174 STEP 10000 LAYER M2 ;
+TRACKS Y 0 DO 174 STEP 10000 LAYER M3 ;
+TRACKS X 0 DO 228 STEP 10000 LAYER M1 ;
+TRACKS X 0 DO 228 STEP 10000 LAYER M2 ;
+TRACKS X 0 DO 228 STEP 10000 LAYER M3 ;
+
+GCELLGRID Y 1 DO 261 STEP 10 ;
+GCELLGRID X 1 DO 342 STEP 10 ;
+
+COMPONENTS 139 ;
+- en_Pad PAD + FIXED ( 240000 1620000 ) N 
+ ;
+- clk_Pad PAD + FIXED ( 800000 1620000 ) N 
+ ;
+- rst_Pad PAD + FIXED ( 1360000 1620000 ) N 
+ ;
+- GCLK_Pad PAD + FIXED ( 2180000 1090000 ) N 
+ ;
+- count0_Pad PAD + FIXED ( 150000 0 ) N 
+ ;
+- count1_Pad PAD + FIXED ( 710000 0 ) N 
+ ;
+- count2_Pad PAD + FIXED ( 1270000 0 ) N 
+ ;
+- count3_Pad PAD + FIXED ( 0 480000 ) N 
+ ;
+- XOR2T_10_n22 LSmitll_XORT + PLACED ( 745000 1315000 ) N 
+ ;
+- XOR2T_13_n25 LSmitll_XORT + PLACED ( 1175000 1155000 ) N 
+ ;
+- XOR2T_29_n41 LSmitll_XORT + PLACED ( 885000 365000 ) N 
+ ;
+- AND2T_9_n21 LSmitll_AND2T + PLACED ( 1845000 1315000 ) N 
+ ;
+- NOTT_8_n20 LSmitll_NOTT + PLACED ( 1685000 1315000 ) N 
+ ;
+- AND2T_11_n23 LSmitll_AND2T + PLACED ( 905000 1155000 ) N 
+ ;
+- AND2T_12_n24 LSmitll_AND2T + PLACED ( 1335000 1155000 ) N 
+ ;
+- AND2T_14_n26 LSmitll_AND2T + PLACED ( 725000 975000 ) N 
+ ;
+- AND2T_23_n35 LSmitll_AND2T + PLACED ( 1075000 835000 ) N 
+ ;
+- AND2T_24_n36 LSmitll_AND2T + PLACED ( 915000 835000 ) N 
+ ;
+- AND2T_27_n39 LSmitll_AND2T + PLACED ( 615000 365000 ) N 
+ ;
+- AND2T_28_n40 LSmitll_AND2T + PLACED ( 1365000 365000 ) N 
+ ;
+- Split_71_count1 LSmitll_SPLITT + PLACED ( 845000 605000 ) N 
+ ;
+- Split_65_count0 LSmitll_SPLITT + PLACED ( 685000 1155000 ) N 
+ ;
+- OR2T_21_n33 LSmitll_OR2T + PLACED ( 525000 605000 ) N 
+ ;
+- OR2T_22_n34 LSmitll_OR2T + PLACED ( 365000 605000 ) N 
+ ;
+- OR2T_15_n27 LSmitll_OR2T + PLACED ( 505000 835000 ) N 
+ ;
+- OR2T_18_n30 LSmitll_OR2T + PLACED ( 365000 1155000 ) N 
+ ;
+- OR2T_26_n38 LSmitll_OR2T + PLACED ( 1045000 365000 ) N 
+ ;
+- DFFT_31__ADJFBL_n106 LSmitll_DFFT + PLACED ( 1895000 605000 ) N 
+ ;
+- Split_68_count2 LSmitll_SPLITT + PLACED ( 365000 365000 ) N 
+ ;
+- Split_69_count3 LSmitll_SPLITT + PLACED ( 1525000 365000 ) N 
+ ;
+- NOTT_20_n32 LSmitll_NOTT + PLACED ( 955000 605000 ) N 
+ ;
+- NOTT_16_n28 LSmitll_NOTT + PLACED ( 365000 1315000 ) N 
+ ;
+- NOTT_25_n37 LSmitll_NOTT + PLACED ( 1205000 365000 ) N 
+ ;
+- NOTT_17_n29 LSmitll_NOTT + PLACED ( 525000 1155000 ) N 
+ ;
+- NOTT_19_n31 LSmitll_NOTT + PLACED ( 685000 605000 ) N 
+ ;
+- DFFT_30__FBL_n105 LSmitll_DFFT + PLACED ( 1015000 1315000 ) N 
+ ;
+- DFFT_32__FBL_n107 LSmitll_DFFT + PLACED ( 1365000 605000 ) N 
+ ;
+- DFFT_40__FPB_n115 LSmitll_DFFT + PLACED ( 1305000 975000 ) N 
+ ;
+- DFFT_33__FBL_n108 LSmitll_DFFT + PLACED ( 1635000 365000 ) N 
+ ;
+- DFFT_41__FPB_n116 LSmitll_DFFT + PLACED ( 1165000 975000 ) N 
+ ;
+- DFFT_34__FBL_n109 LSmitll_DFFT + PLACED ( 1025000 975000 ) N 
+ ;
+- DFFT_50__FPB_n125 LSmitll_DFFT + PLACED ( 1755000 605000 ) N 
+ ;
+- DFFT_42__FPB_n117 LSmitll_DFFT + PLACED ( 1495000 1155000 ) N 
+ ;
+- DFFT_35__FPB_n110 LSmitll_DFFT + PLACED ( 1545000 1315000 ) N 
+ ;
+- DFFT_51__FPB_n126 LSmitll_DFFT + PLACED ( 475000 365000 ) N 
+ ;
+- DFFT_43__FPB_n118 LSmitll_DFFT + PLACED ( 885000 975000 ) N 
+ ;
+- DFFT_36__FPB_n111 LSmitll_DFFT + PLACED ( 1295000 1315000 ) N 
+ ;
+- DFFT_52__FPB_n127 LSmitll_DFFT + PLACED ( 1625000 835000 ) N 
+ ;
+- DFFT_44__FPB_n119 LSmitll_DFFT + PLACED ( 585000 975000 ) N 
+ ;
+- DFFT_45__FPB_n120 LSmitll_DFFT + PLACED ( 1115000 605000 ) N 
+ ;
+- DFFT_37__FPB_n112 LSmitll_DFFT + PLACED ( 1155000 1315000 ) N 
+ ;
+- DFFT_53__FPB_n128 LSmitll_DFFT + PLACED ( 1765000 835000 ) N 
+ ;
+- DFFT_46__FPB_n121 LSmitll_DFFT + PLACED ( 775000 835000 ) N 
+ ;
+- DFFT_38__FPB_n113 LSmitll_DFFT + PLACED ( 1555000 975000 ) N 
+ ;
+- DFFT_54__FPB_n129 LSmitll_DFFT + PLACED ( 1615000 605000 ) N 
+ ;
+- DFFT_47__FPB_n122 LSmitll_DFFT + PLACED ( 1485000 835000 ) N 
+ ;
+- DFFT_39__FPB_n114 LSmitll_DFFT + PLACED ( 1905000 835000 ) N 
+ ;
+- DFFT_48__FPB_n123 LSmitll_DFFT + PLACED ( 1235000 835000 ) N 
+ ;
+- DFFT_49__FPB_n124 LSmitll_DFFT + PLACED ( 365000 835000 ) N 
+ ;
+- Split_60_n135 LSmitll_SPLITT + PLACED ( 1065000 1155000 ) N 
+ ;
+- Split_61_n136 LSmitll_SPLITT + PLACED ( 1445000 975000 ) N 
+ ;
+- Split_62_n137 LSmitll_SPLITT + PLACED ( 1505000 605000 ) N 
+ ;
+- Split_70_n145 LSmitll_SPLITT + PLACED ( 365000 975000 ) N 
+ ;
+- Split_55_n130 LSmitll_SPLITT + PLACED ( 525000 1315000 ) N 
+ ;
+- Split_63_n138 LSmitll_SPLITT + PLACED ( 775000 365000 ) N 
+ ;
+- Split_56_n131 LSmitll_SPLITT + PLACED ( 635000 1315000 ) N 
+ ;
+- Split_64_n139 LSmitll_SPLITT + PLACED ( 905000 1315000 ) N 
+ ;
+- Split_72_n147 LSmitll_SPLITT + PLACED ( 475000 975000 ) N 
+ ;
+- Split_57_n132 LSmitll_SPLITT + PLACED ( 1745000 1155000 ) N 
+ ;
+- Split_58_n133 LSmitll_SPLITT + PLACED ( 1635000 1155000 ) N 
+ ;
+- Split_66_n141 LSmitll_SPLITT + PLACED ( 795000 1155000 ) N 
+ ;
+- Split_59_n134 LSmitll_SPLITT + PLACED ( 1695000 975000 ) N 
+ ;
+- Split_67_n142 LSmitll_SPLITT + PLACED ( 1255000 605000 ) N 
+ ;
+- SplitCLK_4_48 LSmitll_SPLITT + PLACED ( 1655000 1385000 ) N 
+ ;
+- SplitCLK_6_49 LSmitll_SPLITT + PLACED ( 1585000 1385000 ) FS 
+ ;
+- SplitCLK_4_50 LSmitll_SPLITT + PLACED ( 1595000 1235000 ) N 
+ ;
+- SplitCLK_6_51 LSmitll_SPLITT + PLACED ( 1535000 1235000 ) FS 
+ ;
+- SplitCLK_4_52 LSmitll_SPLITT + PLACED ( 1655000 1235000 ) N 
+ ;
+- SplitCLK_4_53 LSmitll_SPLITT + PLACED ( 1225000 1385000 ) N 
+ ;
+- SplitCLK_2_54 LSmitll_SPLITT + PLACED ( 1285000 1385000 ) FN 
+ ;
+- SplitCLK_4_55 LSmitll_SPLITT + PLACED ( 1305000 1065000 ) N 
+ ;
+- SplitCLK_6_56 LSmitll_SPLITT + PLACED ( 1185000 1065000 ) FS 
+ ;
+- SplitCLK_4_57 LSmitll_SPLITT + PLACED ( 1245000 1065000 ) N 
+ ;
+- SplitCLK_6_58 LSmitll_SPLITT + PLACED ( 1445000 1235000 ) FS 
+ ;
+- SplitCLK_4_59 LSmitll_SPLITT + PLACED ( 1915000 725000 ) N 
+ ;
+- SplitCLK_0_60 LSmitll_SPLITT + PLACED ( 1615000 725000 ) S 
+ ;
+- SplitCLK_4_61 LSmitll_SPLITT + PLACED ( 1855000 725000 ) N 
+ ;
+- SplitCLK_2_62 LSmitll_SPLITT + PLACED ( 1795000 725000 ) FN 
+ ;
+- SplitCLK_4_63 LSmitll_SPLITT + PLACED ( 1675000 725000 ) N 
+ ;
+- SplitCLK_4_64 LSmitll_SPLITT + PLACED ( 1395000 905000 ) N 
+ ;
+- SplitCLK_6_65 LSmitll_SPLITT + PLACED ( 1335000 905000 ) FS 
+ ;
+- SplitCLK_4_66 LSmitll_SPLITT + PLACED ( 1285000 485000 ) N 
+ ;
+- SplitCLK_2_67 LSmitll_SPLITT + PLACED ( 1285000 725000 ) FN 
+ ;
+- SplitCLK_6_68 LSmitll_SPLITT + PLACED ( 1345000 725000 ) FS 
+ ;
+- SplitCLK_4_69 LSmitll_SPLITT + PLACED ( 1435000 725000 ) N 
+ ;
+- SplitCLK_0_70 LSmitll_SPLITT + PLACED ( 1455000 905000 ) S 
+ ;
+- SplitCLK_4_71 LSmitll_SPLITT + PLACED ( 1015000 1235000 ) N 
+ ;
+- SplitCLK_2_72 LSmitll_SPLITT + PLACED ( 1075000 1235000 ) FN 
+ ;
+- SplitCLK_4_73 LSmitll_SPLITT + PLACED ( 885000 905000 ) N 
+ ;
+- SplitCLK_2_74 LSmitll_SPLITT + PLACED ( 945000 905000 ) FN 
+ ;
+- SplitCLK_0_75 LSmitll_SPLITT + PLACED ( 885000 1235000 ) S 
+ ;
+- SplitCLK_4_76 LSmitll_SPLITT + PLACED ( 555000 1385000 ) N 
+ ;
+- SplitCLK_2_77 LSmitll_SPLITT + PLACED ( 615000 1385000 ) FN 
+ ;
+- SplitCLK_4_78 LSmitll_SPLITT + PLACED ( 655000 1065000 ) N 
+ ;
+- SplitCLK_4_79 LSmitll_SPLITT + PLACED ( 655000 1235000 ) N 
+ ;
+- SplitCLK_6_80 LSmitll_SPLITT + PLACED ( 595000 1235000 ) FS 
+ ;
+- SplitCLK_6_81 LSmitll_SPLITT + PLACED ( 725000 1235000 ) FS 
+ ;
+- SplitCLK_4_82 LSmitll_SPLITT + PLACED ( 925000 725000 ) N 
+ ;
+- SplitCLK_6_83 LSmitll_SPLITT + PLACED ( 745000 725000 ) FS 
+ ;
+- SplitCLK_4_84 LSmitll_SPLITT + PLACED ( 965000 485000 ) N 
+ ;
+- SplitCLK_4_85 LSmitll_SPLITT + PLACED ( 835000 485000 ) N 
+ ;
+- SplitCLK_4_86 LSmitll_SPLITT + PLACED ( 865000 725000 ) N 
+ ;
+- SplitCLK_4_87 LSmitll_SPLITT + PLACED ( 595000 725000 ) N 
+ ;
+- SplitCLK_2_88 LSmitll_SPLITT + PLACED ( 455000 905000 ) FN 
+ ;
+- SplitCLK_4_89 LSmitll_SPLITT + PLACED ( 535000 725000 ) N 
+ ;
+- SplitCLK_6_90 LSmitll_SPLITT + PLACED ( 475000 725000 ) FS 
+ ;
+- SplitCLK_4_91 LSmitll_SPLITT + PLACED ( 805000 725000 ) N 
+ ;
+- SplitCLK_2_92 LSmitll_SPLITT + PLACED ( 765000 905000 ) FN 
+ ;
+- SplitCLK_2_93 LSmitll_SPLITT + PLACED ( 945000 1235000 ) FN 
+ ;
+- SplitCLK_2_94 LSmitll_SPLITT + PLACED ( 1345000 1235000 ) FN 
+ ;
+- SplitCLK_2_95 LSmitll_SPLITT + PLACED ( 825000 905000 ) FN 
+ ;
+- SplitCLK_2_96 LSmitll_SPLITT + PLACED ( 625000 485000 ) FN 
+ ;
+- SplitCLK_2_97 LSmitll_SPLITT + PLACED ( 375000 725000 ) FN 
+ ;
+- SplitCLK_2_98 LSmitll_SPLITT + PLACED ( 375000 1235000 ) FN 
+ ;
+- SplitCLK_2_99 LSmitll_SPLITT + PLACED ( 375000 1385000 ) FN 
+ ;
+- SplitCLK_2_100 LSmitll_SPLITT + PLACED ( 1445000 1385000 ) FN 
+ ;
+- SplitCLK_4_101 LSmitll_SPLITT + PLACED ( 475000 485000 ) N 
+ ;
+- SplitCLK_2_102 LSmitll_SPLITT + PLACED ( 1125000 725000 ) FN 
+ ;
+- SplitCLK_2_103 LSmitll_SPLITT + PLACED ( 1165000 1385000 ) FN 
+ ;
+- SplitCLK_2_104 LSmitll_SPLITT + PLACED ( 1555000 905000 ) FN 
+ ;
+- SplitCLK_2_105 LSmitll_SPLITT + PLACED ( 675000 905000 ) FN 
+ ;
+- SplitCLK_2_106 LSmitll_SPLITT + PLACED ( 1735000 725000 ) FN 
+ ;
+- SplitCLK_2_107 LSmitll_SPLITT + PLACED ( 1275000 905000 ) FN 
+ ;
+- SplitCLK_4_108 LSmitll_SPLITT + PLACED ( 1135000 905000 ) N 
+ ;
+- SplitCLK_2_109 LSmitll_SPLITT + PLACED ( 375000 905000 ) FN 
+ ;
+- SplitCLK_0_110 LSmitll_SPLITT + PLACED ( 1065000 905000 ) S 
+ ;
+- Split_HOLD_136 LSmitll_SPLITT + PLACED ( 1375000 835000 ) N 
+ ;
+- Split_HOLD_137 LSmitll_SPLITT + PLACED ( 665000 835000 ) N 
+ ;
+- Split_HOLD_138 LSmitll_SPLITT + PLACED ( 1435000 1315000 ) N 
+ ;
+END COMPONENTS
+
+PINS 0 ;
+END PINS
+
+NETS 198 ;
+- net0
+  ( en_Pad a ) ( Split_55_n130 a )
+ ;
+- net1
+  ( NOTT_8_n20 q ) ( Split_57_n132 a )
+ ;
+- net2
+  ( AND2T_9_n21 q ) ( DFFT_35__FPB_n110 a )
+ ;
+- net3
+  ( OR2T_18_n30 q ) ( OR2T_22_n34 b )
+ ;
+- net4
+  ( AND2T_9_n21 a ) ( XOR2T_10_n22 q )
+ ;
+- net5
+  ( NOTT_19_n31 q ) ( OR2T_21_n33 b )
+ ;
+- net6
+  ( AND2T_11_n23 q ) ( Split_60_n135 a )
+ ;
+- net7
+  ( AND2T_28_n40 q ) ( DFFT_33__FBL_n108 a )
+ ;
+- net8
+  ( NOTT_20_n32 q ) ( OR2T_21_n33 a )
+ ;
+- net9
+  ( AND2T_12_n24 q ) ( Split_61_n136 a )
+ ;
+- net10
+  ( AND2T_28_n40 a ) ( XOR2T_29_n41 q )
+ ;
+- net11
+  ( OR2T_21_n33 q ) ( OR2T_22_n34 a )
+ ;
+- net12
+  ( AND2T_12_n24 a ) ( XOR2T_13_n25 q )
+ ;
+- net13
+  ( OR2T_22_n34 q ) ( Split_62_n137 a )
+ ;
+- net14
+  ( AND2T_14_n26 q ) ( OR2T_15_n27 a )
+ ;
+- net15
+  ( AND2T_23_n35 q ) ( AND2T_24_n36 a )
+ ;
+- net16
+  ( OR2T_15_n27 q ) ( DFFT_49__FPB_n124 a )
+ ;
+- net17
+  ( AND2T_24_n36 q ) ( DFFT_32__FBL_n107 a )
+ ;
+- net18
+  ( NOTT_16_n28 q ) ( OR2T_18_n30 b )
+ ;
+- net19
+  ( NOTT_25_n37 q ) ( Split_63_n138 a )
+ ;
+- net20
+  ( NOTT_17_n29 q ) ( OR2T_18_n30 a )
+ ;
+- net21
+  ( OR2T_26_n38 q ) ( AND2T_27_n39 a )
+ ;
+- net22
+  ( AND2T_27_n39 q ) ( XOR2T_29_n41 a )
+ ;
+- net23
+  ( rst_Pad a ) ( NOTT_8_n20 a )
+ ;
+- net24
+  ( Split_55_n130 q0 ) ( Split_56_n131 a )
+ ;
+- net25
+  ( AND2T_11_n23 b ) ( Split_56_n131 q0 )
+ ;
+- net26
+  ( Split_57_n132 q0 ) ( Split_59_n134 a )
+ ;
+- net27
+  ( NOTT_17_n29 a ) ( Split_66_n141 q0 )
+ ;
+- net28
+  ( DFFT_42__FPB_n117 a ) ( Split_58_n133 q0 )
+ ;
+- net29
+  ( DFFT_52__FPB_n127 a ) ( Split_59_n134 q0 )
+ ;
+- net30
+  ( Split_67_n142 q0 ) ( Split_68_count2 a )
+ ;
+- net31
+  ( AND2T_14_n26 a ) ( Split_60_n135 q0 )
+ ;
+- net32
+  ( DFFT_40__FPB_n115 a ) ( Split_61_n136 q0 )
+ ;
+- net33
+  ( Split_70_n145 q0 ) ( Split_72_n147 a )
+ ;
+- net34
+  ( XOR2T_29_n41 b ) ( Split_62_n137 q0 )
+ ;
+- net35
+  ( DFFT_51__FPB_n126 a ) ( Split_63_n138 q0 )
+ ;
+- net36
+  ( Split_64_n139 q0 ) ( Split_66_n141 a )
+ ;
+- net37
+  ( DFFT_44__FPB_n119 a ) ( Split_72_n147 q0 )
+ ;
+- net38
+  ( NOTT_16_n28 a ) ( Split_55_n130 q1 )
+ ;
+- net39
+  ( XOR2T_10_n22 b ) ( Split_56_n131 q1 )
+ ;
+- net40
+  ( Split_58_n133 a ) ( Split_57_n132 q1 )
+ ;
+- net41
+  ( AND2T_9_n21 b ) ( Split_58_n133 q1 )
+ ;
+- net42
+  ( AND2T_11_n23 a ) ( Split_66_n141 q1 )
+ ;
+- net43
+  ( DFFT_47__FPB_n122 a ) ( Split_59_n134 q1 )
+ ;
+- net44
+  ( DFFT_45__FPB_n120 a ) ( Split_67_n142 q1 )
+ ;
+- net45
+  ( XOR2T_13_n25 a ) ( Split_60_n135 q1 )
+ ;
+- net46
+  ( DFFT_38__FPB_n113 a ) ( Split_61_n136 q1 )
+ ;
+- net47
+  ( AND2T_23_n35 a ) ( Split_62_n137 q1 )
+ ;
+- net48
+  ( Split_71_count1 a ) ( Split_70_n145 q1 )
+ ;
+- net49
+  ( OR2T_26_n38 a ) ( Split_63_n138 q1 )
+ ;
+- net50
+  ( Split_65_count0 a ) ( Split_64_n139 q1 )
+ ;
+- net51
+  ( DFFT_43__FPB_n118 a ) ( Split_72_n147 q1 )
+ ;
+- net52
+  ( DFFT_31__ADJFBL_n106 q ) ( DFFT_50__FPB_n125 a )
+ ;
+- net53
+  ( XOR2T_10_n22 a ) ( Split_65_count0 q0 )
+ ;
+- net54
+  ( NOTT_19_n31 a ) ( Split_71_count1 q0 )
+ ;
+- net55
+  ( NOTT_20_n32 a ) ( Split_68_count2 q0 )
+ ;
+- net56
+  ( NOTT_25_n37 a ) ( Split_69_count3 q0 )
+ ;
+- net57
+  ( count0_Pad a ) ( Split_65_count0 q1 )
+ ;
+- net58
+  ( count1_Pad a ) ( Split_71_count1 q1 )
+ ;
+- net59
+  ( count2_Pad a ) ( Split_68_count2 q1 )
+ ;
+- net60
+  ( count3_Pad a ) ( Split_69_count3 q1 )
+ ;
+- net61
+  ( DFFT_30__FBL_n105 q ) ( Split_64_n139 a )
+ ;
+- net62
+  ( DFFT_32__FBL_n107 q ) ( Split_67_n142 a )
+ ;
+- net63
+  ( DFFT_33__FBL_n108 q ) ( Split_69_count3 a )
+ ;
+- net64
+  ( DFFT_34__FBL_n109 q ) ( Split_70_n145 a )
+ ;
+- net65
+  ( DFFT_35__FPB_n110 q ) ( Split_HOLD_138 a )
+ ;
+- net66
+  ( DFFT_36__FPB_n111 q ) ( DFFT_37__FPB_n112 a )
+ ;
+- net67
+  ( DFFT_45__FPB_n120 q ) ( DFFT_46__FPB_n121 a )
+ ;
+- net68
+  ( DFFT_30__FBL_n105 a ) ( DFFT_37__FPB_n112 q )
+ ;
+- net69
+  ( DFFT_38__FPB_n113 q ) ( DFFT_39__FPB_n114 a )
+ ;
+- net70
+  ( DFFT_46__FPB_n121 q ) ( Split_HOLD_137 a )
+ ;
+- net71
+  ( DFFT_47__FPB_n122 q ) ( Split_HOLD_136 a )
+ ;
+- net72
+  ( DFFT_31__ADJFBL_n106 a ) ( DFFT_39__FPB_n114 q )
+ ;
+- net73
+  ( DFFT_40__FPB_n115 q ) ( DFFT_41__FPB_n116 a )
+ ;
+- net74
+  ( AND2T_23_n35 b ) ( DFFT_48__FPB_n123 q )
+ ;
+- net75
+  ( DFFT_34__FBL_n109 a ) ( DFFT_41__FPB_n116 q )
+ ;
+- net76
+  ( AND2T_24_n36 b ) ( DFFT_49__FPB_n124 q )
+ ;
+- net77
+  ( OR2T_26_n38 b ) ( DFFT_50__FPB_n125 q )
+ ;
+- net78
+  ( AND2T_12_n24 b ) ( DFFT_42__FPB_n117 q )
+ ;
+- net79
+  ( AND2T_27_n39 b ) ( DFFT_51__FPB_n126 q )
+ ;
+- net80
+  ( XOR2T_13_n25 b ) ( DFFT_43__FPB_n118 q )
+ ;
+- net81
+  ( DFFT_52__FPB_n127 q ) ( DFFT_53__FPB_n128 a )
+ ;
+- net82
+  ( AND2T_14_n26 b ) ( DFFT_44__FPB_n119 q )
+ ;
+- net83
+  ( DFFT_53__FPB_n128 q ) ( DFFT_54__FPB_n129 a )
+ ;
+- net84
+  ( AND2T_28_n40 b ) ( DFFT_54__FPB_n129 q )
+ ;
+- net85
+  ( SplitCLK_0_110 q0 ) ( SplitCLK_0_70 a )
+ ;
+- net86
+  ( SplitCLK_0_110 q1 ) ( SplitCLK_2_92 a )
+ ;
+- net87
+  ( SplitCLK_2_109 q0 ) ( DFFT_49__FPB_n124 clk )
+ ;
+- net88
+  ( SplitCLK_4_108 q0 ) ( DFFT_48__FPB_n123 clk )
+ ;
+- net89
+  ( SplitCLK_2_107 q0 ) ( DFFT_47__FPB_n122 clk )
+ ;
+- net90
+  ( SplitCLK_2_106 q0 ) ( DFFT_54__FPB_n129 clk )
+ ;
+- net91
+  ( SplitCLK_2_105 q0 ) ( DFFT_46__FPB_n121 clk )
+ ;
+- net92
+  ( SplitCLK_2_104 q0 ) ( DFFT_53__FPB_n128 clk )
+ ;
+- net93
+  ( SplitCLK_2_103 q0 ) ( DFFT_37__FPB_n112 clk )
+ ;
+- net94
+  ( SplitCLK_2_102 q0 ) ( DFFT_45__FPB_n120 clk )
+ ;
+- net95
+  ( SplitCLK_4_101 q0 ) ( DFFT_51__FPB_n126 clk )
+ ;
+- net96
+  ( SplitCLK_2_100 q0 ) ( DFFT_35__FPB_n110 clk )
+ ;
+- net97
+  ( SplitCLK_2_99 q0 ) ( NOTT_16_n28 clk )
+ ;
+- net98
+  ( SplitCLK_2_98 q0 ) ( OR2T_18_n30 clk )
+ ;
+- net99
+  ( SplitCLK_2_97 q0 ) ( OR2T_22_n34 clk )
+ ;
+- net100
+  ( SplitCLK_2_96 q0 ) ( AND2T_27_n39 clk )
+ ;
+- net101
+  ( SplitCLK_2_95 q0 ) ( AND2T_24_n36 clk )
+ ;
+- net102
+  ( SplitCLK_2_94 q0 ) ( AND2T_12_n24 clk )
+ ;
+- net103
+  ( SplitCLK_2_93 q0 ) ( AND2T_11_n23 clk )
+ ;
+- net104
+  ( SplitCLK_2_92 q1 ) ( SplitCLK_6_81 a )
+ ;
+- net105
+  ( SplitCLK_2_92 q0 ) ( SplitCLK_4_91 a )
+ ;
+- net106
+  ( SplitCLK_4_91 q1 ) ( SplitCLK_4_86 a )
+ ;
+- net107
+  ( SplitCLK_4_91 q0 ) ( SplitCLK_6_90 a )
+ ;
+- net108
+  ( SplitCLK_6_90 q1 ) ( SplitCLK_2_88 a )
+ ;
+- net109
+  ( SplitCLK_6_90 q0 ) ( SplitCLK_4_89 a )
+ ;
+- net110
+  ( SplitCLK_4_89 q0 ) ( SplitCLK_2_97 a )
+ ;
+- net111
+  ( SplitCLK_4_89 q1 ) ( SplitCLK_4_101 a )
+ ;
+- net112
+  ( SplitCLK_2_88 q1 ) ( SplitCLK_2_109 a )
+ ;
+- net113
+  ( SplitCLK_2_88 q0 ) ( SplitCLK_4_87 a )
+ ;
+- net114
+  ( SplitCLK_4_87 q1 ) ( OR2T_21_n33 clk )
+ ;
+- net115
+  ( SplitCLK_4_87 q0 ) ( OR2T_15_n27 clk )
+ ;
+- net116
+  ( SplitCLK_4_86 q0 ) ( SplitCLK_6_83 a )
+ ;
+- net117
+  ( SplitCLK_4_86 q1 ) ( SplitCLK_4_85 a )
+ ;
+- net118
+  ( SplitCLK_4_85 q0 ) ( SplitCLK_2_96 a )
+ ;
+- net119
+  ( SplitCLK_4_85 q1 ) ( SplitCLK_4_84 a )
+ ;
+- net120
+  ( SplitCLK_4_84 q0 ) ( XOR2T_29_n41 clk )
+ ;
+- net121
+  ( SplitCLK_4_84 q1 ) ( OR2T_26_n38 clk )
+ ;
+- net122
+  ( SplitCLK_6_83 q1 ) ( SplitCLK_2_105 a )
+ ;
+- net123
+  ( SplitCLK_6_83 q0 ) ( SplitCLK_4_82 a )
+ ;
+- net124
+  ( SplitCLK_4_82 q1 ) ( NOTT_20_n32 clk )
+ ;
+- net125
+  ( SplitCLK_4_82 q0 ) ( NOTT_19_n31 clk )
+ ;
+- net126
+  ( SplitCLK_6_81 q0 ) ( SplitCLK_0_75 a )
+ ;
+- net127
+  ( SplitCLK_6_81 q1 ) ( SplitCLK_6_80 a )
+ ;
+- net128
+  ( SplitCLK_6_80 q1 ) ( SplitCLK_2_77 a )
+ ;
+- net129
+  ( SplitCLK_6_80 q0 ) ( SplitCLK_4_79 a )
+ ;
+- net130
+  ( SplitCLK_4_79 q0 ) ( SplitCLK_2_98 a )
+ ;
+- net131
+  ( SplitCLK_4_79 q1 ) ( SplitCLK_4_78 a )
+ ;
+- net132
+  ( SplitCLK_4_78 q1 ) ( AND2T_14_n26 clk )
+ ;
+- net133
+  ( SplitCLK_4_78 q0 ) ( DFFT_44__FPB_n119 clk )
+ ;
+- net134
+  ( SplitCLK_2_77 q0 ) ( SplitCLK_2_99 a )
+ ;
+- net135
+  ( SplitCLK_2_77 q1 ) ( SplitCLK_4_76 a )
+ ;
+- net136
+  ( SplitCLK_4_76 q1 ) ( XOR2T_10_n22 clk )
+ ;
+- net137
+  ( SplitCLK_4_76 q0 ) ( NOTT_17_n29 clk )
+ ;
+- net138
+  ( SplitCLK_0_75 q0 ) ( SplitCLK_2_72 a )
+ ;
+- net139
+  ( SplitCLK_0_75 q1 ) ( SplitCLK_2_74 a )
+ ;
+- net140
+  ( SplitCLK_2_74 q0 ) ( SplitCLK_2_95 a )
+ ;
+- net141
+  ( SplitCLK_2_74 q1 ) ( SplitCLK_4_73 a )
+ ;
+- net142
+  ( SplitCLK_4_73 q1 ) ( AND2T_23_n35 clk )
+ ;
+- net143
+  ( SplitCLK_4_73 q0 ) ( DFFT_43__FPB_n118 clk )
+ ;
+- net144
+  ( SplitCLK_2_72 q0 ) ( SplitCLK_2_93 a )
+ ;
+- net145
+  ( SplitCLK_2_72 q1 ) ( SplitCLK_4_71 a )
+ ;
+- net146
+  ( SplitCLK_4_71 q0 ) ( DFFT_30__FBL_n105 clk )
+ ;
+- net147
+  ( SplitCLK_4_71 q1 ) ( DFFT_34__FBL_n109 clk )
+ ;
+- net148
+  ( SplitCLK_0_70 q0 ) ( SplitCLK_6_58 a )
+ ;
+- net149
+  ( SplitCLK_0_70 q1 ) ( SplitCLK_4_69 a )
+ ;
+- net150
+  ( SplitCLK_4_69 q1 ) ( SplitCLK_4_63 a )
+ ;
+- net151
+  ( SplitCLK_4_69 q0 ) ( SplitCLK_6_68 a )
+ ;
+- net152
+  ( SplitCLK_6_68 q0 ) ( SplitCLK_6_65 a )
+ ;
+- net153
+  ( SplitCLK_6_68 q1 ) ( SplitCLK_2_67 a )
+ ;
+- net154
+  ( SplitCLK_2_67 q1 ) ( SplitCLK_2_102 a )
+ ;
+- net155
+  ( SplitCLK_2_67 q0 ) ( SplitCLK_4_66 a )
+ ;
+- net156
+  ( SplitCLK_4_66 q1 ) ( AND2T_28_n40 clk )
+ ;
+- net157
+  ( SplitCLK_4_66 q0 ) ( NOTT_25_n37 clk )
+ ;
+- net158
+  ( SplitCLK_6_65 q1 ) ( SplitCLK_2_107 a )
+ ;
+- net159
+  ( SplitCLK_6_65 q0 ) ( SplitCLK_4_64 a )
+ ;
+- net160
+  ( SplitCLK_4_64 q0 ) ( DFFT_32__FBL_n107 clk )
+ ;
+- net161
+  ( SplitCLK_4_64 q1 ) ( DFFT_52__FPB_n127 clk )
+ ;
+- net162
+  ( SplitCLK_4_63 q0 ) ( SplitCLK_0_60 a )
+ ;
+- net163
+  ( SplitCLK_4_63 q1 ) ( SplitCLK_2_62 a )
+ ;
+- net164
+  ( SplitCLK_2_62 q0 ) ( SplitCLK_2_106 a )
+ ;
+- net165
+  ( SplitCLK_2_62 q1 ) ( SplitCLK_4_61 a )
+ ;
+- net166
+  ( SplitCLK_4_61 q0 ) ( DFFT_33__FBL_n108 clk )
+ ;
+- net167
+  ( SplitCLK_4_61 q1 ) ( DFFT_50__FPB_n125 clk )
+ ;
+- net168
+  ( SplitCLK_0_60 q0 ) ( SplitCLK_2_104 a )
+ ;
+- net169
+  ( SplitCLK_0_60 q1 ) ( SplitCLK_4_59 a )
+ ;
+- net170
+  ( SplitCLK_4_59 q1 ) ( DFFT_31__ADJFBL_n106 clk )
+ ;
+- net171
+  ( SplitCLK_4_59 q0 ) ( DFFT_39__FPB_n114 clk )
+ ;
+- net172
+  ( SplitCLK_6_58 q0 ) ( SplitCLK_4_52 a )
+ ;
+- net173
+  ( SplitCLK_6_58 q1 ) ( SplitCLK_4_57 a )
+ ;
+- net174
+  ( SplitCLK_4_57 q1 ) ( SplitCLK_2_54 a )
+ ;
+- net175
+  ( SplitCLK_4_57 q0 ) ( SplitCLK_6_56 a )
+ ;
+- net176
+  ( SplitCLK_6_56 q1 ) ( SplitCLK_4_108 a )
+ ;
+- net177
+  ( SplitCLK_6_56 q0 ) ( SplitCLK_4_55 a )
+ ;
+- net178
+  ( SplitCLK_4_55 q1 ) ( DFFT_40__FPB_n115 clk )
+ ;
+- net179
+  ( SplitCLK_4_55 q0 ) ( DFFT_41__FPB_n116 clk )
+ ;
+- net180
+  ( SplitCLK_2_54 q0 ) ( SplitCLK_2_103 a )
+ ;
+- net181
+  ( SplitCLK_2_54 q1 ) ( SplitCLK_4_53 a )
+ ;
+- net182
+  ( SplitCLK_4_53 q0 ) ( XOR2T_13_n25 clk )
+ ;
+- net183
+  ( SplitCLK_4_53 q1 ) ( DFFT_36__FPB_n111 clk )
+ ;
+- net184
+  ( SplitCLK_4_52 q1 ) ( SplitCLK_6_49 a )
+ ;
+- net185
+  ( SplitCLK_4_52 q0 ) ( SplitCLK_6_51 a )
+ ;
+- net186
+  ( SplitCLK_6_51 q1 ) ( SplitCLK_2_94 a )
+ ;
+- net187
+  ( SplitCLK_6_51 q0 ) ( SplitCLK_4_50 a )
+ ;
+- net188
+  ( SplitCLK_4_50 q0 ) ( DFFT_42__FPB_n117 clk )
+ ;
+- net189
+  ( SplitCLK_4_50 q1 ) ( DFFT_38__FPB_n113 clk )
+ ;
+- net190
+  ( SplitCLK_6_49 q1 ) ( SplitCLK_2_100 a )
+ ;
+- net191
+  ( SplitCLK_6_49 q0 ) ( SplitCLK_4_48 a )
+ ;
+- net192
+  ( SplitCLK_4_48 q1 ) ( AND2T_9_n21 clk )
+ ;
+- net193
+  ( SplitCLK_4_48 q0 ) ( NOTT_8_n20 clk )
+ ;
+- net194
+  ( GCLK_Pad a ) ( SplitCLK_0_110 a )
+ ;
+- net195
+  ( DFFT_48__FPB_n123 a ) ( Split_HOLD_136 q1 )
+ ;
+- net196
+  ( OR2T_15_n27 b ) ( Split_HOLD_137 q1 )
+ ;
+- net197
+  ( DFFT_36__FPB_n111 a ) ( Split_HOLD_138 q1 )
+ ;
+END NETS
+
+END DESIGN

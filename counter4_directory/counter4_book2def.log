@@ -1,0 +1,12 @@
+BOOKSHELF2DEF: Converting 'counter4_placed.aux' to DEF
+----------------------------------------------------------------------
+Horizontal pitch (X_space): 0.000000
+Vertical pitch (Y_space): 0.000000
+Reading from counter4_placed.aux
+Reading from counter4_placed.nodes
+Reading from counter4_placed.nets
+7 pad(s) connected to net.
+Reading from counter4_placed.pl
+Reading from counter4_placed.scl
+Reading from file: ../../qLib/1.5.1/lef/lef_2_metals.lef
+Writing 'counter4_placed.def' (DEF file)

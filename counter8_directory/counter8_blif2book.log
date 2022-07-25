@@ -1,0 +1,19 @@
+BILF2BOOKSHELF: Converting 'counter8.blif' to bookshelf files
+----------------------------------------------------------------------
+BLIF2BOOKSHELF: Converting 'counter8.blif' to Bookshelf format
+----------------------------------------------------------------------
+Reading from file: ../../../qLib/1.5.1/lef/lef_2_metals.lef
+Reading from file: counter8.blif
+Reading from file: counter8.levels
+Reading primary inputs
+Reading primary outputs
+Reading gate information
+Net clk with net degree less than 2 is dropped
+Writing .aux file
+Writing .net file
+Writing .node file
+Writing .pl file
+Writing .scl file
+Writing .wts file
+Writing .levels file
+----------------------------------------------------------------------

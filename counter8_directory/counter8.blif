@@ -1,0 +1,188 @@
+############################################################################################
+# Benchmark: "counter" written by qABC on Mon Jul 25 12:32:45 2022
+# Developer: Ghasem Pasandi (pasandi@usc.edu), University of Southern California (USC), CA.
+############################################################################################
+
+.model counter
+
+.inputs clk rst en
+.outputs count[0] count[1] count[2] count[3] count[4] count[5] count[6] \
+ count[7]
+
+.gate NOTT       a=n334 O=n36
+.gate AND2T      a=n38 b=n364 O=n37
+.gate XOR2T      a=count[0] b=n336 O=n38
+.gate NOTT       a=n336 O=n39
+.gate NOTT       a=n382 O=n40
+.gate NOTT       a=count[1] O=n41
+.gate OR2T       a=n345 b=n344 O=n42
+.gate OR2T       a=n346 b=_FPB_n290 O=n43
+.gate AND2T      a=n382 b=n337 O=n44
+.gate OR2T       a=n44 b=_FPB_n291 O=n45
+.gate AND2T      a=n45 b=_FPB_n292 O=n46
+.gate AND2T      a=n46 b=n348 O=n47
+.gate AND2T      a=n368 b=_ADJFBL_n268 O=n48
+.gate AND2T      a=n48 b=_FPB_n293 O=n49
+.gate OR2T       a=n350 b=_FPB_n295 O=n50
+.gate NOTT       a=count[2] O=n51
+.gate OR2T       a=n352 b=n343 O=n52
+.gate OR2T       a=n52 b=n346 O=n53
+.gate AND2T      a=n353 b=_FPB_n297 O=n54
+.gate AND2T      a=n54 b=_FPB_n298 O=n55
+.gate NOTT       a=count[3] O=n56
+.gate OR2T       a=n354 b=n352 O=n57
+.gate AND2T      a=n356 b=_FPB_n299 O=n58
+.gate AND2T      a=n60 b=_FPB_n302 O=n59
+.gate XOR2T      a=n58 b=n353 O=n60
+.gate AND2T      a=n372 b=n371 O=n61
+.gate AND2T      a=n350 b=_FPB_n303 O=n62
+.gate OR2T       a=n62 b=_FPB_n306 O=n63
+.gate NOTT       a=count[4] O=n64
+.gate OR2T       a=n356 b=_FPB_n307 O=n65
+.gate OR2T       a=n65 b=n348 O=n66
+.gate AND2T      a=n66 b=_FPB_n310 O=n67
+.gate AND2T      a=n67 b=_FPB_n311 O=n68
+.gate AND2T      a=n358 b=_FPB_n312 O=n69
+.gate AND2T      a=n69 b=n351 O=n70
+.gate OR2T       a=n70 b=_FPB_n315 O=n71
+.gate NOTT       a=count[5] O=n72
+.gate OR2T       a=n72 b=n359 O=n73
+.gate OR2T       a=n73 b=n355 O=n74
+.gate OR2T       a=n361 b=n347 O=n75
+.gate AND2T      a=n75 b=_FPB_n318 O=n76
+.gate AND2T      a=n76 b=_FPB_n319 O=n77
+.gate AND2T      a=n376 b=_ADJFBL_n272 O=n78
+.gate AND2T      a=n78 b=n358 O=n79
+.gate AND2T      a=n79 b=n351 O=n80
+.gate OR2T       a=n80 b=_FPB_n322 O=n81
+.gate OR2T       a=n344 b=n343 O=n82
+.gate NOTT       a=count[6] O=n83
+.gate OR2T       a=n83 b=n345 O=n84
+.gate OR2T       a=n84 b=n82 O=n85
+.gate OR2T       a=n85 b=n361 O=n86
+.gate AND2T      a=n362 b=_FPB_n325 O=n87
+.gate AND2T      a=n87 b=_FPB_n326 O=n88
+.gate NOTT       a=count[7] O=n90
+.gate AND2T      a=n92 b=_FPB_n330 O=n91
+.gate XOR2T      a=n362 b=_FPB_n333 O=n92
+.gate NOTT       a=n334 O=n99
+.gate DFFT  a=_FPB_n281 O=_ADJFBL_n268
+.gate DFFT  a=_FPB_n283 O=_FBL_n269
+.gate DFFT  a=_FPB_n284 O=_FBL_n270
+.gate DFFT  a=_FPB_n285 O=_FBL_n271
+.gate DFFT  a=n360 O=_ADJFBL_n272
+.gate DFFT  a=n77 O=_FBL_n273
+.gate DFFT  a=n88 O=_FBL_n274
+.gate DFFT  a=n91 O=_FBL_n275
+.gate DFFT  a=_FPB_n289 O=_FBL_n276
+.gate DFFT  a=n360 O=_FBL_n277
+.gate DFFT  a=n341 O=_FPB_n278
+.gate DFFT  a=_FPB_n278 O=_FPB_n279
+.gate DFFT  a=_FPB_n279 O=_FPB_n280
+.gate DFFT  a=_FPB_n280 O=_FPB_n281
+.gate DFFT  a=n47 O=_FPB_n282
+.gate DFFT  a=_FPB_n282 O=_FPB_n283
+.gate DFFT  a=n55 O=_FPB_n284
+.gate DFFT  a=n59 O=_FPB_n285
+.gate DFFT  a=n341 O=_FPB_n286
+.gate DFFT  a=_FPB_n286 O=_FPB_n287
+.gate DFFT  a=_FPB_n287 O=_FPB_n288
+.gate DFFT  a=_FPB_n288 O=_FPB_n289
+.gate DFFT  a=n342 O=_FPB_n290
+.gate DFFT  a=n368 O=_FPB_n291
+.gate DFFT  a=n364 O=_FPB_n292
+.gate DFFT  a=n337 O=_FPB_n293
+.gate DFFT  a=n371 O=_FPB_n294
+.gate DFFT  a=_FPB_n294 O=_FPB_n295
+.gate DFFT  a=n365 O=_FPB_n296
+.gate DFFT  a=_FPB_n296 O=_FPB_n297
+.gate DFFT  a=n50 O=_FPB_n298
+.gate DFFT  a=n354 O=_FPB_n299
+.gate DFFT  a=n365 O=_FPB_n300
+.gate DFFT  a=_FPB_n300 O=_FPB_n301
+.gate DFFT  a=_FPB_n301 O=_FPB_n302
+.gate DFFT  a=n357 O=_FPB_n303
+.gate DFFT  a=n385 O=_FPB_n304
+.gate DFFT  a=_FPB_n304 O=_FPB_n305
+.gate DFFT  a=_FPB_n305 O=_FPB_n306
+.gate DFFT  a=n359 O=_FPB_n307
+.gate DFFT  a=n339 O=_FPB_n308
+.gate DFFT  a=_FPB_n308 O=_FPB_n309
+.gate DFFT  a=_FPB_n309 O=_FPB_n310
+.gate DFFT  a=n63 O=_FPB_n311
+.gate DFFT  a=n385 O=_FPB_n312
+.gate DFFT  a=n376 O=_FPB_n313
+.gate DFFT  a=_FPB_n313 O=_FPB_n314
+.gate DFFT  a=_FPB_n314 O=_FPB_n315
+.gate DFFT  a=n339 O=_FPB_n316
+.gate DFFT  a=_FPB_n316 O=_FPB_n317
+.gate DFFT  a=_FPB_n317 O=_FPB_n318
+.gate DFFT  a=n71 O=_FPB_n319
+.gate DFFT  a=n377 O=_FPB_n320
+.gate DFFT  a=_FPB_n320 O=_FPB_n321
+.gate DFFT  a=_FPB_n321 O=_FPB_n322
+.gate DFFT  a=n340 O=_FPB_n323
+.gate DFFT  a=_FPB_n323 O=_FPB_n324
+.gate DFFT  a=_FPB_n324 O=_FPB_n325
+.gate DFFT  a=n81 O=_FPB_n326
+.gate DFFT  a=n340 O=_FPB_n327
+.gate DFFT  a=_FPB_n327 O=_FPB_n328
+.gate DFFT  a=_FPB_n328 O=_FPB_n329
+.gate DFFT  a=_FPB_n329 O=_FPB_n330
+.gate DFFT  a=n90 O=_FPB_n331
+.gate DFFT  a=_FPB_n331 O=_FPB_n332
+.gate DFFT  a=_FPB_n332 O=_FPB_n333
+.gate Splitter  a=rst O=n334
+.gate Splitter  a=en O=n335
+.gate Splitter  a=n335 O=n336
+.gate Splitter  a=n335 O=n337
+.gate Splitter  a=n36 O=n338
+.gate Splitter  a=n338 O=n339
+.gate Splitter  a=n338 O=n340
+.gate Splitter  a=n37 O=n341
+.gate Splitter  a=n39 O=n342
+.gate Splitter  a=n342 O=n343
+.gate Splitter  a=n40 O=n344
+.gate Splitter  a=n41 O=n345
+.gate Splitter  a=n42 O=n346
+.gate Splitter  a=n43 O=n347
+.gate Splitter  a=n347 O=n348
+.gate Splitter  a=n49 O=n349
+.gate Splitter  a=n349 O=n350
+.gate Splitter  a=n349 O=n351
+.gate Splitter  a=n51 O=n352
+.gate Splitter  a=n53 O=n353
+.gate Splitter  a=n56 O=n354
+.gate Splitter  a=n57 O=n355
+.gate Splitter  a=n355 O=n356
+.gate Splitter  a=n61 O=n357
+.gate Splitter  a=n357 O=n358
+.gate Splitter  a=n64 O=n359
+.gate Splitter  a=n68 O=n360
+.gate Splitter  a=n74 O=n361
+.gate Splitter  a=n86 O=n362
+.gate Splitter  a=n99 O=n363
+.gate Splitter  a=n363 O=n364
+.gate Splitter  a=n363 O=n365
+.gate Splitter  a=_FBL_n269 O=n366
+.gate Splitter  a=n366 O=count[1]
+.gate Splitter  a=n366 O=n368
+.gate Splitter  a=_FBL_n270 O=n369
+.gate Splitter  a=n369 O=count[2]
+.gate Splitter  a=n369 O=n371
+.gate Splitter  a=_FBL_n271 O=n372
+.gate Splitter  a=n372 O=count[3]
+.gate Splitter  a=_FBL_n273 O=n374
+.gate Splitter  a=n374 O=count[5]
+.gate Splitter  a=n374 O=n376
+.gate Splitter  a=_FBL_n274 O=n377
+.gate Splitter  a=n377 O=count[6]
+.gate Splitter  a=_FBL_n275 O=count[7]
+.gate Splitter  a=_FBL_n276 O=n380
+.gate Splitter  a=n380 O=count[0]
+.gate Splitter  a=n380 O=n382
+.gate Splitter  a=_FBL_n277 O=n383
+.gate Splitter  a=n383 O=count[4]
+.gate Splitter  a=n383 O=n385
+
+.end
