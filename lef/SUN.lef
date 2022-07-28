@@ -1,0 +1,437 @@
+# Lef file generated with ViPeR 
+# Jude de Villiers, Stellenbosch University
+# Tue Jul  7 08:12:44 2020
+
+NAMESCASESENSITIVE ON ;
+UNITS
+DATABASE MICRONS 100 ;
+END UNITS
+
+LAYER metal1
+  TYPE ROUTING ;
+  PITCH 10 ;
+  WIDTH 5 ;
+  SPACING 5 ;
+  DIRECTION HORIZONTAL ;
+END metal1
+LAYER metal2
+  TYPE ROUTING ;
+  PITCH 10 ;
+  WIDTH 5 ;
+  SPACING 5 ;
+  DIRECTION HORIZONTAL ;
+END metal2
+VIA via1 DEFAULT
+  LAYER metal1 ;
+    RECT -2.5 -2.5 2.5 2.5 ;
+  LAYER metal2 ;
+    RECT -2.5 -2.5 2.5 2.5 ;
+  LAYER via1 ;
+    RECT -2.5 -2.5 2.5 2.5 ;
+END via1
+MACRO JTLT
+  CLASS CORE ;
+  SIZE 40 by 70 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X ;
+  SITE core 0 0 N DO 1 BY 1 STEP 0 0 ;
+  PIN IN_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 2.5 52.5 7.5 57.5 ;
+        LAYER metal2 ;
+          RECT 2.5 52.5 7.5 57.5 ;
+      END
+  END IN_1
+  PIN OUT_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 32.5 12.5 37.5 17.5 ;
+        LAYER metal2 ;
+          RECT 32.5 12.5 37.5 17.5 ;
+      END
+  END OUT_1
+END JTLT
+MACRO MERGET
+  CLASS CORE ;
+  SIZE 70 by 70 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X ;
+  SITE core 0 0 N DO 1 BY 1 STEP 0 0 ;
+  PIN IN_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+        LAYER metal2 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+      END
+  END IN_1
+  PIN IN_2
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+        LAYER metal2 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+      END
+  END IN_2
+  PIN OUT_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 62.5 12.5 67.5 17.5 ;
+        LAYER metal2 ;
+          RECT 62.5 12.5 67.5 17.5 ;
+      END
+  END OUT_1
+END MERGET
+MACRO SPLIT
+  CLASS CORE ;
+  SIZE 50 by 70 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X ;
+  SITE core 0 0 N DO 1 BY 1 STEP 0 0 ;
+  PIN IN_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+        LAYER metal2 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+      END
+  END IN_1
+  PIN OUT_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+        LAYER metal2 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+      END
+  END OUT_1
+  PIN OUT_2
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 32.5 12.5 37.5 17.5 ;
+        LAYER metal2 ;
+          RECT 32.5 12.5 37.5 17.5 ;
+      END
+  END OUT_2
+END SPLIT
+MACRO DFF
+  CLASS CORE ;
+  SIZE 80 by 70 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X ;
+  SITE core 0 0 N DO 1 BY 1 STEP 0 0 ;
+  PIN CLK
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+        LAYER metal2 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+      END
+  END CLK
+  PIN IN_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+        LAYER metal2 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+      END
+  END IN_1
+  PIN OUT_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 62.5 12.5 67.5 17.5 ;
+        LAYER metal2 ;
+          RECT 62.5 12.5 67.5 17.5 ;
+      END
+  END OUT_1
+END DFF
+MACRO NOTT
+  CLASS CORE ;
+  SIZE 100 by 70 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X ;
+  SITE core 0 0 N DO 1 BY 1 STEP 0 0 ;
+  PIN CLK
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+        LAYER metal2 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+      END
+  END CLK
+  PIN IN_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+        LAYER metal2 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+      END
+  END IN_1
+  PIN OUT_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 82.5 12.5 87.5 17.5 ;
+        LAYER metal2 ;
+          RECT 82.5 12.5 87.5 17.5 ;
+      END
+  END OUT_1
+END NOTT
+MACRO AND2T
+  CLASS CORE ;
+  SIZE 100 by 70 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X ;
+  SITE core 0 0 N DO 1 BY 1 STEP 0 0 ;
+  PIN IN_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+        LAYER metal2 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+      END
+  END IN_1
+  PIN IN_2
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 82.5 52.5 87.5 57.5 ;
+        LAYER metal2 ;
+          RECT 82.5 52.5 87.5 57.5 ;
+      END
+  END IN_2
+  PIN CLK
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+        LAYER metal2 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+      END
+  END CLK
+  PIN OUT_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 82.5 12.5 87.5 17.5 ;
+        LAYER metal2 ;
+          RECT 82.5 12.5 87.5 17.5 ;
+      END
+  END OUT_1
+END AND2T
+MACRO OR2T
+  CLASS CORE ;
+  SIZE 100 by 70 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X ;
+  SITE core 0 0 N DO 1 BY 1 STEP 0 0 ;
+  PIN IN_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+        LAYER metal2 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+      END
+  END IN_1
+  PIN IN_2
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+        LAYER metal2 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+      END
+  END IN_2
+  PIN CLK
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 82.5 52.5 87.5 57.5 ;
+        LAYER metal2 ;
+          RECT 82.5 52.5 87.5 57.5 ;
+      END
+  END CLK
+  PIN OUT_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 82.5 12.5 87.5 17.5 ;
+        LAYER metal2 ;
+          RECT 82.5 12.5 87.5 17.5 ;
+      END
+  END OUT_1
+END OR2T
+MACRO XOR2T
+  CLASS CORE ;
+  SIZE 100 by 70 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X ;
+  SITE core 0 0 N DO 1 BY 1 STEP 0 0 ;
+  PIN IN_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+        LAYER metal2 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+      END
+  END IN_1
+  PIN IN_2
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+        LAYER metal2 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+      END
+  END IN_2
+  PIN CLK
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 82.5 52.5 87.5 57.5 ;
+        LAYER metal2 ;
+          RECT 82.5 52.5 87.5 57.5 ;
+      END
+  END CLK
+  PIN OUT_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 82.5 12.5 87.5 17.5 ;
+        LAYER metal2 ;
+          RECT 82.5 12.5 87.5 17.5 ;
+      END
+  END OUT_1
+END XOR2T
+MACRO PAD
+  CLASS CORE ;
+  SIZE 30 by 30 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X ;
+  SITE core 0 0 N DO 1 BY 1 STEP 0 0 ;
+  OBS
+    LAYER metal1 ;
+      RECT 0 0 5 30 ;
+      RECT 25 0 30 30 ;
+    LAYER metal2 ;
+      RECT 0 0 5 30 ;
+      RECT 25 0 30 30 ;
+  END
+  PIN INOUT_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+        LAYER metal2 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+      END
+  END INOUT_1  
+END PAD
+MACRO CLKSPLIT
+  CLASS CORE ;
+  SIZE 50 by 70 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X ;
+  SITE core 0 0 N DO 1 BY 1 STEP 0 0 ;
+  PIN IN_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+        LAYER metal2 ;
+          RECT 12.5 52.5 17.5 57.5 ;
+      END
+  END IN_1
+  PIN OUT_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+        LAYER metal2 ;
+          RECT 12.5 12.5 17.5 17.5 ;
+      END
+  END OUT_1
+  PIN OUT_2
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 32.5 12.5 37.5 17.5 ;
+        LAYER metal2 ;
+          RECT 32.5 12.5 37.5 17.5 ;
+      END
+  END OUT_2
+END CLKSPLIT
+MACRO CLKBUFF
+  CLASS CORE ;
+  SIZE 40 by 70 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X ;
+  SITE core 0 0 N DO 1 BY 1 STEP 0 0 ;
+  PIN IN_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 2.5 52.5 7.5 57.5 ;
+        LAYER metal2 ;
+          RECT 2.5 52.5 7.5 57.5 ;
+      END
+  END IN_1
+  PIN OUT_1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+      PORT
+        LAYER metal1 ;
+          RECT 32.5 12.5 37.5 17.5 ;
+        LAYER metal2 ;
+          RECT 32.5 12.5 37.5 17.5 ;
+      END
+  END OUT_1
+END CLKBUFF
+END LIBRARY
