@@ -1,0 +1,10 @@
+Synthesis time: 0.27s
+Equivalence checking time: 0.22s
+Placement time: 3.46s
+Routing time: 0.48s
+SSTA time: 2.08s
+Power analysis time: 0.97s
+Layout drawing time: 20.36s
+qVSIM time: 3.78s
+Fault simulation time: 0.22s
+qTV time: 258.44s
