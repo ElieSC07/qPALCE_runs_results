@@ -38,7 +38,7 @@ Max Cell Level : 6
 
 
 
-TotalParseTime: 0.004392
+TotalParseTime: 0.003796
 
 
 	Name of the LEF file is: /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef
@@ -8668,7 +8668,7 @@ Post Legalization HPWL: Total =  24343
 	Writing to aux file: 	KSA4_tmpdir/KSA4_placed.aux
 
 File seeds.out is in use; random seeds from this process will not be logged.
-Initial non-deterministic seed is 1315002926.
+Initial non-deterministic seed is 615177479.
 If there is no other process running in this directory, then an earlier
 process may have terminated
 abnormally. You should remove or rename seeds.out
@@ -9097,10 +9097,10 @@ Writing 'KSA4_placed.def' (DEF file)
 ['KSA4_tmpdir/', 'KSA4_placed', '-PLACEMENT', '-STA', '-SLACK', '-RPT_HOLD', '-LEF', '/home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef']
 bnchFullPath is:  /home/elijah/Documents/qPALACE/qPlace/KSA4_tmpdir
  ./bookshelf2def KSA4_placed.aux  -M 2 -lef /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef
-Created directory  /home/elijah/Documents/qPALACE/qSSTA/Circuits/KSA4_placed-2022-07-26_6
-python3 qSSTA.py KSA4_placed-2022-07-26_6/KSA4_placed-2022-07-26_6_route -PLACEMENT -STA -SLACK -LEF /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef 
-Changing dir to:  /home/elijah/Documents/qPALACE/qSSTA/Circuits/KSA4_placed-2022-07-26_6
-cp  KSA4_placed-2022-07-26_6_route_PLACEMENT_skew.slack   /home/elijah/Documents/qPALACE/qPlace/KSA4_tmpdir/KSA4_hold.slack
+Created directory  /home/elijah/Documents/qPALACE/qSSTA/Circuits/KSA4_placed-2022-07-28_1
+python3 qSSTA.py KSA4_placed-2022-07-28_1/KSA4_placed-2022-07-28_1_route -PLACEMENT -STA -SLACK -LEF /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef 
+Changing dir to:  /home/elijah/Documents/qPALACE/qSSTA/Circuits/KSA4_placed-2022-07-28_1
+cp  KSA4_placed-2022-07-28_1_route_PLACEMENT_skew.slack   /home/elijah/Documents/qPALACE/qPlace/KSA4_tmpdir/KSA4_hold.slack
 
 
 Hold time analysis; iteration: 0
@@ -9198,10 +9198,10 @@ Saved the plot: KSA4_tmpdir/KSA4_final.plt
 	Writing to pl file   : 	KSA4_tmpdir/KSA4_placed.pl
 
 	Writing to scl file: KSA4_tmpdir/KSA4_placed.scl
-Current Date and time: 2022_7_26_10_40_
+Current Date and time: 2022_7_28_9_52_
 
 
-Writing statistics to file: KSA4_tmpdir//KSA4_2022_7_26_10_40__ALG_1_GS1.stat
+Writing statistics to file: KSA4_tmpdir//KSA4_2022_7_28_9_52__ALG_1_GS1.stat
   (Successfull Test in /qPlace_main.cpp:918): test_fullCircuits
 
 ***********************************************************************************************************
