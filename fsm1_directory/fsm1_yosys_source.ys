@@ -1,0 +1,1 @@
+read_verilog fsm1.v; hierarchy; proc; opt;  memory; opt; techmap; opt; write_blif fsm1_yosys.blif

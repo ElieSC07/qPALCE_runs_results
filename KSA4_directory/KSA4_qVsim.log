@@ -1,10 +1,9 @@
 dos2unix: converting file KSA4_route_qVsim.sdf to Unix format...
 SFQLib.v:30: warning: task definition for "tPD" has an empty port declaration list!
 VCD info: dumpfile KSA4_route.vcd opened for output.
-Gtk-Message: 11:53:08.067: Failed to load module "canberra-gtk-module"
+Gtk-Message: 20:53:21.450: Failed to load module "canberra-gtk-module"
 
 GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
 
 [0] start time.
 [4092000] end time.
-WM Destroy

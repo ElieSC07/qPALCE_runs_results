@@ -1,0 +1,12 @@
+BOOKSHELF2DEF: Converting 'fsm1_placed.aux' to DEF
+----------------------------------------------------------------------
+Horizontal pitch (X_space): 0.000000
+Vertical pitch (Y_space): 0.000000
+Reading from fsm1_placed.aux
+Reading from fsm1_placed.nodes
+Reading from fsm1_placed.nets
+7 pad(s) connected to net.
+Reading from fsm1_placed.pl
+Reading from fsm1_placed.scl
+Reading from file: ../../qLib/1.5.1/lef/lef_2_metals.lef
+Writing 'fsm1_placed.def' (DEF file)

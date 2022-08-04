@@ -2,7 +2,7 @@ BILF2BOOKSHELF: Converting 'counter4.blif' to bookshelf files
 ----------------------------------------------------------------------
 BLIF2BOOKSHELF: Converting 'counter4.blif' to Bookshelf format
 ----------------------------------------------------------------------
-Reading from file: ../../../qLib/2.1/lef/lef_2_metals.lef
+Reading from file: ../../../qLib/1.5.1/lef/lef_2_metals.lef
 Reading from file: counter4.blif
 Reading from file: counter4.levels
 Reading primary inputs

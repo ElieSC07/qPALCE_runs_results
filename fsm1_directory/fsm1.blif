@@ -1,0 +1,83 @@
+############################################################################################
+# Benchmark: "state_machine" written by qABC on Thu Aug  4 14:00:31 2022
+# Developer: Ghasem Pasandi (pasandi@usc.edu), University of Southern California (USC), CA.
+############################################################################################
+
+.model state_machine
+
+.inputs clk reset input1 input2
+.outputs output1 state_obs1 state_obs0
+
+.gate NOTT       a=n171 O=n14
+.gate AND2T      a=n158 b=_FPB_n127 O=n15
+.gate NOTT       a=n170 O=n16
+.gate AND2T      a=n160 b=_FPB_n128 O=n17
+.gate NOTT       a=reset O=n18
+.gate AND2T      a=n158 b=n160 O=n19
+.gate NOTT       a=n155 O=n20
+.gate AND2T      a=n165 b=_FPB_n129 O=n21
+.gate AND2T      a=n21 b=n164 O=n22
+.gate NOTT       a=n156 O=n23
+.gate AND2T      a=n166 b=_FPB_n130 O=n24
+.gate AND2T      a=n168 b=n162 O=n25
+.gate OR2T       a=n166 b=n165 O=n26
+.gate AND2T      a=n26 b=n159 O=n27
+.gate OR2T       a=n27 b=n25 O=n28
+.gate OR2T       a=n28 b=_FPB_n131 O=n29
+.gate AND2T      a=n29 b=_FPB_n135 O=n30
+.gate NOTT       a=n168 O=n31
+.gate OR2T       a=n31 b=_FPB_n136 O=n32
+.gate OR2T       a=n167 b=n162 O=n33
+.gate AND2T      a=n33 b=_FPB_n138 O=n34
+.gate AND2T      a=n34 b=n32 O=n35
+.gate AND2T      a=n157 b=_FPB_n139 O=n36
+.gate DFFT  a=n30 O=_FBL_n124
+.gate DFFT  a=_FPB_n126 O=_FBL_n125
+.gate DFFT  a=n35 O=_FPB_n126
+.gate DFFT  a=n170 O=_FPB_n127
+.gate DFFT  a=n171 O=_FPB_n128
+.gate DFFT  a=n156 O=_FPB_n129
+.gate DFFT  a=n155 O=_FPB_n130
+.gate DFFT  a=n22 O=_FPB_n131
+.gate DFFT  a=n163 O=_FPB_n132
+.gate DFFT  a=_FPB_n132 O=_FPB_n133
+.gate DFFT  a=_FPB_n133 O=_FPB_n134
+.gate DFFT  a=_FPB_n134 O=_FPB_n135
+.gate DFFT  a=n164 O=_FPB_n136
+.gate DFFT  a=n163 O=_FPB_n137
+.gate DFFT  a=_FPB_n137 O=_FPB_n138
+.gate DFFT  a=n169 O=_FPB_n139
+.gate DFFT  a=n159 O=_FPB_n140
+.gate DFFT  a=_FPB_n140 O=_FPB_n141
+.gate DFFT  a=_FPB_n141 O=_FPB_n142
+.gate DFFT  a=_FPB_n142 O=_FPB_n143
+.gate DFFT  a=_FPB_n143 O=output1
+.gate DFFT  a=n161 O=_FPB_n145
+.gate DFFT  a=_FPB_n145 O=_FPB_n146
+.gate DFFT  a=_FPB_n146 O=_FPB_n147
+.gate DFFT  a=_FPB_n147 O=_FPB_n148
+.gate DFFT  a=_FPB_n148 O=state_obs1
+.gate DFFT  a=n36 O=_FPB_n150
+.gate DFFT  a=_FPB_n150 O=_FPB_n151
+.gate DFFT  a=_FPB_n151 O=_FPB_n152
+.gate DFFT  a=_FPB_n152 O=_FPB_n153
+.gate DFFT  a=_FPB_n153 O=state_obs0
+.gate Splitter  a=input1 O=n155
+.gate Splitter  a=input2 O=n156
+.gate Splitter  a=n14 O=n157
+.gate Splitter  a=n157 O=n158
+.gate Splitter  a=n15 O=n159
+.gate Splitter  a=n16 O=n160
+.gate Splitter  a=n17 O=n161
+.gate Splitter  a=n161 O=n162
+.gate Splitter  a=n18 O=n163
+.gate Splitter  a=n19 O=n164
+.gate Splitter  a=n20 O=n165
+.gate Splitter  a=n23 O=n166
+.gate Splitter  a=n24 O=n167
+.gate Splitter  a=n167 O=n168
+.gate Splitter  a=_FBL_n124 O=n169
+.gate Splitter  a=n169 O=n170
+.gate Splitter  a=_FBL_n125 O=n171
+
+.end

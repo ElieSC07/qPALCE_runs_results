@@ -1,7 +1,7 @@
 -Parsing Input Files ..
 
 Setting Aspect Ratio to 2
-Input Parameters: AUX-PATH: counter4_tmpdir/ - AUX: counter4.aux - groupSize: 1 - algoType: 1 - numGPIt: 400 - doRDP: 0 - doCTSBalance: 1 - xSpace: 0 - ySpace: 0 - useLP: 0 - configFileName: /home/elijah/Documents/qPALACE/qLib/2.1/qPlace_config.txt - lefFileName: /home/elijah/Documents/qPALACE/qLib/2.1//lef/lef_2_metals.lef - replc: 0 - incre: 0
+Input Parameters: AUX-PATH: counter4_tmpdir/ - AUX: counter4.aux - groupSize: 1 - algoType: 1 - numGPIt: 400 - doRDP: 0 - doCTSBalance: 1 - xSpace: 0 - ySpace: 0 - useLP: 0 - configFileName: /home/elijah/Documents/qPALACE/qLib/1.5.1/qPlace_config.txt - lefFileName: /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef - replc: 0 - incre: 0
 
 Reading counter4.aux
 allDesignFiles: [counter4.levels, 
@@ -38,28 +38,28 @@ Max Cell Level : 6
 
 
 
-TotalParseTime: 0.00309
+TotalParseTime: 0.003111
 
 
-	Name of the LEF file is: /home/elijah/Documents/qPALACE/qLib/2.1//lef/lef_2_metals.lef
+	Name of the LEF file is: /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef
 
 
 
-Input Config file: /home/elijah/Documents/qPALACE/qLib/2.1/qPlace_config.txt
+Input Config file: /home/elijah/Documents/qPALACE/qLib/1.5.1/qPlace_config.txt
 Before: PITCH: 10.000000, SPL_W:40.000000, SPL_H:50.000000, PAD_W:100.000000, PAD_H:120.000000, SPL_D:5.500000
 
 
-Parsed file: /home/elijah/Documents/qPALACE/qLib/2.1/qPlace_config.txt:
+Parsed file: /home/elijah/Documents/qPALACE/qLib/1.5.1/qPlace_config.txt:
 {PAD_HEIGHT : 120
 PAD_WIDTH : 100
 PITCH : 10
-SPL_DELAY : 7.0
+SPL_DELAY : 7.8
 SPL_HEIGHT : 70
 SPL_WIDTH : 50
 }
 
 
-After: PITCH: 10.000000, SPL_W:50.000000, SPL_H:70.000000, PAD_W:100.000000, PAD_H:120.000000, SPL_D:7.000000
+After: PITCH: 10.000000, SPL_W:50.000000, SPL_H:70.000000, PAD_W:100.000000, PAD_H:120.000000, SPL_D:7.800000
 Loaded netlist only from auxFile
  Netlist contains:
     8 terminals
@@ -8676,7 +8676,7 @@ Post Legalization HPWL: Total =  16142
 (E): inst/pad name Split_69_count[3]  not in the library
 
 File seeds.out is in use; random seeds from this process will not be logged.
-Initial non-deterministic seed is 3519028759.
+Initial non-deterministic seed is 911330076.
 If there is no other process running in this directory, then an earlier
 process may have terminated
 abnormally. You should remove or rename seeds.out
@@ -8903,11 +8903,11 @@ status 0
 
 	Size of the leafDelays vec: 47
 
-	Max-Min leafDelays: [53.2,45]
+	Max-Min leafDelays: [58,49]
 
 
 
-	Clock Skew: 8.2
+	Clock Skew: 9
 
 	Size of clkVec is : 94
 
@@ -8925,7 +8925,7 @@ status 0
 
 	Size of the leafDelays vec: 47
 
-	Max-Min leafDelays: [53.211,52]
+	Max-Min leafDelays: [58.011,56.8]
 
 
 
@@ -8977,7 +8977,7 @@ Pre LP formulation:
 
 	Size of the leafDelays vec: 47
 
-	Max-Min leafDelays: [60.075,52.175]
+	Max-Min leafDelays: [64.875,56.975]
 
 
 
@@ -8986,14 +8986,14 @@ Pre LP formulation:
 
 	Size of the leafDelays vec: 47
 
-	Max-Min leafDelays: [60.075,52.175]
+	Max-Min leafDelays: [64.875,56.975]
 
 
 
 	Clock Skew: 7.9
 
 
-	Max-Min leafDelays: [60.075,52.175]
+	Max-Min leafDelays: [64.875,56.975]
 
 Post CTD: Total =  49660
 
@@ -9090,7 +9090,7 @@ Saved the plot: counter4_tmpdir/counter4_GS_1_ALG_1.plt
 
 
 Checking for hold time violations
-calling STA tool : python3 scripts/doSTA.py counter4_tmpdir/ counter4_placed -PLACEMENT -STA -SLACK -RPT_HOLD -LEF /home/elijah/Documents/qPALACE/qLib/2.1//lef/lef_2_metals.lef
+calling STA tool : python3 scripts/doSTA.py counter4_tmpdir/ counter4_placed -PLACEMENT -STA -SLACK -RPT_HOLD -LEF /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef
 BOOKSHELF2DEF: Converting 'counter4_placed.aux' to DEF
 ----------------------------------------------------------------------
 Horizontal pitch (X_space): 0.000000
@@ -9101,15 +9101,15 @@ Reading from counter4_placed.nets
 7 pad(s) connected to net.
 Reading from counter4_placed.pl
 Reading from counter4_placed.scl
-Reading from file: /home/elijah/Documents/qPALACE/qLib/2.1//lef/lef_2_metals.lef
+Reading from file: /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef
 Writing 'counter4_placed.def' (DEF file)
-['counter4_tmpdir/', 'counter4_placed', '-PLACEMENT', '-STA', '-SLACK', '-RPT_HOLD', '-LEF', '/home/elijah/Documents/qPALACE/qLib/2.1//lef/lef_2_metals.lef']
+['counter4_tmpdir/', 'counter4_placed', '-PLACEMENT', '-STA', '-SLACK', '-RPT_HOLD', '-LEF', '/home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef']
 bnchFullPath is:  /home/elijah/Documents/qPALACE/qPlace/counter4_tmpdir
- ./bookshelf2def counter4_placed.aux  -M 2 -lef /home/elijah/Documents/qPALACE/qLib/2.1//lef/lef_2_metals.lef
-Created directory  /home/elijah/Documents/qPALACE/qSSTA/Circuits/counter4_placed-2022-07-26_4
-python3 qSSTA.py counter4_placed-2022-07-26_4/counter4_placed-2022-07-26_4_route -PLACEMENT -STA -SLACK -LEF /home/elijah/Documents/qPALACE/qLib/2.1//lef/lef_2_metals.lef 
-Changing dir to:  /home/elijah/Documents/qPALACE/qSSTA/Circuits/counter4_placed-2022-07-26_4
-cp  counter4_placed-2022-07-26_4_route_PLACEMENT_skew.slack   /home/elijah/Documents/qPALACE/qPlace/counter4_tmpdir/counter4_hold.slack
+ ./bookshelf2def counter4_placed.aux  -M 2 -lef /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef
+Created directory  /home/elijah/Documents/qPALACE/qSSTA/Circuits/counter4_placed-2022-07-29_0
+python3 qSSTA.py counter4_placed-2022-07-29_0/counter4_placed-2022-07-29_0_route -PLACEMENT -STA -SLACK -LEF /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef 
+Changing dir to:  /home/elijah/Documents/qPALACE/qSSTA/Circuits/counter4_placed-2022-07-29_0
+cp  counter4_placed-2022-07-29_0_route_PLACEMENT_skew.slack   /home/elijah/Documents/qPALACE/qPlace/counter4_tmpdir/counter4_hold.slack
 
 
 Hold time analysis; iteration: 0
@@ -9209,10 +9209,10 @@ Saved the plot: counter4_tmpdir/counter4_final.plt
 	Writing to pl file   : 	counter4_tmpdir/counter4_placed.pl
 
 	Writing to scl file: counter4_tmpdir/counter4_placed.scl
-Current Date and time: 2022_7_26_7_26_
+Current Date and time: 2022_7_29_8_13_
 
 
-Writing statistics to file: counter4_tmpdir//counter4_2022_7_26_7_26__ALG_1_GS1.stat
+Writing statistics to file: counter4_tmpdir//counter4_2022_7_29_8_13__ALG_1_GS1.stat
   (Successfull Test in /qPlace_main.cpp:918): test_fullCircuits
 
 ***********************************************************************************************************

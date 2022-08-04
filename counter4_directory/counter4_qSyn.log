@@ -1,6 +1,6 @@
 ABC command line: "source counter4_abc_source.ys".
 
-Entered genlib library with 7 gates from file "/home/elijah/Documents/qPALACE/qLib/2.1/SFQ.genlib".
+Entered genlib library with 7 gates from file "/home/elijah/Documents/qPALACE/qLib/1.5.1/SFQ.genlib".
 Technology mapping finished successfully!
 [Called: AdjustFanouts]
 Adjustment of fanout count finished successfully!
@@ -58,8 +58,8 @@ Total Area (Gates) : 123200.00 um^2
 Total Area (Gates + DFFs) : 263200.00 um^2
 Total Area (Gates + DFFs + Splitters) : 424200.00 um^2
 Total JJs : 758
-Worst Stage Delay : 26.80 ps
-Latency : 160.80 ps
+Worst Stage Delay : 29.80 ps
+Latency : 178.80 ps
 Static power in ERSFQ technology: 2.42 uW
 Static power in RSFQ technology: 75.61 uW
 *************************************************************

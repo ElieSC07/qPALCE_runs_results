@@ -1,0 +1,86 @@
+UCLA nodes 1.0
+# Written by BLIF2BOOKSHELF on Thu Aug  4 14:00:32 2022
+# SPORT Lab, University of Southern California, Los Angeles, CA 90089
+# Developers: Ting-Ru Lin <tingruli@usc.edu> and Massoud Pedram <pedram@usc.edu>
+
+NumNodes : 79
+NumTerminals : 8
+	DFFT_61_state_obs0	80	70
+	DFFT_56_state_obs1	80	70
+	AND2T_9_n15	100	70
+	DFFT_51_output1	80	70
+	NOTT_8_n14	100	70
+	AND2T_11_n17	100	70
+	AND2T_21_n27	100	70
+	AND2T_13_n19	100	70
+	AND2T_30_n36	100	70
+	AND2T_15_n21	100	70
+	AND2T_24_n30	100	70
+	AND2T_16_n22	100	70
+	AND2T_18_n24	100	70
+	AND2T_19_n25	100	70
+	AND2T_28_n34	100	70
+	AND2T_29_n35	100	70
+	OR2T_20_n26	100	70
+	OR2T_22_n28	100	70
+	OR2T_23_n29	100	70
+	OR2T_26_n32	100	70
+	OR2T_27_n33	100	70
+	NOTT_10_n16	100	70
+	NOTT_12_n18	100	70
+	NOTT_14_n20	100	70
+	NOTT_25_n31	100	70
+	NOTT_17_n23	100	70
+	DFFT_31__FBL_n124	80	70
+	DFFT_32__FBL_n125	80	70
+	DFFT_40__FPB_n133	80	70
+	DFFT_41__FPB_n134	80	70
+	DFFT_33__FPB_n126	80	70
+	DFFT_50__FPB_n143	80	70
+	DFFT_42__FPB_n135	80	70
+	DFFT_34__FPB_n127	80	70
+	DFFT_43__FPB_n136	80	70
+	DFFT_35__FPB_n128	80	70
+	DFFT_60__FPB_n153	80	70
+	DFFT_52__FPB_n145	80	70
+	DFFT_44__FPB_n137	80	70
+	DFFT_36__FPB_n129	80	70
+	DFFT_37__FPB_n130	80	70
+	DFFT_53__FPB_n146	80	70
+	DFFT_45__FPB_n138	80	70
+	DFFT_38__FPB_n131	80	70
+	DFFT_54__FPB_n147	80	70
+	DFFT_46__FPB_n139	80	70
+	DFFT_47__FPB_n140	80	70
+	DFFT_39__FPB_n132	80	70
+	DFFT_55__FPB_n148	80	70
+	DFFT_48__FPB_n141	80	70
+	DFFT_57__FPB_n150	80	70
+	DFFT_49__FPB_n142	80	70
+	DFFT_58__FPB_n151	80	70
+	DFFT_59__FPB_n152	80	70
+	Split_62_n155	50	70
+	Split_70_n163	50	70
+	Split_63_n156	50	70
+	Split_71_n164	50	70
+	Split_64_n157	50	70
+	Split_72_n165	50	70
+	Split_65_n158	50	70
+	Split_73_n166	50	70
+	Split_66_n159	50	70
+	Split_74_n167	50	70
+	Split_67_n160	50	70
+	Split_75_n168	50	70
+	Split_68_n161	50	70
+	Split_76_n169	50	70
+	Split_69_n162	50	70
+	Split_77_n170	50	70
+	Split_78_n171	50	70
+	state_obs0_Pad	100	120	terminal
+	state_obs1_Pad	100	120	terminal
+	clk_Pad	100	120	terminal
+	GCLK_Pad	100	120	terminal
+	output1_Pad	100	120	terminal
+	input1_Pad	100	120	terminal
+	input2_Pad	100	120	terminal
+	reset_Pad	100	120	terminal
