@@ -60,16 +60,16 @@
 0 1
 .names input2 $eq$fsm1.v:18$4_Y
 0 1
-.names reset net_90
+.names reset net_84
 1 0
-.names $0\state[1:0][0] net_90 net_23
+.names $0\state[1:0][0] net_84 net_94
 11 1
-.latch net_23 state[0] 0
-.names reset net_43
+.latch net_94 state[0] 0
+.names reset net_67
 1 0
-.names $0\state[1:0][1] net_43 net_88
+.names $0\state[1:0][1] net_67 net_74
 11 1
-.latch net_88 state[1] 0
+.latch net_74 state[1] 0
 .names state[1] $true $auto$simplemap.cc:250:simplemap_eqne$118[1]
 10 1
 01 1

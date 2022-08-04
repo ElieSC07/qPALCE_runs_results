@@ -38,7 +38,7 @@ Max Cell Level : 7
 
 
 
-TotalParseTime: 0.003245
+TotalParseTime: 0.003361
 
 
 	Name of the LEF file is: /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef
@@ -8672,7 +8672,7 @@ Post Legalization HPWL: Total =  15551
 (E): inst/pad name state_obs1  not in the library
 
 File seeds.out is in use; random seeds from this process will not be logged.
-Initial non-deterministic seed is 1898127160.
+Initial non-deterministic seed is 807541665.
 If there is no other process running in this directory, then an earlier
 process may have terminated
 abnormally. You should remove or rename seeds.out
@@ -9104,10 +9104,10 @@ Writing 'fsm1_placed.def' (DEF file)
 ['fsm1_tmpdir/', 'fsm1_placed', '-PLACEMENT', '-STA', '-SLACK', '-RPT_HOLD', '-LEF', '/home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef']
 bnchFullPath is:  /home/elijah/Documents/qPALACE/qPlace/fsm1_tmpdir
  ./bookshelf2def fsm1_placed.aux  -M 2 -lef /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef
-Created directory  /home/elijah/Documents/qPALACE/qSSTA/Circuits/fsm1_placed-2022-08-04_4
-python3 qSSTA.py fsm1_placed-2022-08-04_4/fsm1_placed-2022-08-04_4_route -PLACEMENT -STA -SLACK -LEF /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef 
-Changing dir to:  /home/elijah/Documents/qPALACE/qSSTA/Circuits/fsm1_placed-2022-08-04_4
-cp  fsm1_placed-2022-08-04_4_route_PLACEMENT_skew.slack   /home/elijah/Documents/qPALACE/qPlace/fsm1_tmpdir/fsm1_hold.slack
+Created directory  /home/elijah/Documents/qPALACE/qSSTA/Circuits/fsm1_placed-2022-08-04_6
+python3 qSSTA.py fsm1_placed-2022-08-04_6/fsm1_placed-2022-08-04_6_route -PLACEMENT -STA -SLACK -LEF /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef 
+Changing dir to:  /home/elijah/Documents/qPALACE/qSSTA/Circuits/fsm1_placed-2022-08-04_6
+cp  fsm1_placed-2022-08-04_6_route_PLACEMENT_skew.slack   /home/elijah/Documents/qPALACE/qPlace/fsm1_tmpdir/fsm1_hold.slack
 
 
 Hold time analysis; iteration: 0
@@ -9209,10 +9209,10 @@ Saved the plot: fsm1_tmpdir/fsm1_final.plt
 	Writing to pl file   : 	fsm1_tmpdir/fsm1_placed.pl
 
 	Writing to scl file: fsm1_tmpdir/fsm1_placed.scl
-Current Date and time: 2022_8_4_12_0_
+Current Date and time: 2022_8_4_13_7_
 
 
-Writing statistics to file: fsm1_tmpdir//fsm1_2022_8_4_12_0__ALG_1_GS1.stat
+Writing statistics to file: fsm1_tmpdir//fsm1_2022_8_4_13_7__ALG_1_GS1.stat
   (Successfull Test in /qPlace_main.cpp:918): test_fullCircuits
 
 ***********************************************************************************************************
