@@ -7,85 +7,201 @@
 .names $true
 1
 .names $undef
-.names state[0] $auto$simplemap.cc:250:simplemap_eqne$118[1] $auto$simplemap.cc:256:simplemap_eqne$122
+.names state[0] $auto$simplemap.cc:250:simplemap_eqne$169[1] $auto$simplemap.cc:256:simplemap_eqne$173
 1- 1
 -1 1
-.names $auto$simplemap.cc:250:simplemap_eqne$130[0] state[1] $auto$simplemap.cc:256:simplemap_eqne$134
+.names $auto$simplemap.cc:250:simplemap_eqne$180[0] state[1] $auto$simplemap.cc:256:simplemap_eqne$184
 1- 1
 -1 1
-.names $procmux$60.B_AND_S[0] $procmux$60.B_AND_S[2] $auto$simplemap.cc:127:simplemap_reduce$156
+.names $procmux$19.B_AND_S[0] $procmux$19.B_AND_S[2] $auto$simplemap.cc:127:simplemap_reduce$197
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$156 $procmux$60.B_AND_S[4] $procmux$60.Y_B[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$197 $procmux$19.B_AND_S[4] $procmux$19.Y_B[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$160 $procmux$60.B_AND_S[5] $procmux$60.Y_B[1]
+.names $procmux$19.B_AND_S[1] $procmux$19.B_AND_S[3] $auto$simplemap.cc:127:simplemap_reduce$201
 1- 1
 -1 1
-.names state_obs1 output1 $auto$simplemap.cc:127:simplemap_reduce$172
+.names $auto$simplemap.cc:127:simplemap_reduce$201 $procmux$19.B_AND_S[5] $procmux$19.Y_B[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$172 $procmux$50_CMP $techmap$procmux$60.$reduce_or$?techmap.v?:445$147_Y
+.names $auto$simplemap.cc:127:simplemap_reduce$213 $procmux$31_CMP $techmap$procmux$19.$reduce_or$?techmap.v?:445$138_Y
 1- 1
 -1 1
-.names state[0] state[1] $auto$simplemap.cc:168:logic_reduce$144
+.names $procmux$36.B_AND_S[0] $procmux$36.B_AND_S[1] $auto$simplemap.cc:127:simplemap_reduce$218
 1- 1
 -1 1
-.names $auto$simplemap.cc:168:logic_reduce$144 $procmux$50_CMP
+.names $auto$simplemap.cc:127:simplemap_reduce$218 $procmux$36.B_AND_S[2] $procmux$36.Y_B
+1- 1
+-1 1
+.names $procmux$53.B_AND_S[0] $procmux$53.B_AND_S[1] $auto$simplemap.cc:127:simplemap_reduce$230
+1- 1
+-1 1
+.names $auto$simplemap.cc:127:simplemap_reduce$230 $procmux$53.B_AND_S[2] $procmux$53.Y_B
+1- 1
+-1 1
+.names $procmux$20_CMP $procmux$24_CMP $auto$simplemap.cc:127:simplemap_reduce$213
+1- 1
+-1 1
+.names $procmux$70.B_AND_S[0] $procmux$70.B_AND_S[1] $auto$simplemap.cc:127:simplemap_reduce$242
+1- 1
+-1 1
+.names $auto$simplemap.cc:127:simplemap_reduce$242 $procmux$70.B_AND_S[2] $procmux$70.Y_B
+1- 1
+-1 1
+.names state[0] state[1] $auto$simplemap.cc:168:logic_reduce$165
+1- 1
+-1 1
+.names $auto$simplemap.cc:168:logic_reduce$165 $procmux$31_CMP
 0 1
-.names $eq$fsm1.v:20$6_Y input2 $4\state[1:0][0]
+.names $auto$simplemap.cc:256:simplemap_eqne$173 $procmux$20_CMP
+0 1
+.names $auto$simplemap.cc:256:simplemap_eqne$184 $procmux$24_CMP
+0 1
+.names $eq$fsm1.v:27$6_Y input2 $logic_and$fsm1.v:27$8_Y
 11 1
-.names input1 input2 $logic_and$fsm1.v:26$11_Y
+.names input1 input2 $logic_and$fsm1.v:35$11_Y
 11 1
-.names input1 $eq$fsm1.v:18$4_Y $3\state[1:0][1]
+.names input1 $eq$fsm1.v:21$4_Y $logic_and$fsm1.v:21$5_Y
 11 1
-.names $auto$simplemap.cc:256:simplemap_eqne$134 output1
-0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$122 state_obs1
-0 1
-.names $3\state[1:0][1] $6\state[1:0][1]
-0 1
-.names $logic_and$fsm1.v:26$11_Y $5\state[1:0][0]
-0 1
-.names $4\state[1:0][0] $false $3\state[1:0][1] $3\state[1:0][0]
+.names state[0] $true $logic_and$fsm1.v:21$5_Y $procmux$17_Y[0]
 1-0 1
 -11 1
-.names $false $procmux$60.Y_B[0] $techmap$procmux$60.$reduce_or$?techmap.v?:445$147_Y $0\state[1:0][0]
+.names state[1] $false $logic_and$fsm1.v:21$5_Y $procmux$17_Y[1]
 1-0 1
 -11 1
-.names $false $procmux$60.Y_B[1] $techmap$procmux$60.$reduce_or$?techmap.v?:445$147_Y $0\state[1:0][1]
+.names state[0] $false $logic_and$fsm1.v:35$11_Y $procmux$22_Y[0]
 1-0 1
 -11 1
-.names input1 $eq$fsm1.v:20$6_Y
+.names state[1] $false $logic_and$fsm1.v:35$11_Y $procmux$22_Y[1]
+1-0 1
+-11 1
+.names state[0] $true $logic_and$fsm1.v:27$8_Y $procmux$26_Y[0]
+1-0 1
+-11 1
+.names state[1] $false $logic_and$fsm1.v:27$8_Y $procmux$26_Y[1]
+1-0 1
+-11 1
+.names $procmux$26_Y[0] $false $logic_and$fsm1.v:21$5_Y $procmux$29_Y[0]
+1-0 1
+-11 1
+.names $procmux$26_Y[1] $true $logic_and$fsm1.v:21$5_Y $procmux$29_Y[1]
+1-0 1
+-11 1
+.names state_obs0 $true $logic_and$fsm1.v:21$5_Y $procmux$34_Y
+1-0 1
+-11 1
+.names state_obs0 $false $logic_and$fsm1.v:35$11_Y $procmux$39_Y
+1-0 1
+-11 1
+.names state_obs0 $true $logic_and$fsm1.v:27$8_Y $procmux$43_Y
+1-0 1
+-11 1
+.names $procmux$43_Y $false $logic_and$fsm1.v:21$5_Y $procmux$46_Y
+1-0 1
+-11 1
+.names state_obs1 $false $logic_and$fsm1.v:21$5_Y $procmux$51_Y
+1-0 1
+-11 1
+.names state_obs1 $false $logic_and$fsm1.v:35$11_Y $procmux$56_Y
+1-0 1
+-11 1
+.names state_obs1 $false $logic_and$fsm1.v:27$8_Y $procmux$60_Y
+1-0 1
+-11 1
+.names $procmux$60_Y $true $logic_and$fsm1.v:21$5_Y $procmux$63_Y
+1-0 1
+-11 1
+.names output1 $true $logic_and$fsm1.v:21$5_Y $procmux$68_Y
+1-0 1
+-11 1
+.names output1 $false $logic_and$fsm1.v:35$11_Y $procmux$73_Y
+1-0 1
+-11 1
+.names output1 $true $logic_and$fsm1.v:27$8_Y $procmux$77_Y
+1-0 1
+-11 1
+.names $procmux$77_Y $false $logic_and$fsm1.v:21$5_Y $procmux$80_Y
+1-0 1
+-11 1
+.names $false $procmux$19.Y_B[0] $techmap$procmux$19.$reduce_or$?techmap.v?:445$138_Y $0\state[1:0][0]
+1-0 1
+-11 1
+.names $false $procmux$19.Y_B[1] $techmap$procmux$19.$reduce_or$?techmap.v?:445$138_Y $0\state[1:0][1]
+1-0 1
+-11 1
+.names $false $procmux$36.Y_B $techmap$procmux$19.$reduce_or$?techmap.v?:445$138_Y $0\state_obs0[0:0]
+1-0 1
+-11 1
+.names $false $procmux$53.Y_B $techmap$procmux$19.$reduce_or$?techmap.v?:445$138_Y $0\state_obs1[0:0]
+1-0 1
+-11 1
+.names $false $procmux$70.Y_B $techmap$procmux$19.$reduce_or$?techmap.v?:445$138_Y $0\output1[0:0]
+1-0 1
+-11 1
+.names input1 $eq$fsm1.v:27$6_Y
 0 1
-.names input2 $eq$fsm1.v:18$4_Y
+.names input2 $eq$fsm1.v:21$4_Y
 0 1
-.names reset net_84
+.names reset net_0
 1 0
-.names $0\state[1:0][0] net_84 net_94
+.names $0\output1[0:0] net_0 net_17
 11 1
-.latch net_94 state[0] 0
-.names reset net_67
+.latch net_17 output1 0
+.names reset net_80
 1 0
-.names $0\state[1:0][1] net_67 net_74
+.names $0\state_obs1[0:0] net_80 net_77
 11 1
-.latch net_74 state[1] 0
-.names state[1] $true $auto$simplemap.cc:250:simplemap_eqne$118[1]
+.latch net_77 state_obs1 0
+.names reset net_85
+1 0
+.names $0\state_obs0[0:0] net_85 net_29
+11 1
+.latch net_29 state_obs0 0
+.names reset net_0_90
+1 0
+.names $0\state[1:0][0] net_0_90 net_3
+11 1
+.latch net_3 state[0] 0
+.names reset net_97
+1 0
+.names $0\state[1:0][1] net_97 net_75
+11 1
+.latch net_75 state[1] 0
+.names state[1] $true $auto$simplemap.cc:250:simplemap_eqne$169[1]
 10 1
 01 1
-.names state[0] $true $auto$simplemap.cc:250:simplemap_eqne$130[0]
+.names state[0] $true $auto$simplemap.cc:250:simplemap_eqne$180[0]
 10 1
 01 1
-.names $3\state[1:0][0] $procmux$50_CMP $procmux$60.B_AND_S[4]
+.names $procmux$29_Y[0] $procmux$31_CMP $procmux$19.B_AND_S[4]
 11 1
-.names $3\state[1:0][1] $procmux$50_CMP $procmux$60.B_AND_S[5]
+.names $procmux$29_Y[1] $procmux$31_CMP $procmux$19.B_AND_S[5]
 11 1
-.names $5\state[1:0][0] output1 $procmux$60.B_AND_S[2]
+.names $procmux$22_Y[0] $procmux$24_CMP $procmux$19.B_AND_S[2]
 11 1
-.names $3\state[1:0][1] state_obs1 $procmux$60.B_AND_S[0]
+.names $procmux$22_Y[1] $procmux$24_CMP $procmux$19.B_AND_S[3]
 11 1
-.names $6\state[1:0][1] state_obs1 $auto$simplemap.cc:127:simplemap_reduce$160
+.names $procmux$17_Y[0] $procmux$20_CMP $procmux$19.B_AND_S[0]
 11 1
-.names output1 state_obs0
-1 1
+.names $procmux$17_Y[1] $procmux$20_CMP $procmux$19.B_AND_S[1]
+11 1
+.names $procmux$46_Y $procmux$31_CMP $procmux$36.B_AND_S[2]
+11 1
+.names $procmux$39_Y $procmux$24_CMP $procmux$36.B_AND_S[1]
+11 1
+.names $procmux$34_Y $procmux$20_CMP $procmux$36.B_AND_S[0]
+11 1
+.names $procmux$63_Y $procmux$31_CMP $procmux$53.B_AND_S[2]
+11 1
+.names $procmux$56_Y $procmux$24_CMP $procmux$53.B_AND_S[1]
+11 1
+.names $procmux$51_Y $procmux$20_CMP $procmux$53.B_AND_S[0]
+11 1
+.names $procmux$80_Y $procmux$31_CMP $procmux$70.B_AND_S[2]
+11 1
+.names $procmux$73_Y $procmux$24_CMP $procmux$70.B_AND_S[1]
+11 1
+.names $procmux$68_Y $procmux$20_CMP $procmux$70.B_AND_S[0]
+11 1
 .end

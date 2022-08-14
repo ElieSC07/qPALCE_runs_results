@@ -1,0 +1,9 @@
+DEF2DEF: Converting 'TAP_route.def' from version 4.X to version 5.X
+----------------------------------------------------------------------
+Reading from file: TAP_route
+Perform SFQ mode mapping
+End of DEF2DEF
+Total Process Time (msec): 522
+
+No failed routes!
+Total Time (s): 0.6016850471496582

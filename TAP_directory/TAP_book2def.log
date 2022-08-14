@@ -1,0 +1,12 @@
+BOOKSHELF2DEF: Converting 'TAP_placed.aux' to DEF
+----------------------------------------------------------------------
+Horizontal pitch (X_space): 0.000000
+Vertical pitch (Y_space): 0.000000
+Reading from TAP_placed.aux
+Reading from TAP_placed.nodes
+Reading from TAP_placed.nets
+6 pad(s) connected to net.
+Reading from TAP_placed.pl
+Reading from TAP_placed.scl
+Reading from file: ../../qLib/1.5.1/lef/lef_2_metals.lef
+Writing 'TAP_placed.def' (DEF file)

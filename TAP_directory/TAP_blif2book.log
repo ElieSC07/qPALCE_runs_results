@@ -1,0 +1,20 @@
+BILF2BOOKSHELF: Converting 'TAP.blif' to bookshelf files
+----------------------------------------------------------------------
+BLIF2BOOKSHELF: Converting 'TAP.blif' to Bookshelf format
+----------------------------------------------------------------------
+Reading from file: ../../../qLib/1.5.1/lef/lef_2_metals.lef
+Reading from file: TAP.blif
+Reading from file: TAP.levels
+Reading primary inputs
+Reading primary outputs
+Reading gate information
+Net TCK with net degree less than 2 is dropped
+Net TMS with net degree less than 2 is dropped
+Writing .aux file
+Writing .net file
+Writing .node file
+Writing .pl file
+Writing .scl file
+Writing .wts file
+Writing .levels file
+----------------------------------------------------------------------
