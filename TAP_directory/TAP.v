@@ -285,6 +285,12 @@ module TAP(TMS, TCK, TRST, state_obs0, state_obs1, state_obs2, state_obs3);
                         state_obs2 <= 1;
                         state_obs3 <= 1;
                     end
+                    default: begin
+                        state_obs0 <= 0;
+                        state_obs1 <= 0; 
+                        state_obs2 <= 0;
+                        state_obs3 <= 0;    
+                    end
             endcase
         end
 
