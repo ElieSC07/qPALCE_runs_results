@@ -406,26 +406,26 @@
 -11 1
 .names $auto$rtlil.cc:1604:ReduceOr$292 $auto$rtlil.cc:1600:Not$293
 0 1
-.names TRST net_27
+.names TRST net_79
 1 0
-.names $0\state[3:0][0] net_27 net_34
+.names $0\state[3:0][0] net_79 net_13
 11 1
-.latch net_34 state[0] 0
-.names TRST net_1
+.latch net_13 state[0] 0
+.names TRST net_73
 1 0
-.names $0\state[3:0][1] net_1 net_79
+.names $0\state[3:0][1] net_73 net_66
 11 1
-.latch net_79 state[1] 0
-.names TRST net_10
+.latch net_66 state[1] 0
+.names TRST net_66_47
 1 0
-.names $0\state[3:0][2] net_10 net_28
+.names $0\state[3:0][2] net_66_47 net_57
 11 1
-.latch net_28 state[2] 0
-.names TRST net_66
+.latch net_57 state[2] 0
+.names TRST net_60
 1 0
-.names $0\state[3:0][3] net_66 net_97
+.names $0\state[3:0][3] net_60 net_98
 11 1
-.latch net_97 state[3] 0
+.latch net_98 state[3] 0
 .latch $0\state_obs0[0:0] state_obs0 ah $auto$rtlil.cc:1600:Not$293 2
 .latch $0\state_obs1[0:0] state_obs1 ah $auto$rtlil.cc:1600:Not$293 2
 .latch $0\state_obs2[0:0] state_obs2 ah $auto$rtlil.cc:1600:Not$293 2

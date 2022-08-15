@@ -7,9 +7,9 @@ module TAP(TMS, TCK, TRST, state_obs0, state_obs1, state_obs2, state_obs3);
     reg[3:0] state; 
 
         /* Make State Assignments */
-    parameter [3:0] Test_logic_Reset = 0, Run_Test_Idle = 1,
-                    Select_DR_Scan = 2, Capture_DR = 3, Shift_DR = 4, Exit1_DR = 5, Pause_DR = 6, Exit2_DR = 7, Update_DR = 8,
-                    Select_IR_Scan = 9, Capture_IR = 10, Shift_IR = 11, Exit1_IR = 12, Pause_IR = 13, Exit2_IR = 14, Update_IR = 15;
+    parameter [3:0] Test_logic_Reset = 4'b0000, Run_Test_Idle = 4'b0001,
+                    Select_DR_Scan = 4'b0010, Capture_DR = 4'b0011, Shift_DR = 4'b0100, Exit1_DR = 4'b0101, Pause_DR = 4'b0110, Exit2_DR = 4'b0111, Update_DR = 4'b1000,
+                    Select_IR_Scan = 4'b1001, Capture_IR = 4'b1010, Shift_IR = 4'b1011, Exit1_IR = 4'b1100, Pause_IR = 4'b1101, Exit2_IR = 4'b1110, Update_IR = 4'b1111;
 
     always @(posedge TCK or posedge TRST)
         begin 
