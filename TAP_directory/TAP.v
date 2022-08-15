@@ -21,127 +21,127 @@ module TAP(TMS, TCK, TRST, state_obs0, state_obs1, state_obs2, state_obs3);
                 /* Define the next state transitions using a case statement based on the current state */ 
                 case (state)
                     Test_logic_Reset: begin
-                        if (TSM == 0) begin
+                        if (TMS == 0) begin
                             state <= Run_Test_Idle; 
                         end
                     end
 
                     Run_Test_Idle: begin
-                        if (TSM == 1) begin
+                        if (TMS == 1) begin
                             state <= Select_DR_Scan; 
                         end
                     end
 
                     Select_DR_Scan: begin
-                        if (TSM == 0) begin
+                        if (TMS == 0) begin
                             state <= Capture_DR; 
                         end
-                        else if (TSM == 1) begin
+                        else if (TMS == 1) begin
                             state <= Select_IR_Scan; 
                         end
                     end    
 
                     Capture_DR: begin
-                        if (TSM == 0) begin
+                        if (TMS == 0) begin
                             state <= Shift_DR; 
                         end
-                        else if (TSM == 1) begin
+                        else if (TMS == 1) begin
                             state <= Exit1_DR; 
                         end
                     end
                 
                     Shift_DR: begin
-                        if (TSM == 1) begin
+                        if (TMS == 1) begin
                             state <= Exit1_DR; 
                         end
                     end
 
                     Exit1_DR: begin
-                        if (TSM == 0) begin
+                        if (TMS == 0) begin
                             state <= Pause_DR; 
                         end
-                        else if (TSM == 1) begin
+                        else if (TMS == 1) begin
                             state <= Update_DR; 
                         end
                     end
 
                     Pause_DR: begin
-                        if (TSM == 1) begin
+                        if (TMS == 1) begin
                             state <= Exit2_DR; 
                         end
                     end 
 
                     Exit2_DR: begin
-                        if (TSM == 0) begin
+                        if (TMS == 0) begin
                             state <= Shift_DR; 
                         end
-                        else if (TSM == 1) begin
+                        else if (TMS == 1) begin
                             state <= Update_DR; 
                         end
                     end 
 
                     Update_DR: begin
-                        if (TSM == 0) begin
+                        if (TMS == 0) begin
                             state <= Run_Test_Idle; 
                         end
-                        else if (TSM == 1) begin
+                        else if (TMS == 1) begin
                             state <= Select_DR_Scan; 
                         end
                     end  
 
                     Select_IR_Scan: begin
-                        if (TSM == 0) begin
+                        if (TMS == 0) begin
                             state <= Capture_IR; 
                         end
-                        else if (TSM == 1) begin
+                        else if (TMS == 1) begin
                             state <= Test_logic_Reset; 
                         end
                     end 
 
                     Capture_IR: begin
-                        if (TSM == 0) begin
+                        if (TMS == 0) begin
                             state <= Shift_IR; 
                         end
-                        else if (TSM == 1) begin
+                        else if (TMS == 1) begin
                             state <= Exit1_IR; 
                         end
                     end 
 
                     Shift_IR: begin
-                        if (TSM == 1) begin
+                        if (TMS == 1) begin
                             state <= Exit1_IR; 
                         end
                     end
 
                     Exit1_IR: begin
-                        if (TSM == 0) begin
+                        if (TMS == 0) begin
                             state <= Pause_IR; 
                         end
-                        else if (TSM == 1) begin
+                        else if (TMS == 1) begin
                             state <= Update_IR; 
                         end
                     end  
                     
                     Pause_IR: begin
-                        if (TSM == 1) begin
+                        if (TMS == 1) begin
                             state <= Exit2_IR; 
                         end
                     end   
 
                     Exit2_IR: begin
-                        if (TSM == 0) begin
+                        if (TMS == 0) begin
                             state <= Shift_IR; 
                         end
-                        else if (TSM == 1) begin
+                        else if (TMS == 1) begin
                             state <= Update_IR; 
                         end
                     end 
 
                     Update_IR: begin
-                        if (TSM == 0) begin
+                        if (TMS == 0) begin
                             state <= Run_Test_Idle; 
                         end
-                        else if (TSM == 1) begin
+                        else if (TMS == 1) begin
                             state <= Select_DR_Scan; 
                         end
                     end

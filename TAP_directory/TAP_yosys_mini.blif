@@ -354,16 +354,16 @@
 0 1
 .names $auto$rtlil.cc:1600:Not$198 $procmux$188_CMP
 0 1
-.names $true state[0] TSM $procmux$190_Y[0]
+.names $true state[0] TMS $procmux$190_Y[0]
 1-0 1
 -11 1
-.names $false state[1] TSM $procmux$190_Y[1]
+.names $false state[1] TMS $procmux$190_Y[1]
 1-0 1
 -11 1
-.names $false state[2] TSM $procmux$190_Y[2]
+.names $false state[2] TMS $procmux$190_Y[2]
 1-0 1
 -11 1
-.names $false state[3] TSM $procmux$190_Y[3]
+.names $false state[3] TMS $procmux$190_Y[3]
 1-0 1
 -11 1
 .names state[0] $procmux$104.Y_B[0] $techmap$procmux$104.$reduce_or$?techmap.v?:445$685_Y $0\state[3:0][0]
@@ -378,54 +378,54 @@
 .names state[3] $procmux$104.Y_B[3] $techmap$procmux$104.$reduce_or$?techmap.v?:445$685_Y $0\state[3:0][3]
 1-0 1
 -11 1
-.names state[3] $true TSM $procmux$114_Y[3]
+.names state[3] $true TMS $procmux$114_Y[3]
 1-0 1
 -11 1
-.names state[3] $false TSM $procmux$157_Y[3]
+.names state[3] $false TMS $procmux$157_Y[3]
 1-0 1
 -11 1
-.names state[0] $true TSM $procmux$157_Y[0]
+.names state[0] $true TMS $procmux$157_Y[0]
 1-0 1
 -11 1
-.names state[1] $false TSM $procmux$125_Y[1]
+.names state[1] $false TMS $procmux$125_Y[1]
 1-0 1
 -11 1
-.names state[2] $true TSM $procmux$114_Y[2]
+.names state[2] $true TMS $procmux$114_Y[2]
 1-0 1
 -11 1
-.names TSM $procmux$102_Y[0]
+.names TMS $procmux$102_Y[0]
 0 1
-.names state[0] $false TSM $procmux$114_Y[0]
+.names state[0] $false TMS $procmux$114_Y[0]
 1-0 1
 -11 1
-.names state[1] $true TSM $procmux$114_Y[1]
+.names state[1] $true TMS $procmux$114_Y[1]
 1-0 1
 -11 1
-.names state[2] $false TSM $procmux$186_Y[2]
+.names state[2] $false TMS $procmux$186_Y[2]
 1-0 1
 -11 1
 .names $auto$rtlil.cc:1604:ReduceOr$292 $auto$rtlil.cc:1600:Not$293
 0 1
-.names TRST net_60
-1 0
-.names $0\state[3:0][0] net_60 net_0
-11 1
-.latch net_0 state[0] 0
-.names TRST net_45
-1 0
-.names $0\state[3:0][1] net_45 net_95
-11 1
-.latch net_95 state[1] 0
-.names TRST net_45_62
-1 0
-.names $0\state[3:0][2] net_45_62 net_76
-11 1
-.latch net_76 state[2] 0
 .names TRST net_97
 1 0
-.names $0\state[3:0][3] net_97 net_0_96
+.names $0\state[3:0][0] net_97 net_57
 11 1
-.latch net_0_96 state[3] 0
+.latch net_57 state[0] 0
+.names TRST net_34
+1 0
+.names $0\state[3:0][1] net_34 net_63
+11 1
+.latch net_63 state[1] 0
+.names TRST net_13
+1 0
+.names $0\state[3:0][2] net_13 net_55
+11 1
+.latch net_55 state[2] 0
+.names TRST net_56
+1 0
+.names $0\state[3:0][3] net_56 net_31
+11 1
+.latch net_31 state[3] 0
 .latch $0\state_obs0[0:0] state_obs0 ah $auto$rtlil.cc:1600:Not$293 2
 .latch $0\state_obs1[0:0] state_obs1 ah $auto$rtlil.cc:1600:Not$293 2
 .latch $0\state_obs2[0:0] state_obs2 ah $auto$rtlil.cc:1600:Not$293 2
@@ -462,9 +462,9 @@
 11 1
 .names $procmux$102_Y[0] $auto$opt_reduce.cc:132:opt_mux$607 $procmux$104.B_AND_S[0]
 11 1
-.names TSM $auto$opt_reduce.cc:132:opt_mux$607 $procmux$104.B_AND_S[1]
+.names TMS $auto$opt_reduce.cc:132:opt_mux$607 $procmux$104.B_AND_S[1]
 11 1
-.names TSM $auto$simplemap.cc:127:simplemap_reduce$1169[0] $auto$simplemap.cc:127:simplemap_reduce$1187[0]
+.names TMS $auto$simplemap.cc:127:simplemap_reduce$1169[0] $auto$simplemap.cc:127:simplemap_reduce$1187[0]
 11 1
 .names $procmux$114_Y[0] $procmux$116_CMP $procmux$104.B_AND_S[8]
 11 1
@@ -474,7 +474,7 @@
 11 1
 .names $procmux$114_Y[3] $procmux$116_CMP $procmux$104.B_AND_S[11]
 11 1
-.names TSM $procmux$104.B_AND_S[15] $procmux$104.B_AND_S[13]
+.names TMS $procmux$104.B_AND_S[15] $procmux$104.B_AND_S[13]
 11 1
 .names $procmux$114_Y[0] $procmux$127_CMP $procmux$104.B_AND_S[16]
 11 1
@@ -486,13 +486,13 @@
 11 1
 .names $procmux$102_Y[0] $procmux$104.B_AND_S[23] $procmux$104.B_AND_S[21]
 11 1
-.names TSM $procmux$104.B_AND_S[23] $procmux$104.B_AND_S[22]
+.names TMS $procmux$104.B_AND_S[23] $procmux$104.B_AND_S[22]
 11 1
 .names $procmux$102_Y[0] $procmux$141_CMP $auto$simplemap.cc:127:simplemap_reduce$1151[3]
 11 1
 .names $procmux$102_Y[0] $procmux$155_CMP $auto$simplemap.cc:127:simplemap_reduce$1187[3]
 11 1
-.names TSM $procmux$155_CMP $procmux$104.B_AND_S[31]
+.names TMS $procmux$155_CMP $procmux$104.B_AND_S[31]
 11 1
 .names $procmux$157_Y[0] $procmux$159_CMP $auto$simplemap.cc:127:simplemap_reduce$1133[4]
 11 1
@@ -504,7 +504,7 @@
 11 1
 .names $procmux$102_Y[0] $procmux$166_CMP $procmux$104.B_AND_S[38]
 11 1
-.names TSM $procmux$166_CMP $procmux$104.B_AND_S[39]
+.names TMS $procmux$166_CMP $procmux$104.B_AND_S[39]
 11 1
 .names $procmux$157_Y[0] $procmux$170_CMP $procmux$104.B_AND_S[40]
 11 1
@@ -514,11 +514,11 @@
 11 1
 .names $procmux$157_Y[3] $procmux$170_CMP $auto$simplemap.cc:127:simplemap_reduce$1169[5]
 11 1
-.names TSM $procmux$104.B_AND_S[46] $procmux$104.B_AND_S[44]
+.names TMS $procmux$104.B_AND_S[46] $procmux$104.B_AND_S[44]
 11 1
 .names $procmux$102_Y[0] $procmux$104.B_AND_S[48] $procmux$104.B_AND_S[49]
 11 1
-.names TSM $procmux$104.B_AND_S[48] $procmux$104.B_AND_S[51]
+.names TMS $procmux$104.B_AND_S[48] $procmux$104.B_AND_S[51]
 11 1
 .names $procmux$114_Y[0] $procmux$188_CMP $procmux$104.B_AND_S[52]
 11 1

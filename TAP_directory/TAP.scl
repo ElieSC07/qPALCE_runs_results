@@ -1,9 +1,9 @@
 UCLA scl 1.0
-# Written by BLIF2BOOKSHELF on Sun Aug 14 18:26:59 2022
+# Written by BLIF2BOOKSHELF on Mon Aug 15 08:29:57 2022
 # SPORT Lab, University of Southern California, Los Angeles, CA 90089
 # Developers: Ting-Ru Lin <tingruli@usc.edu> and Massoud Pedram <pedram@usc.edu>
 
-NumRows : 12
+NumRows : 22
 
 CoreRow Horizontal
   Coordinate    :   500
@@ -12,7 +12,7 @@ CoreRow Horizontal
   Sitespacing  :   50
   Siteorient   :   1
   Sitesymmetry  :   1
-  SubrowOrigin :   500	NumSites  :   17
+  SubrowOrigin :   500	NumSites  :   31
 End
 CoreRow Horizontal
   Coordinate    :   570
@@ -21,7 +21,7 @@ CoreRow Horizontal
   Sitespacing  :   50
   Siteorient   :   1
   Sitesymmetry  :   1
-  SubrowOrigin :   500	NumSites  :   17
+  SubrowOrigin :   500	NumSites  :   31
 End
 CoreRow Horizontal
   Coordinate    :   640
@@ -30,7 +30,7 @@ CoreRow Horizontal
   Sitespacing  :   50
   Siteorient   :   1
   Sitesymmetry  :   1
-  SubrowOrigin :   500	NumSites  :   17
+  SubrowOrigin :   500	NumSites  :   31
 End
 CoreRow Horizontal
   Coordinate    :   710
@@ -39,7 +39,7 @@ CoreRow Horizontal
   Sitespacing  :   50
   Siteorient   :   1
   Sitesymmetry  :   1
-  SubrowOrigin :   500	NumSites  :   17
+  SubrowOrigin :   500	NumSites  :   31
 End
 CoreRow Horizontal
   Coordinate    :   780
@@ -48,7 +48,7 @@ CoreRow Horizontal
   Sitespacing  :   50
   Siteorient   :   1
   Sitesymmetry  :   1
-  SubrowOrigin :   500	NumSites  :   17
+  SubrowOrigin :   500	NumSites  :   31
 End
 CoreRow Horizontal
   Coordinate    :   850
@@ -57,7 +57,7 @@ CoreRow Horizontal
   Sitespacing  :   50
   Siteorient   :   1
   Sitesymmetry  :   1
-  SubrowOrigin :   500	NumSites  :   17
+  SubrowOrigin :   500	NumSites  :   31
 End
 CoreRow Horizontal
   Coordinate    :   920
@@ -66,7 +66,7 @@ CoreRow Horizontal
   Sitespacing  :   50
   Siteorient   :   1
   Sitesymmetry  :   1
-  SubrowOrigin :   500	NumSites  :   17
+  SubrowOrigin :   500	NumSites  :   31
 End
 CoreRow Horizontal
   Coordinate    :   990
@@ -75,7 +75,7 @@ CoreRow Horizontal
   Sitespacing  :   50
   Siteorient   :   1
   Sitesymmetry  :   1
-  SubrowOrigin :   500	NumSites  :   17
+  SubrowOrigin :   500	NumSites  :   31
 End
 CoreRow Horizontal
   Coordinate    :   1060
@@ -84,7 +84,7 @@ CoreRow Horizontal
   Sitespacing  :   50
   Siteorient   :   1
   Sitesymmetry  :   1
-  SubrowOrigin :   500	NumSites  :   17
+  SubrowOrigin :   500	NumSites  :   31
 End
 CoreRow Horizontal
   Coordinate    :   1130
@@ -93,7 +93,7 @@ CoreRow Horizontal
   Sitespacing  :   50
   Siteorient   :   1
   Sitesymmetry  :   1
-  SubrowOrigin :   500	NumSites  :   17
+  SubrowOrigin :   500	NumSites  :   31
 End
 CoreRow Horizontal
   Coordinate    :   1200
@@ -102,7 +102,7 @@ CoreRow Horizontal
   Sitespacing  :   50
   Siteorient   :   1
   Sitesymmetry  :   1
-  SubrowOrigin :   500	NumSites  :   17
+  SubrowOrigin :   500	NumSites  :   31
 End
 CoreRow Horizontal
   Coordinate    :   1270
@@ -111,5 +111,95 @@ CoreRow Horizontal
   Sitespacing  :   50
   Siteorient   :   1
   Sitesymmetry  :   1
-  SubrowOrigin :   500	NumSites  :   17
+  SubrowOrigin :   500	NumSites  :   31
+End
+CoreRow Horizontal
+  Coordinate    :   1340
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   31
+End
+CoreRow Horizontal
+  Coordinate    :   1410
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   31
+End
+CoreRow Horizontal
+  Coordinate    :   1480
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   31
+End
+CoreRow Horizontal
+  Coordinate    :   1550
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   31
+End
+CoreRow Horizontal
+  Coordinate    :   1620
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   31
+End
+CoreRow Horizontal
+  Coordinate    :   1690
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   31
+End
+CoreRow Horizontal
+  Coordinate    :   1760
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   31
+End
+CoreRow Horizontal
+  Coordinate    :   1830
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   31
+End
+CoreRow Horizontal
+  Coordinate    :   1900
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   31
+End
+CoreRow Horizontal
+  Coordinate    :   1970
+  Height       :   70
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   31
 End

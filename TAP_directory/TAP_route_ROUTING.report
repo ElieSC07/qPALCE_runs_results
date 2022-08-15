@@ -7,16 +7,16 @@ General setting:
     -----------------------------------------------------------------------
     TAP_route                                              |  Number       
     -----------------------------------------------------------------------
-    Primary inputs  (PIs)                                  |  2            
+    Primary inputs  (PIs)                                  |  3            
     Primary outputs (POs)                                  |  4            
-    Floating pads                                          |  2            
-    Gates                                                  |  240          
-    Register gates                                         |  84           
-    Combinational gates                                    |  156          
-    Nets                                                   |  354          
-    Stages                                                 |  12           
-    Paths from primary inputs to register gates  (PI-RI)   |  1            
-    Paths from register gates to register gates  (RO-RI)   |  109          
+    Floating pads                                          |  1            
+    Gates                                                  |  615          
+    Register gates                                         |  252          
+    Combinational gates                                    |  363          
+    Nets                                                   |  975          
+    Stages                                                 |  18           
+    Paths from primary inputs to register gates  (PI-RI)   |  5            
+    Paths from register gates to register gates  (RO-RI)   |  351          
     Paths from register gates to primary outputs (RO-PO)   |  4            
     -----------------------------------------------------------------------
     
@@ -29,20 +29,20 @@ General setting:
     -----------------------------------------------------------------------
     PTL distances                                          | Statistics    
     -----------------------------------------------------------------------
-    Maximum (um)                                           |  2560.0       
+    Maximum (um)                                           |  3390.0       
     Minimum (um)                                           |  30.0         
-    Average (um)                                           |  282.7        
-    Standard deviation (um)                                |  317.3        
+    Average (um)                                           |  360.7        
+    Standard deviation (um)                                |  451.7        
     -----------------------------------------------------------------------
 
 Static timing analysis:
-    Period was not specified and is set as 53.9ps (18.5GHz)
+    Period was not specified and is set as 72.9ps (13.7GHz)
     
     -----------------------------------------------------------------------
     STA (ignore paths about PI & PO)       |  Corner       |  Nominal      
     -----------------------------------------------------------------------
-    Minimum workable clock period (ps)     |  53.9         |  53.9         
-    Maximum workable clock frequency (GHz) |  18.5         |  18.5         
+    Minimum workable clock period (ps)     |  72.9         |  72.9         
+    Maximum workable clock frequency (GHz) |  13.7         |  13.7         
     -----------------------------------------------------------------------
     
     -----------------------------------------------------------------------
@@ -57,22 +57,22 @@ Static timing analysis:
     -----------------------------------------------------------------------
     Skew                                   | Maximum skew  | Minimum skew  
     -----------------------------------------------------------------------
-    Maximum (ps)                           |  8.4          |  8.4          
-    Minimum (ps)                           |  -8.4         |  -8.4         
-    Average (ps)                           |  0.1          |  0.1          
-    Standard deviation (ps)                |  2.4          |  2.4          
+    Maximum (ps)                           |  8.8          |  8.8          
+    Minimum (ps)                           |  -8.3         |  -8.3         
+    Average (ps)                           |  -0.1         |  -0.1         
+    Standard deviation (ps)                |  2.8          |  2.8          
     -----------------------------------------------------------------------
     
     -----------------------------------------------------------------------
     STA (consider PI & PO & uncertainty)   |  Corner       |  Nominal      
     -----------------------------------------------------------------------
     Status                                 |  True         |  True         
-    Period (ps)                            |  64.0         |  64.0         
+    Period (ps)                            |  83.0         |  83.0         
     Uncertainty (ps)                       |  10.0         |  10.0         
-    Latency (cycles)                       |  13           |  13           
-    Maximum arrival time (ps)              |  50.1         |  50.1         
-    Minimum arrival time (ps)              |  1.8          |  1.8          
-    Maximum departure time (ps)            |  42.5         |  42.5         
-    Minimum departure time (ps)            |  29.2         |  29.2         
+    Latency (cycles)                       |  19           |  19           
+    Maximum arrival time (ps)              |  52.5         |  52.5         
+    Minimum arrival time (ps)              |  6.7          |  6.7          
+    Maximum departure time (ps)            |  57.5         |  57.5         
+    Minimum departure time (ps)            |  37.7         |  37.7         
     -----------------------------------------------------------------------
 
