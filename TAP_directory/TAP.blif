@@ -1,5 +1,5 @@
 ############################################################################################
-# Benchmark: "TAP" written by qABC on Mon Aug 15 09:21:14 2022
+# Benchmark: "TAP" written by qABC on Mon Aug 15 10:05:24 2022
 # Developer: Ghasem Pasandi (pasandi@usc.edu), University of Southern California (USC), CA.
 ############################################################################################
 
@@ -8,429 +8,363 @@
 .inputs TMS TCK TRST
 .outputs state_obs0 state_obs1 state_obs2 state_obs3
 
-.gate NOTT       a=n862 O=n32
-.gate AND2T      a=n768 b=_FPB_n630 O=n33
-.gate AND2T      a=n768 b=_FPB_n632 O=n34
-.gate AND2T      a=n769 b=_FPB_n634 O=n35
-.gate AND2T      a=n769 b=_FPB_n636 O=n36
-.gate AND2T      a=n883 b=n877 O=n37
-.gate NOTT       a=n880 O=n38
-.gate AND2T      a=n771 b=_FPB_n637 O=n39
-.gate AND2T      a=n825 b=_FPB_n638 O=n40
-.gate NOTT       a=n886 O=n41
-.gate AND2T      a=n771 b=n850 O=n42
-.gate NOTT       a=n877 O=n43
-.gate NOTT       a=n883 O=n44
-.gate AND2T      a=n853 b=n847 O=n45
-.gate AND2T      a=n829 b=n775 O=n46
-.gate OR2T       a=n778 b=n773 O=n47
-.gate AND2T      a=n850 b=_FPB_n639 O=n48
-.gate AND2T      a=n853 b=_FPB_n640 O=n49
-.gate AND2T      a=n782 b=n832 O=n50
-.gate AND2T      a=n847 b=_FPB_n641 O=n51
-.gate AND2T      a=n880 b=n886 O=n52
-.gate AND2T      a=n835 b=_FPB_n642 O=n53
-.gate OR2T       a=n788 b=n784 O=n54
-.gate OR2T       a=n54 b=n47 O=n55
-.gate AND2T      a=n832 b=_FPB_n643 O=n56
-.gate AND2T      a=n782 b=n825 O=n57
-.gate OR2T       a=n791 b=n789 O=n58
-.gate AND2T      a=n835 b=_FPB_n644 O=n59
-.gate XOR2T      a=n870 b=n869 O=n60
-.gate OR2T       a=n58 b=_FPB_n645 O=n61
-.gate OR2T       a=n61 b=n55 O=n62
-.gate AND2T      a=n833 b=n829 O=n63
-.gate NOTT       a=n792 O=n64
-.gate NOTT       a=n838 O=n65
-.gate OR2T       a=n793 b=n836 O=n66
-.gate AND2T      a=n64 b=_FPB_n646 O=n67
-.gate AND2T      a=n69 b=_FPB_n648 O=n68
-.gate XOR2T      a=n830 b=_FPB_n649 O=n69
-.gate AND2T      a=n794 b=n71 O=n70
-.gate NOTT       a=n68 O=n71
-.gate AND2T      a=n73 b=_FPB_n650 O=n72
-.gate NOTT       a=n62 O=n73
-.gate NOTT       a=n856 O=n74
-.gate AND2T      a=n841 b=_FPB_n651 O=n75
-.gate AND2T      a=n783 b=_FPB_n652 O=n76
-.gate AND2T      a=n76 b=_FPB_n653 O=n77
-.gate AND2T      a=n775 b=_FPB_n655 O=n78
-.gate XOR2T      a=n841 b=_FPB_n656 O=n79
-.gate AND2T      a=n801 b=_FPB_n657 O=n80
-.gate AND2T      a=n778 b=_FPB_n658 O=n81
-.gate OR2T       a=n842 b=_FPB_n659 O=n82
-.gate OR2T       a=n81 b=n80 O=n83
-.gate OR2T       a=n83 b=_FPB_n660 O=n84
-.gate AND2T      a=n838 b=n822 O=n85
-.gate OR2T       a=n792 b=_FPB_n661 O=n86
-.gate AND2T      a=n86 b=_FPB_n664 O=n87
-.gate AND2T      a=n830 b=_FPB_n665 O=n88
-.gate OR2T       a=n802 b=n788 O=n89
-.gate AND2T      a=n836 b=n776 O=n90
-.gate AND2T      a=n848 b=n856 O=n91
-.gate AND2T      a=n91 b=n826 O=n92
-.gate OR2T       a=n92 b=n803 O=n93
-.gate OR2T       a=n93 b=n89 O=n94
-.gate AND2T      a=n786 b=n833 O=n95
-.gate AND2T      a=n804 b=_FPB_n667 O=n96
-.gate AND2T      a=n789 b=_FPB_n668 O=n97
-.gate OR2T       a=n97 b=n96 O=n98
-.gate OR2T       a=n98 b=n94 O=n99
-.gate OR2T       a=n99 b=_FPB_n669 O=n100
-.gate OR2T       a=n100 b=_FPB_n670 O=n101
-.gate OR2T       a=n101 b=n796 O=n102
-.gate NOTT       a=n862 O=n103
-.gate AND2T      a=n102 b=_FPB_n677 O=n104
-.gate AND2T      a=n106 b=_FPB_n682 O=n105
-.gate NOTT       a=n794 O=n106
-.gate AND2T      a=n848 b=n108 O=n107
-.gate AND2T      a=n869 b=n867 O=n108
-.gate AND2T      a=n851 b=n844 O=n109
-.gate AND2T      a=n109 b=n786 O=n110
-.gate AND2T      a=n800 b=n780 O=n111
-.gate OR2T       a=n111 b=n110 O=n112
-.gate OR2T       a=n112 b=_FPB_n684 O=n113
-.gate AND2T      a=n854 b=n857 O=n114
-.gate AND2T      a=n801 b=_FPB_n685 O=n115
-.gate AND2T      a=n791 b=_FPB_n687 O=n116
-.gate OR2T       a=n807 b=n115 O=n117
-.gate OR2T       a=n117 b=n113 O=n118
-.gate OR2T       a=n105 b=_FPB_n688 O=n119
-.gate OR2T       a=n119 b=n796 O=n120
-.gate NOTT       a=n863 O=n121
-.gate AND2T      a=n120 b=_FPB_n695 O=n122
-.gate AND2T      a=n124 b=_FPB_n696 O=n123
-.gate OR2T       a=n854 b=n43 O=n124
-.gate AND2T      a=n859 b=_FPB_n697 O=n125
-.gate OR2T       a=n812 b=n783 O=n126
-.gate AND2T      a=n126 b=n811 O=n127
-.gate AND2T      a=n773 b=_FPB_n699 O=n128
-.gate AND2T      a=n859 b=_FPB_n700 O=n129
-.gate AND2T      a=n777 b=_FPB_n701 O=n130
-.gate OR2T       a=n130 b=n128 O=n131
-.gate OR2T       a=n131 b=_FPB_n702 O=n132
-.gate AND2T      a=n776 b=_FPB_n703 O=n133
-.gate AND2T      a=n812 b=n780 O=n134
-.gate OR2T       a=n134 b=n802 O=n135
-.gate OR2T       a=n135 b=_FPB_n704 O=n136
-.gate AND2T      a=n785 b=n826 O=n137
-.gate AND2T      a=n45 b=n39 O=n138
-.gate OR2T       a=n815 b=n814 O=n139
-.gate OR2T       a=n139 b=n807 O=n140
-.gate OR2T       a=n140 b=n136 O=n141
-.gate OR2T       a=n141 b=n132 O=n142
-.gate OR2T       a=n797 b=_FPB_n705 O=n143
-.gate NOTT       a=n863 O=n144
-.gate AND2T      a=n143 b=_FPB_n712 O=n145
-.gate AND2T      a=n803 b=_FPB_n714 O=n146
-.gate AND2T      a=n798 b=_FPB_n716 O=n147
-.gate AND2T      a=n149 b=_FPB_n717 O=n148
-.gate OR2T       a=n815 b=n814 O=n149
-.gate OR2T       a=n148 b=_FPB_n718 O=n150
-.gate OR2T       a=n813 b=n779 O=n151
-.gate AND2T      a=n793 b=_FPB_n719 O=n152
-.gate AND2T      a=n152 b=n151 O=n153
-.gate OR2T       a=n811 b=n804 O=n154
-.gate OR2T       a=n154 b=n153 O=n155
-.gate AND2T      a=n784 b=_FPB_n720 O=n156
-.gate AND2T      a=n790 b=_FPB_n722 O=n157
-.gate OR2T       a=n157 b=n156 O=n158
-.gate OR2T       a=n158 b=n155 O=n159
-.gate OR2T       a=n159 b=n150 O=n160
-.gate OR2T       a=n797 b=_FPB_n723 O=n161
-.gate NOTT       a=n766 O=n162
-.gate AND2T      a=n161 b=_FPB_n731 O=n163
-.gate AND2T      a=n873 b=n872 O=n176
-.gate AND2T      a=n772 b=_FPB_n732 O=n177
-.gate NOTT       a=n872 O=n178
-.gate AND2T      a=n44 b=n827 O=n179
-.gate AND2T      a=n41 b=_FPB_n733 O=n180
-.gate AND2T      a=n827 b=_FPB_n734 O=n181
-.gate AND2T      a=n875 b=n874 O=n182
-.gate NOTT       a=n764 O=n183
-.gate NOTT       a=n764 O=n184
-.gate NOTT       a=n871 O=n197
-.gate NOTT       a=_FBL_n625 O=n198
-.gate NOTT       a=_FBL_n624 O=n199
-.gate DFFT  a=n765 O=_FPB_n206
-.gate DFFT  a=n765 O=_FPB_n207
-.gate DFFT  a=n766 O=_FPB_n208
-.gate DFFT  a=n33 O=_PIPL_n209
-.gate DFFT  a=n34 O=_PIPL_n210
-.gate DFFT  a=n35 O=_PIPL_n211
-.gate DFFT  a=n36 O=_PIPL_n212
-.gate DFFT  a=n806 O=_FBL_n615
-.gate DFFT  a=n809 O=_FBL_n616
-.gate DFFT  a=n817 O=_FBL_n617
-.gate DFFT  a=n820 O=_FBL_n618
-.gate DFFT  a=n806 O=_FBL_n619
-.gate DFFT  a=n809 O=_FBL_n620
-.gate DFFT  a=n817 O=_FBL_n621
-.gate DFFT  a=n820 O=_FBL_n622
-.gate DFFT  a=n805 O=_FBL_n623
-.gate DFFT  a=n810 O=_FBL_n624
-.gate DFFT  a=n818 O=_FBL_n625
-.gate DFFT  a=n819 O=_FBL_n626
-.gate DFFT  a=n810 O=_FBL_n627
-.gate DFFT  a=n818 O=_FBL_n628
-.gate DFFT  a=n878 O=_FPB_n629
+.gate NOTT       a=TRST O=n32
+.gate NOTT       a=n757 O=n33
+.gate AND2T      a=n706 b=_FPB_n539 O=n34
+.gate NOTT       a=n748 O=n35
+.gate AND2T      a=n37 b=_FPB_n540 O=n36
+.gate AND2T      a=n727 b=_FPB_n541 O=n37
+.gate AND2T      a=n36 b=_FPB_n542 O=n38
+.gate NOTT       a=n751 O=n39
+.gate AND2T      a=n712 b=_FPB_n543 O=n40
+.gate AND2T      a=n757 b=n754 O=n41
+.gate NOTT       a=n727 O=n42
+.gate AND2T      a=n718 b=_FPB_n544 O=n43
+.gate AND2T      a=n672 b=_FPB_n545 O=n44
+.gate AND2T      a=n44 b=_FPB_n546 O=n45
+.gate OR2T       a=n45 b=n38 O=n46
+.gate OR2T       a=n728 b=_FPB_n547 O=n47
+.gate AND2T      a=n712 b=n709 O=n48
+.gate AND2T      a=n675 b=n661 O=n49
+.gate AND2T      a=n677 b=_FPB_n548 O=n50
+.gate NOTT       a=n754 O=n51
+.gate AND2T      a=n706 b=n724 O=n52
+.gate AND2T      a=n751 b=n741 O=n53
+.gate AND2T      a=n685 b=n728 O=n54
+.gate AND2T      a=n54 b=n682 O=n55
+.gate OR2T       a=n50 b=_FPB_n549 O=n56
+.gate OR2T       a=n56 b=n46 O=n57
+.gate AND2T      a=n724 b=_FPB_n550 O=n58
+.gate AND2T      a=n721 b=n675 O=n59
+.gate AND2T      a=n685 b=n715 O=n60
+.gate OR2T       a=n686 b=_FPB_n551 O=n61
+.gate AND2T      a=n61 b=_FPB_n554 O=n62
+.gate AND2T      a=n709 b=_FPB_n555 O=n63
+.gate AND2T      a=n713 b=n718 O=n64
+.gate AND2T      a=n66 b=_FPB_n556 O=n65
+.gate OR2T       a=n64 b=n688 O=n66
+.gate AND2T      a=n719 b=_FPB_n557 O=n67
+.gate AND2T      a=n690 b=n721 O=n68
+.gate AND2T      a=n715 b=n710 O=n69
+.gate OR2T       a=n691 b=_FPB_n558 O=n70
+.gate OR2T       a=n70 b=n65 O=n71
+.gate OR2T       a=n71 b=n62 O=n72
+.gate OR2T       a=n72 b=n57 O=n73
+.gate AND2T      a=n73 b=_FPB_n564 O=n74
+.gate AND2T      a=n730 b=_FPB_n565 O=n75
+.gate AND2T      a=n707 b=n713 O=n76
+.gate AND2T      a=n76 b=n75 O=n77
+.gate AND2T      a=n696 b=_FPB_n567 O=n78
+.gate AND2T      a=n682 b=n688 O=n79
+.gate AND2T      a=n79 b=_FPB_n568 O=n80
+.gate OR2T       a=n80 b=n78 O=n81
+.gate AND2T      a=n677 b=_FPB_n569 O=n82
+.gate AND2T      a=n672 b=_FPB_n570 O=n83
+.gate AND2T      a=n697 b=_FPB_n571 O=n84
+.gate OR2T       a=n84 b=n82 O=n85
+.gate OR2T       a=n85 b=n81 O=n86
+.gate OR2T       a=n665 b=_FPB_n572 O=n87
+.gate AND2T      a=n87 b=_FPB_n573 O=n88
+.gate OR2T       a=n88 b=n686 O=n89
+.gate AND2T      a=n89 b=_FPB_n576 O=n90
+.gate AND2T      a=n691 b=_FPB_n578 O=n91
+.gate AND2T      a=n722 b=n671 O=n92
+.gate AND2T      a=n689 b=_FPB_n580 O=n93
+.gate OR2T       a=n93 b=n92 O=n94
+.gate OR2T       a=n94 b=n91 O=n95
+.gate OR2T       a=n95 b=n90 O=n96
+.gate OR2T       a=n96 b=n86 O=n97
+.gate AND2T      a=n97 b=_FPB_n586 O=n98
+.gate OR2T       a=n670 b=_FPB_n587 O=n99
+.gate OR2T       a=n676 b=_FPB_n588 O=n100
+.gate AND2T      a=n102 b=_FPB_n589 O=n101
+.gate AND2T      a=n99 b=_FPB_n592 O=n102
+.gate AND2T      a=n683 b=n667 O=n103
+.gate AND2T      a=n103 b=n105 O=n104
+.gate AND2T      a=n670 b=_FPB_n594 O=n105
+.gate OR2T       a=n659 b=n730 O=n106
+.gate OR2T       a=n758 b=n741 O=n107
+.gate AND2T      a=n725 b=_FPB_n595 O=n108
+.gate AND2T      a=n108 b=_FPB_n596 O=n109
+.gate AND2T      a=n109 b=_FPB_n597 O=n110
+.gate OR2T       a=n734 b=n732 O=n111
+.gate AND2T      a=n111 b=n668 O=n112
+.gate OR2T       a=n665 b=n663 O=n113
+.gate AND2T      a=n113 b=n673 O=n114
+.gate AND2T      a=n114 b=_FPB_n598 O=n115
+.gate OR2T       a=n115 b=n110 O=n116
+.gate OR2T       a=n116 b=_FPB_n599 O=n117
+.gate OR2T       a=n117 b=_FPB_n600 O=n118
+.gate AND2T      a=n118 b=_FPB_n606 O=n119
+.gate OR2T       a=n676 b=n667 O=n120
+.gate OR2T       a=n120 b=n696 O=n121
+.gate AND2T      a=n679 b=n731 O=n122
+.gate OR2T       a=n122 b=_FPB_n608 O=n123
+.gate OR2T       a=n702 b=n695 O=n124
+.gate AND2T      a=n124 b=_FPB_n612 O=n125
+.gate AND2T      a=n125 b=_FPB_n613 O=n126
+.gate AND2T      a=n128 b=_FPB_n614 O=n127
+.gate OR2T       a=n659 b=n679 O=n128
+.gate OR2T       a=n739 b=n737 O=n129
+.gate OR2T       a=n680 b=_FPB_n615 O=n130
+.gate AND2T      a=n130 b=_FPB_n616 O=n131
+.gate AND2T      a=n131 b=n127 O=n132
+.gate AND2T      a=n697 b=_FPB_n617 O=n133
+.gate AND2T      a=n702 b=_FPB_n618 O=n134
+.gate OR2T       a=n134 b=n133 O=n135
+.gate OR2T       a=n135 b=_FPB_n619 O=n136
+.gate OR2T       a=n136 b=n126 O=n137
+.gate AND2T      a=n137 b=_FPB_n625 O=n138
+.gate NOTT       a=n680 O=n139
+.gate OR2T       a=n58 b=_FPB_n626 O=n140
+.gate DFFT       a=n732 O=state[0]_buf
+.gate DFFT       a=n734 O=state[1]_buf
+.gate NOTT       a=n746 O=n158
+.gate NOTT       a=_FBL_n530 O=n159
+.gate NOTT       a=_FBL_n532 O=n160
+.gate AND2T      a=n746 b=n744 O=n161
+.gate NOTT       a=n654 O=n162
+.gate NOTT       a=n744 O=n163
+.gate AND2T      a=n163 b=_FPB_n627 O=n164
+.gate NOTT       a=n743 O=n177
+.gate DFFT  a=n654 O=_FPB_n178
+.gate DFFT  a=n655 O=_FPB_n179
+.gate DFFT  a=state[0]_buf O=_PIPL_n180
+.gate DFFT  a=state[1]_buf O=_PIPL_n181
+.gate DFFT  a=n139 O=_PIPL_n182
+.gate DFFT  a=n140 O=_PIPL_n183
+.gate DFFT  a=n693 O=_FBL_n526
+.gate DFFT  a=n699 O=_FBL_n527
+.gate DFFT  a=n701 O=_FBL_n528
+.gate DFFT  a=n704 O=_FBL_n529
+.gate DFFT  a=n693 O=_FBL_n530
+.gate DFFT  a=n694 O=_FBL_n531
+.gate DFFT  a=n699 O=_FBL_n532
+.gate DFFT  a=n701 O=_FBL_n533
+.gate DFFT  a=n704 O=_FBL_n534
+.gate DFFT  a=n694 O=_FBL_n535
+.gate DFFT  a=n698 O=_FBL_n536
+.gate DFFT  a=n700 O=_FBL_n537
+.gate DFFT  a=n703 O=_FBL_n538
+.gate DFFT  a=n755 O=_FPB_n539
+.gate DFFT  a=n710 O=_FPB_n540
+.gate DFFT  a=n752 O=_FPB_n541
+.gate DFFT  a=n661 O=_FPB_n542
+.gate DFFT  a=n748 O=_FPB_n543
+.gate DFFT  a=n749 O=_FPB_n544
+.gate DFFT  a=n716 O=_FPB_n545
+.gate DFFT  a=n666 O=_FPB_n546
+.gate DFFT  a=n749 O=_FPB_n547
+.gate DFFT  a=n673 O=_FPB_n548
+.gate DFFT  a=n55 O=_FPB_n549
+.gate DFFT  a=n758 O=_FPB_n550
+.gate DFFT  a=n60 O=_FPB_n551
+.gate DFFT  a=n719 O=_FPB_n552
+.gate DFFT  a=_FPB_n552 O=_FPB_n553
+.gate DFFT  a=_FPB_n553 O=_FPB_n554
+.gate DFFT  a=n752 O=_FPB_n555
+.gate DFFT  a=n683 O=_FPB_n556
+.gate DFFT  a=n735 O=_FPB_n557
+.gate DFFT  a=n69 O=_FPB_n558
+.gate DFFT  a=n657 O=_FPB_n559
+.gate DFFT  a=_FPB_n559 O=_FPB_n560
+.gate DFFT  a=_FPB_n560 O=_FPB_n561
+.gate DFFT  a=_FPB_n561 O=_FPB_n562
+.gate DFFT  a=_FPB_n562 O=_FPB_n563
+.gate DFFT  a=_FPB_n563 O=_FPB_n564
+.gate DFFT  a=n742 O=_FPB_n565
+.gate DFFT  a=n725 O=_FPB_n566
+.gate DFFT  a=_FPB_n566 O=_FPB_n567
+.gate DFFT  a=n669 O=_FPB_n568
+.gate DFFT  a=n690 O=_FPB_n569
+.gate DFFT  a=n664 O=_FPB_n570
+.gate DFFT  a=n660 O=_FPB_n571
+.gate DFFT  a=n742 O=_FPB_n572
+.gate DFFT  a=n716 O=_FPB_n573
+.gate DFFT  a=n731 O=_FPB_n574
+.gate DFFT  a=_FPB_n574 O=_FPB_n575
+.gate DFFT  a=_FPB_n575 O=_FPB_n576
+.gate DFFT  a=n663 O=_FPB_n577
+.gate DFFT  a=_FPB_n577 O=_FPB_n578
+.gate DFFT  a=n755 O=_FPB_n579
+.gate DFFT  a=_FPB_n579 O=_FPB_n580
+.gate DFFT  a=n657 O=_FPB_n581
+.gate DFFT  a=_FPB_n581 O=_FPB_n582
+.gate DFFT  a=_FPB_n582 O=_FPB_n583
+.gate DFFT  a=_FPB_n583 O=_FPB_n584
+.gate DFFT  a=_FPB_n584 O=_FPB_n585
+.gate DFFT  a=_FPB_n585 O=_FPB_n586
+.gate DFFT  a=n662 O=_FPB_n587
+.gate DFFT  a=n707 O=_FPB_n588
+.gate DFFT  a=n100 O=_FPB_n589
+.gate DFFT  a=n737 O=_FPB_n590
+.gate DFFT  a=_FPB_n590 O=_FPB_n591
+.gate DFFT  a=_FPB_n591 O=_FPB_n592
+.gate DFFT  a=n738 O=_FPB_n593
+.gate DFFT  a=_FPB_n593 O=_FPB_n594
+.gate DFFT  a=n735 O=_FPB_n595
+.gate DFFT  a=n107 O=_FPB_n596
+.gate DFFT  a=n106 O=_FPB_n597
+.gate DFFT  a=n112 O=_FPB_n598
+.gate DFFT  a=n104 O=_FPB_n599
+.gate DFFT  a=n101 O=_FPB_n600
+.gate DFFT  a=n658 O=_FPB_n601
+.gate DFFT  a=_FPB_n601 O=_FPB_n602
+.gate DFFT  a=_FPB_n602 O=_FPB_n603
+.gate DFFT  a=_FPB_n603 O=_FPB_n604
+.gate DFFT  a=_FPB_n604 O=_FPB_n605
+.gate DFFT  a=_FPB_n605 O=_FPB_n606
+.gate DFFT  a=n739 O=_FPB_n607
+.gate DFFT  a=_FPB_n607 O=_FPB_n608
+.gate DFFT  a=n738 O=_FPB_n609
+.gate DFFT  a=_FPB_n609 O=_FPB_n610
+.gate DFFT  a=_FPB_n610 O=_FPB_n611
+.gate DFFT  a=_FPB_n611 O=_FPB_n612
+.gate DFFT  a=n121 O=_FPB_n613
+.gate DFFT  a=n684 O=_FPB_n614
+.gate DFFT  a=n655 O=_FPB_n615
+.gate DFFT  a=n129 O=_FPB_n616
+.gate DFFT  a=n722 O=_FPB_n617
+.gate DFFT  a=n689 O=_FPB_n618
+.gate DFFT  a=n132 O=_FPB_n619
+.gate DFFT  a=n658 O=_FPB_n620
+.gate DFFT  a=_FPB_n620 O=_FPB_n621
+.gate DFFT  a=_FPB_n621 O=_FPB_n622
+.gate DFFT  a=_FPB_n622 O=_FPB_n623
+.gate DFFT  a=_FPB_n623 O=_FPB_n624
+.gate DFFT  a=_FPB_n624 O=_FPB_n625
+.gate DFFT  a=n668 O=_FPB_n626
+.gate DFFT  a=n745 O=_FPB_n627
+.gate DFFT  a=_PIPL_n180 O=_FPB_n628
+.gate DFFT  a=_FPB_n628 O=_FPB_n629
 .gate DFFT  a=_FPB_n629 O=_FPB_n630
-.gate DFFT  a=n884 O=_FPB_n631
+.gate DFFT  a=_FPB_n630 O=_FPB_n631
 .gate DFFT  a=_FPB_n631 O=_FPB_n632
-.gate DFFT  a=n887 O=_FPB_n633
-.gate DFFT  a=_FPB_n633 O=_FPB_n634
-.gate DFFT  a=n881 O=_FPB_n635
+.gate DFFT  a=_FPB_n632 O=_FPB_n633
+.gate DFFT  a=_FPB_n633 O=state_obs0
+.gate DFFT  a=_PIPL_n181 O=_FPB_n635
 .gate DFFT  a=_FPB_n635 O=_FPB_n636
-.gate DFFT  a=n887 O=_FPB_n637
-.gate DFFT  a=n822 O=_FPB_n638
-.gate DFFT  a=n881 O=_FPB_n639
-.gate DFFT  a=n878 O=_FPB_n640
-.gate DFFT  a=n884 O=_FPB_n641
-.gate DFFT  a=n839 O=_FPB_n642
-.gate DFFT  a=n823 O=_FPB_n643
-.gate DFFT  a=n60 O=_FPB_n644
-.gate DFFT  a=n59 O=_FPB_n645
-.gate DFFT  a=n66 O=_FPB_n646
-.gate DFFT  a=n772 O=_FPB_n647
-.gate DFFT  a=_FPB_n647 O=_FPB_n648
-.gate DFFT  a=n851 O=_FPB_n649
-.gate DFFT  a=n70 O=_FPB_n650
-.gate DFFT  a=n865 O=_FPB_n651
-.gate DFFT  a=n839 O=_FPB_n652
-.gate DFFT  a=n800 O=_FPB_n653
-.gate DFFT  a=n865 O=_FPB_n654
-.gate DFFT  a=_FPB_n654 O=_FPB_n655
-.gate DFFT  a=n867 O=_FPB_n656
-.gate DFFT  a=n79 O=_FPB_n657
-.gate DFFT  a=n82 O=_FPB_n658
-.gate DFFT  a=n864 O=_FPB_n659
-.gate DFFT  a=n77 O=_FPB_n660
-.gate DFFT  a=n85 O=_FPB_n661
-.gate DFFT  a=n842 O=_FPB_n662
-.gate DFFT  a=_FPB_n662 O=_FPB_n663
-.gate DFFT  a=_FPB_n663 O=_FPB_n664
-.gate DFFT  a=n787 O=_FPB_n665
-.gate DFFT  a=n844 O=_FPB_n666
-.gate DFFT  a=_FPB_n666 O=_FPB_n667
-.gate DFFT  a=n799 O=_FPB_n668
-.gate DFFT  a=n87 O=_FPB_n669
-.gate DFFT  a=n84 O=_FPB_n670
-.gate DFFT  a=n103 O=_FPB_n671
-.gate DFFT  a=_FPB_n671 O=_FPB_n672
-.gate DFFT  a=_FPB_n672 O=_FPB_n673
-.gate DFFT  a=_FPB_n673 O=_FPB_n674
-.gate DFFT  a=_FPB_n674 O=_FPB_n675
-.gate DFFT  a=_FPB_n675 O=_FPB_n676
-.gate DFFT  a=_FPB_n676 O=_FPB_n677
-.gate DFFT  a=n857 O=_FPB_n678
-.gate DFFT  a=_FPB_n678 O=_FPB_n679
-.gate DFFT  a=_FPB_n679 O=_FPB_n680
-.gate DFFT  a=_FPB_n680 O=_FPB_n681
-.gate DFFT  a=_FPB_n681 O=_FPB_n682
-.gate DFFT  a=n107 O=_FPB_n683
-.gate DFFT  a=_FPB_n683 O=_FPB_n684
-.gate DFFT  a=n114 O=_FPB_n685
-.gate DFFT  a=n845 O=_FPB_n686
-.gate DFFT  a=_FPB_n686 O=_FPB_n687
-.gate DFFT  a=n118 O=_FPB_n688
-.gate DFFT  a=n121 O=_FPB_n689
-.gate DFFT  a=_FPB_n689 O=_FPB_n690
-.gate DFFT  a=_FPB_n690 O=_FPB_n691
-.gate DFFT  a=_FPB_n691 O=_FPB_n692
-.gate DFFT  a=_FPB_n692 O=_FPB_n693
-.gate DFFT  a=_FPB_n693 O=_FPB_n694
-.gate DFFT  a=_FPB_n694 O=_FPB_n695
-.gate DFFT  a=n787 O=_FPB_n696
-.gate DFFT  a=n866 O=_FPB_n697
-.gate DFFT  a=n845 O=_FPB_n698
-.gate DFFT  a=_FPB_n698 O=_FPB_n699
-.gate DFFT  a=n868 O=_FPB_n700
-.gate DFFT  a=n813 O=_FPB_n701
-.gate DFFT  a=n127 O=_FPB_n702
-.gate DFFT  a=n823 O=_FPB_n703
-.gate DFFT  a=n133 O=_FPB_n704
-.gate DFFT  a=n142 O=_FPB_n705
-.gate DFFT  a=n144 O=_FPB_n706
-.gate DFFT  a=_FPB_n706 O=_FPB_n707
-.gate DFFT  a=_FPB_n707 O=_FPB_n708
-.gate DFFT  a=_FPB_n708 O=_FPB_n709
-.gate DFFT  a=_FPB_n709 O=_FPB_n710
-.gate DFFT  a=_FPB_n710 O=_FPB_n711
-.gate DFFT  a=_FPB_n711 O=_FPB_n712
-.gate DFFT  a=n860 O=_FPB_n713
-.gate DFFT  a=_FPB_n713 O=_FPB_n714
-.gate DFFT  a=n870 O=_FPB_n715
-.gate DFFT  a=_FPB_n715 O=_FPB_n716
-.gate DFFT  a=n147 O=_FPB_n717
-.gate DFFT  a=n146 O=_FPB_n718
-.gate DFFT  a=n37 O=_FPB_n719
-.gate DFFT  a=n798 O=_FPB_n720
-.gate DFFT  a=n860 O=_FPB_n721
-.gate DFFT  a=_FPB_n721 O=_FPB_n722
-.gate DFFT  a=n160 O=_FPB_n723
-.gate DFFT  a=n162 O=_FPB_n724
-.gate DFFT  a=_FPB_n724 O=_FPB_n725
-.gate DFFT  a=_FPB_n725 O=_FPB_n726
-.gate DFFT  a=_FPB_n726 O=_FPB_n727
-.gate DFFT  a=_FPB_n727 O=_FPB_n728
-.gate DFFT  a=_FPB_n728 O=_FPB_n729
-.gate DFFT  a=_FPB_n729 O=_FPB_n730
-.gate DFFT  a=_FPB_n730 O=_FPB_n731
-.gate DFFT  a=n874 O=_FPB_n732
-.gate DFFT  a=n875 O=_FPB_n733
-.gate DFFT  a=n873 O=_FPB_n734
-.gate DFFT  a=_PIPL_n209 O=_FPB_n735
-.gate DFFT  a=_FPB_n735 O=_FPB_n736
-.gate DFFT  a=_FPB_n736 O=_FPB_n737
-.gate DFFT  a=_FPB_n737 O=_FPB_n738
-.gate DFFT  a=_FPB_n738 O=_FPB_n739
-.gate DFFT  a=_FPB_n739 O=_FPB_n740
-.gate DFFT  a=_FPB_n740 O=state_obs0
-.gate DFFT  a=_PIPL_n210 O=_FPB_n742
-.gate DFFT  a=_FPB_n742 O=_FPB_n743
-.gate DFFT  a=_FPB_n743 O=_FPB_n744
-.gate DFFT  a=_FPB_n744 O=_FPB_n745
-.gate DFFT  a=_FPB_n745 O=_FPB_n746
-.gate DFFT  a=_FPB_n746 O=_FPB_n747
-.gate DFFT  a=_FPB_n747 O=state_obs1
-.gate DFFT  a=_PIPL_n211 O=_FPB_n749
-.gate DFFT  a=_FPB_n749 O=_FPB_n750
-.gate DFFT  a=_FPB_n750 O=_FPB_n751
-.gate DFFT  a=_FPB_n751 O=_FPB_n752
-.gate DFFT  a=_FPB_n752 O=_FPB_n753
-.gate DFFT  a=_FPB_n753 O=_FPB_n754
-.gate DFFT  a=_FPB_n754 O=state_obs2
-.gate DFFT  a=_PIPL_n212 O=_FPB_n756
-.gate DFFT  a=_FPB_n756 O=_FPB_n757
-.gate DFFT  a=_FPB_n757 O=_FPB_n758
-.gate DFFT  a=_FPB_n758 O=_FPB_n759
-.gate DFFT  a=_FPB_n759 O=_FPB_n760
-.gate DFFT  a=_FPB_n760 O=_FPB_n761
-.gate DFFT  a=_FPB_n761 O=state_obs3
-.gate Splitter  a=TMS O=n763
-.gate Splitter  a=n763 O=n764
-.gate Splitter  a=n763 O=n765
-.gate Splitter  a=TRST O=n766
-.gate Splitter  a=n32 O=n767
-.gate Splitter  a=n767 O=n768
-.gate Splitter  a=n767 O=n769
-.gate Splitter  a=n38 O=n770
-.gate Splitter  a=n770 O=n771
-.gate Splitter  a=n770 O=n772
-.gate Splitter  a=n40 O=n773
-.gate Splitter  a=n42 O=n774
-.gate Splitter  a=n774 O=n775
-.gate Splitter  a=n774 O=n776
-.gate Splitter  a=n46 O=n777
-.gate Splitter  a=n777 O=n778
-.gate Splitter  a=n48 O=n779
-.gate Splitter  a=n779 O=n780
-.gate Splitter  a=n49 O=n781
-.gate Splitter  a=n781 O=n782
-.gate Splitter  a=n781 O=n783
-.gate Splitter  a=n50 O=n784
-.gate Splitter  a=n51 O=n785
-.gate Splitter  a=n785 O=n786
-.gate Splitter  a=n52 O=n787
-.gate Splitter  a=n53 O=n788
-.gate Splitter  a=n56 O=n789
-.gate Splitter  a=n57 O=n790
-.gate Splitter  a=n790 O=n791
-.gate Splitter  a=n63 O=n792
-.gate Splitter  a=n65 O=n793
-.gate Splitter  a=n67 O=n794
-.gate Splitter  a=n72 O=n795
-.gate Splitter  a=n795 O=n796
-.gate Splitter  a=n795 O=n797
-.gate Splitter  a=n74 O=n798
-.gate Splitter  a=n75 O=n799
-.gate Splitter  a=n799 O=n800
-.gate Splitter  a=n78 O=n801
-.gate Splitter  a=n88 O=n802
-.gate Splitter  a=n90 O=n803
-.gate Splitter  a=n95 O=n804
-.gate Splitter  a=n104 O=n805
-.gate Splitter  a=n805 O=n806
-.gate Splitter  a=n116 O=n807
-.gate Splitter  a=n122 O=n808
-.gate Splitter  a=n808 O=n809
-.gate Splitter  a=n808 O=n810
-.gate Splitter  a=n123 O=n811
-.gate Splitter  a=n125 O=n812
-.gate Splitter  a=n129 O=n813
-.gate Splitter  a=n137 O=n814
-.gate Splitter  a=n138 O=n815
-.gate Splitter  a=n145 O=n816
-.gate Splitter  a=n816 O=n817
-.gate Splitter  a=n816 O=n818
-.gate Splitter  a=n163 O=n819
-.gate Splitter  a=n819 O=n820
-.gate Splitter  a=n176 O=n821
-.gate Splitter  a=n821 O=n822
-.gate Splitter  a=n821 O=n823
-.gate Splitter  a=n177 O=n824
-.gate Splitter  a=n824 O=n825
-.gate Splitter  a=n824 O=n826
-.gate Splitter  a=n178 O=n827
-.gate Splitter  a=n179 O=n828
-.gate Splitter  a=n828 O=n829
-.gate Splitter  a=n828 O=n830
-.gate Splitter  a=n180 O=n831
-.gate Splitter  a=n831 O=n832
-.gate Splitter  a=n831 O=n833
-.gate Splitter  a=n181 O=n834
-.gate Splitter  a=n834 O=n835
-.gate Splitter  a=n834 O=n836
-.gate Splitter  a=n182 O=n837
-.gate Splitter  a=n837 O=n838
-.gate Splitter  a=n837 O=n839
-.gate Splitter  a=n183 O=n840
-.gate Splitter  a=n840 O=n841
-.gate Splitter  a=n840 O=n842
-.gate Splitter  a=n184 O=n843
-.gate Splitter  a=n843 O=n844
-.gate Splitter  a=n843 O=n845
-.gate Splitter  a=n197 O=n846
-.gate Splitter  a=n846 O=n847
-.gate Splitter  a=n846 O=n848
-.gate Splitter  a=n198 O=n849
-.gate Splitter  a=n849 O=n850
-.gate Splitter  a=n849 O=n851
-.gate Splitter  a=n199 O=n852
-.gate Splitter  a=n852 O=n853
-.gate Splitter  a=n852 O=n854
-.gate Splitter  a=_FPB_n206 O=n855
-.gate Splitter  a=n855 O=n856
-.gate Splitter  a=n855 O=n857
-.gate Splitter  a=_FPB_n207 O=n858
-.gate Splitter  a=n858 O=n859
-.gate Splitter  a=n858 O=n860
-.gate Splitter  a=_FPB_n208 O=n861
-.gate Splitter  a=n861 O=n862
-.gate Splitter  a=n861 O=n863
-.gate Splitter  a=_FBL_n615 O=n864
-.gate Splitter  a=n864 O=n865
-.gate Splitter  a=_FBL_n616 O=n866
-.gate Splitter  a=n866 O=n867
-.gate Splitter  a=_FBL_n617 O=n868
-.gate Splitter  a=n868 O=n869
-.gate Splitter  a=_FBL_n618 O=n870
-.gate Splitter  a=_FBL_n619 O=n871
-.gate Splitter  a=n871 O=n872
-.gate Splitter  a=_FBL_n620 O=n873
-.gate Splitter  a=_FBL_n621 O=n874
-.gate Splitter  a=_FBL_n622 O=n875
-.gate Splitter  a=_FBL_n623 O=n876
-.gate Splitter  a=n876 O=n877
-.gate Splitter  a=n876 O=n878
-.gate Splitter  a=_FBL_n626 O=n879
-.gate Splitter  a=n879 O=n880
-.gate Splitter  a=n879 O=n881
-.gate Splitter  a=_FBL_n627 O=n882
-.gate Splitter  a=n882 O=n883
-.gate Splitter  a=n882 O=n884
-.gate Splitter  a=_FBL_n628 O=n885
-.gate Splitter  a=n885 O=n886
-.gate Splitter  a=n885 O=n887
+.gate DFFT  a=_FPB_n636 O=_FPB_n637
+.gate DFFT  a=_FPB_n637 O=_FPB_n638
+.gate DFFT  a=_FPB_n638 O=_FPB_n639
+.gate DFFT  a=_FPB_n639 O=_FPB_n640
+.gate DFFT  a=_FPB_n640 O=state_obs1
+.gate DFFT  a=_PIPL_n182 O=_FPB_n642
+.gate DFFT  a=_FPB_n642 O=_FPB_n643
+.gate DFFT  a=_FPB_n643 O=_FPB_n644
+.gate DFFT  a=_FPB_n644 O=_FPB_n645
+.gate DFFT  a=_FPB_n645 O=_FPB_n646
+.gate DFFT  a=_FPB_n646 O=state_obs2
+.gate DFFT  a=_PIPL_n183 O=_FPB_n648
+.gate DFFT  a=_FPB_n648 O=_FPB_n649
+.gate DFFT  a=_FPB_n649 O=_FPB_n650
+.gate DFFT  a=_FPB_n650 O=_FPB_n651
+.gate DFFT  a=_FPB_n651 O=state_obs3
+.gate Splitter  a=TMS O=n653
+.gate Splitter  a=n653 O=n654
+.gate Splitter  a=n653 O=n655
+.gate Splitter  a=n32 O=n656
+.gate Splitter  a=n656 O=n657
+.gate Splitter  a=n656 O=n658
+.gate Splitter  a=n33 O=n659
+.gate Splitter  a=n34 O=n660
+.gate Splitter  a=n660 O=n661
+.gate Splitter  a=n35 O=n662
+.gate Splitter  a=n662 O=n663
+.gate Splitter  a=n39 O=n664
+.gate Splitter  a=n664 O=n665
+.gate Splitter  a=n40 O=n666
+.gate Splitter  a=n666 O=n667
+.gate Splitter  a=n41 O=n668
+.gate Splitter  a=n42 O=n669
+.gate Splitter  a=n669 O=n670
+.gate Splitter  a=n43 O=n671
+.gate Splitter  a=n671 O=n672
+.gate Splitter  a=n47 O=n673
+.gate Splitter  a=n48 O=n674
+.gate Splitter  a=n674 O=n675
+.gate Splitter  a=n674 O=n676
+.gate Splitter  a=n49 O=n677
+.gate Splitter  a=n51 O=n678
+.gate Splitter  a=n678 O=n679
+.gate Splitter  a=n678 O=n680
+.gate Splitter  a=n52 O=n681
+.gate Splitter  a=n681 O=n682
+.gate Splitter  a=n681 O=n683
+.gate Splitter  a=n53 O=n684
+.gate Splitter  a=n684 O=n685
+.gate Splitter  a=n59 O=n686
+.gate Splitter  a=n63 O=n687
+.gate Splitter  a=n687 O=n688
+.gate Splitter  a=n687 O=n689
+.gate Splitter  a=n67 O=n690
+.gate Splitter  a=n68 O=n691
+.gate Splitter  a=n74 O=n692
+.gate Splitter  a=n692 O=n693
+.gate Splitter  a=n692 O=n694
+.gate Splitter  a=n77 O=n695
+.gate Splitter  a=n695 O=n696
+.gate Splitter  a=n83 O=n697
+.gate Splitter  a=n98 O=n698
+.gate Splitter  a=n698 O=n699
+.gate Splitter  a=n119 O=n700
+.gate Splitter  a=n700 O=n701
+.gate Splitter  a=n123 O=n702
+.gate Splitter  a=n138 O=n703
+.gate Splitter  a=n703 O=n704
+.gate Splitter  a=n158 O=n705
+.gate Splitter  a=n705 O=n706
+.gate Splitter  a=n705 O=n707
+.gate Splitter  a=n159 O=n708
+.gate Splitter  a=n708 O=n709
+.gate Splitter  a=n708 O=n710
+.gate Splitter  a=n160 O=n711
+.gate Splitter  a=n711 O=n712
+.gate Splitter  a=n711 O=n713
+.gate Splitter  a=n161 O=n714
+.gate Splitter  a=n714 O=n715
+.gate Splitter  a=n714 O=n716
+.gate Splitter  a=n162 O=n717
+.gate Splitter  a=n717 O=n718
+.gate Splitter  a=n717 O=n719
+.gate Splitter  a=n164 O=n720
+.gate Splitter  a=n720 O=n721
+.gate Splitter  a=n720 O=n722
+.gate Splitter  a=n177 O=n723
+.gate Splitter  a=n723 O=n724
+.gate Splitter  a=n723 O=n725
+.gate Splitter  a=_FPB_n178 O=n726
+.gate Splitter  a=n726 O=n727
+.gate Splitter  a=n726 O=n728
+.gate Splitter  a=_FPB_n179 O=n729
+.gate Splitter  a=n729 O=n730
+.gate Splitter  a=n729 O=n731
+.gate Splitter  a=_FBL_n526 O=n732
+.gate Splitter  a=_FBL_n527 O=n733
+.gate Splitter  a=n733 O=n734
+.gate Splitter  a=n733 O=n735
+.gate Splitter  a=_FBL_n528 O=n736
+.gate Splitter  a=n736 O=n737
+.gate Splitter  a=n736 O=n738
+.gate Splitter  a=_FBL_n529 O=n739
+.gate Splitter  a=_FBL_n531 O=n740
+.gate Splitter  a=n740 O=n741
+.gate Splitter  a=n740 O=n742
+.gate Splitter  a=_FBL_n533 O=n743
+.gate Splitter  a=n743 O=n744
+.gate Splitter  a=_FBL_n534 O=n745
+.gate Splitter  a=n745 O=n746
+.gate Splitter  a=_FBL_n535 O=n747
+.gate Splitter  a=n747 O=n748
+.gate Splitter  a=n747 O=n749
+.gate Splitter  a=_FBL_n536 O=n750
+.gate Splitter  a=n750 O=n751
+.gate Splitter  a=n750 O=n752
+.gate Splitter  a=_FBL_n537 O=n753
+.gate Splitter  a=n753 O=n754
+.gate Splitter  a=n753 O=n755
+.gate Splitter  a=_FBL_n538 O=n756
+.gate Splitter  a=n756 O=n757
+.gate Splitter  a=n756 O=n758
 
 .end

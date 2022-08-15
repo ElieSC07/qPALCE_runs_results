@@ -7,593 +7,529 @@
 .names $true
 1
 .names $undef
-.names $auto$simplemap.cc:127:simplemap_reduce$259[2] $auto$simplemap.cc:127:simplemap_reduce$259[3] $auto$simplemap.cc:127:simplemap_reduce$264[1]
+.names $auto$opt_reduce.cc:132:opt_mux$607 $auto$simplemap.cc:127:simplemap_reduce$1169[0] $auto$simplemap.cc:127:simplemap_reduce$1051[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$264[0] $auto$simplemap.cc:127:simplemap_reduce$264[1] $auto$opt_reduce.cc:132:opt_mux$198
+.names $procmux$116_CMP $procmux$104.B_AND_S[15] $auto$simplemap.cc:127:simplemap_reduce$1051[1]
 1- 1
 -1 1
-.names $procmux$135_CMP $procmux$133_CMP $auto$simplemap.cc:127:simplemap_reduce$269[0]
+.names $procmux$127_CMP $procmux$104.B_AND_S[23] $auto$simplemap.cc:127:simplemap_reduce$1051[2]
 1- 1
 -1 1
-.names $procmux$131_CMP $procmux$129_CMP $auto$simplemap.cc:127:simplemap_reduce$269[1]
+.names $procmux$141_CMP $procmux$155_CMP $auto$simplemap.cc:127:simplemap_reduce$1051[3]
 1- 1
 -1 1
-.names $procmux$127_CMP $procmux$125_CMP $auto$simplemap.cc:127:simplemap_reduce$269[2]
+.names $procmux$159_CMP $procmux$166_CMP $auto$simplemap.cc:127:simplemap_reduce$1051[4]
 1- 1
 -1 1
-.names $procmux$119_CMP $procmux$108_CMP $auto$simplemap.cc:127:simplemap_reduce$269[3]
+.names $procmux$170_CMP $procmux$104.B_AND_S[46] $auto$simplemap.cc:127:simplemap_reduce$1051[5]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$269[0] $auto$simplemap.cc:127:simplemap_reduce$269[1] $auto$simplemap.cc:127:simplemap_reduce$274[0]
+.names $procmux$104.B_AND_S[48] $procmux$188_CMP $auto$simplemap.cc:127:simplemap_reduce$1051[6]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$269[2] $auto$simplemap.cc:127:simplemap_reduce$269[3] $auto$simplemap.cc:127:simplemap_reduce$274[1]
+.names $auto$simplemap.cc:127:simplemap_reduce$1051[0] $auto$simplemap.cc:127:simplemap_reduce$1051[1] $auto$simplemap.cc:127:simplemap_reduce$1059[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$274[0] $auto$simplemap.cc:127:simplemap_reduce$274[1] $auto$opt_reduce.cc:132:opt_mux$210
+.names $auto$simplemap.cc:127:simplemap_reduce$1051[2] $auto$simplemap.cc:127:simplemap_reduce$1051[3] $auto$simplemap.cc:127:simplemap_reduce$1059[1]
 1- 1
 -1 1
-.names $procmux$134_CMP $procmux$132_CMP $auto$simplemap.cc:127:simplemap_reduce$279[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$1051[4] $auto$simplemap.cc:127:simplemap_reduce$1051[5] $auto$simplemap.cc:127:simplemap_reduce$1059[2]
 1- 1
 -1 1
-.names $procmux$130_CMP $procmux$128_CMP $auto$simplemap.cc:127:simplemap_reduce$279[1]
+.names $auto$simplemap.cc:127:simplemap_reduce$1051[6] $procmux$192_CMP $auto$simplemap.cc:127:simplemap_reduce$1059[3]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$684[0] $procmux$123_CMP $auto$simplemap.cc:127:simplemap_reduce$279[2]
+.names $auto$simplemap.cc:127:simplemap_reduce$1059[0] $auto$simplemap.cc:127:simplemap_reduce$1059[1] $auto$simplemap.cc:127:simplemap_reduce$1064[0]
 1- 1
 -1 1
-.names $procmux$115_CMP $procmux$101_CMP $auto$simplemap.cc:127:simplemap_reduce$279[3]
+.names $auto$simplemap.cc:127:simplemap_reduce$1059[2] $auto$simplemap.cc:127:simplemap_reduce$1059[3] $auto$simplemap.cc:127:simplemap_reduce$1064[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$279[0] $auto$simplemap.cc:127:simplemap_reduce$279[1] $auto$simplemap.cc:127:simplemap_reduce$284[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$1064[0] $auto$simplemap.cc:127:simplemap_reduce$1064[1] $techmap$procmux$104.$reduce_or$?techmap.v?:445$685_Y
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$279[2] $auto$simplemap.cc:127:simplemap_reduce$279[3] $auto$simplemap.cc:127:simplemap_reduce$284[1]
+.names $procmux$104.B_AND_S[0] $auto$simplemap.cc:127:simplemap_reduce$1169[0] $auto$simplemap.cc:127:simplemap_reduce$1133[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$284[0] $auto$simplemap.cc:127:simplemap_reduce$284[1] $auto$opt_reduce.cc:132:opt_mux$212
+.names $procmux$104.B_AND_S[8] $procmux$104.B_AND_S[15] $auto$simplemap.cc:127:simplemap_reduce$1133[1]
 1- 1
 -1 1
-.names $procmux$133_CMP $procmux$128_CMP $auto$simplemap.cc:127:simplemap_reduce$289[1]
+.names $procmux$104.B_AND_S[16] $procmux$104.B_AND_S[21] $auto$simplemap.cc:127:simplemap_reduce$1133[2]
 1- 1
 -1 1
-.names $procmux$127_CMP $auto$simplemap.cc:127:simplemap_reduce$684[0] $auto$simplemap.cc:127:simplemap_reduce$289[2]
+.names $procmux$104.B_AND_S[40] $procmux$104.B_AND_S[44] $auto$simplemap.cc:127:simplemap_reduce$1133[5]
 1- 1
 -1 1
-.names $procmux$125_CMP $procmux$101_CMP $auto$simplemap.cc:127:simplemap_reduce$289[3]
+.names $procmux$104.B_AND_S[48] $procmux$104.B_AND_S[52] $auto$simplemap.cc:127:simplemap_reduce$1133[6]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$289[0] $auto$simplemap.cc:127:simplemap_reduce$289[1] $auto$simplemap.cc:127:simplemap_reduce$294[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$1133[0] $auto$simplemap.cc:127:simplemap_reduce$1133[1] $auto$simplemap.cc:127:simplemap_reduce$1141[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$289[2] $auto$simplemap.cc:127:simplemap_reduce$289[3] $auto$simplemap.cc:127:simplemap_reduce$294[1]
+.names $auto$simplemap.cc:127:simplemap_reduce$1133[4] $auto$simplemap.cc:127:simplemap_reduce$1133[5] $auto$simplemap.cc:127:simplemap_reduce$1141[2]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$294[0] $auto$simplemap.cc:127:simplemap_reduce$294[1] $auto$opt_reduce.cc:132:opt_mux$202
+.names $auto$simplemap.cc:127:simplemap_reduce$1133[6] $procmux$104.B_AND_S[56] $auto$simplemap.cc:127:simplemap_reduce$1141[3]
 1- 1
 -1 1
-.names $procmux$132_CMP $procmux$125_CMP $auto$opt_reduce.cc:132:opt_mux$214
+.names $auto$simplemap.cc:127:simplemap_reduce$1141[0] $auto$simplemap.cc:127:simplemap_reduce$1133[2] $auto$simplemap.cc:127:simplemap_reduce$1146[0]
 1- 1
 -1 1
-.names $procmux$132_CMP $procmux$131_CMP $auto$simplemap.cc:127:simplemap_reduce$259[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$1141[2] $auto$simplemap.cc:127:simplemap_reduce$1141[3] $auto$simplemap.cc:127:simplemap_reduce$1146[1]
 1- 1
 -1 1
-.names $procmux$123_CMP $procmux$119_CMP $auto$simplemap.cc:127:simplemap_reduce$330[2]
+.names $auto$simplemap.cc:127:simplemap_reduce$1146[0] $auto$simplemap.cc:127:simplemap_reduce$1146[1] $procmux$104.Y_B[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$259[0] $auto$simplemap.cc:127:simplemap_reduce$259[1] $auto$simplemap.cc:127:simplemap_reduce$264[0]
+.names $procmux$104.B_AND_S[1] $auto$simplemap.cc:127:simplemap_reduce$1169[0] $auto$simplemap.cc:127:simplemap_reduce$1151[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$330[2] $auto$simplemap.cc:127:simplemap_reduce$330[3] $auto$simplemap.cc:127:simplemap_reduce$335[1]
+.names $procmux$104.B_AND_S[9] $procmux$104.B_AND_S[13] $auto$simplemap.cc:127:simplemap_reduce$1151[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$264[0] $auto$simplemap.cc:127:simplemap_reduce$335[1] $auto$opt_reduce.cc:132:opt_mux$204
+.names $procmux$104.B_AND_S[17] $procmux$104.B_AND_S[21] $auto$simplemap.cc:127:simplemap_reduce$1151[2]
 1- 1
 -1 1
-.names $procmux$134_CMP $procmux$133_CMP $auto$simplemap.cc:127:simplemap_reduce$352[0]
+.names $procmux$104.B_AND_S[33] $procmux$104.B_AND_S[38] $auto$simplemap.cc:127:simplemap_reduce$1151[4]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$684[0] $procmux$125_CMP $auto$simplemap.cc:127:simplemap_reduce$259[3]
+.names $procmux$104.B_AND_S[49] $procmux$104.B_AND_S[53] $auto$simplemap.cc:127:simplemap_reduce$1151[6]
 1- 1
 -1 1
-.names $procmux$115_CMP $procmux$108_CMP $auto$simplemap.cc:127:simplemap_reduce$330[3]
+.names $auto$simplemap.cc:127:simplemap_reduce$1151[0] $auto$simplemap.cc:127:simplemap_reduce$1151[1] $auto$simplemap.cc:127:simplemap_reduce$1159[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$352[0] $auto$simplemap.cc:127:simplemap_reduce$259[1] $auto$simplemap.cc:127:simplemap_reduce$357[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$1151[2] $auto$simplemap.cc:127:simplemap_reduce$1151[3] $auto$simplemap.cc:127:simplemap_reduce$1159[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$259[3] $auto$simplemap.cc:127:simplemap_reduce$330[3] $auto$simplemap.cc:127:simplemap_reduce$357[1]
+.names $auto$simplemap.cc:127:simplemap_reduce$1151[4] $auto$simplemap.cc:127:simplemap_reduce$1151[5] $auto$simplemap.cc:127:simplemap_reduce$1159[2]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$357[0] $auto$simplemap.cc:127:simplemap_reduce$357[1] $auto$opt_reduce.cc:132:opt_mux$206
+.names $auto$simplemap.cc:127:simplemap_reduce$1151[6] $procmux$104.B_AND_S[57] $auto$simplemap.cc:127:simplemap_reduce$1159[3]
 1- 1
 -1 1
-.names $procmux$135_CMP $procmux$132_CMP $auto$simplemap.cc:127:simplemap_reduce$370[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$1159[0] $auto$simplemap.cc:127:simplemap_reduce$1159[1] $auto$simplemap.cc:127:simplemap_reduce$1164[0]
 1- 1
 -1 1
-.names $procmux$131_CMP $procmux$128_CMP $auto$simplemap.cc:127:simplemap_reduce$370[1]
+.names $auto$simplemap.cc:127:simplemap_reduce$1159[2] $auto$simplemap.cc:127:simplemap_reduce$1159[3] $auto$simplemap.cc:127:simplemap_reduce$1164[1]
 1- 1
 -1 1
-.names $procmux$127_CMP $procmux$123_CMP $auto$simplemap.cc:127:simplemap_reduce$370[2]
+.names $auto$simplemap.cc:127:simplemap_reduce$1164[0] $auto$simplemap.cc:127:simplemap_reduce$1164[1] $procmux$104.Y_B[1]
 1- 1
 -1 1
-.names $procmux$119_CMP $procmux$101_CMP $auto$simplemap.cc:127:simplemap_reduce$370[3]
+.names $procmux$104.B_AND_S[11] $procmux$104.B_AND_S[15] $auto$simplemap.cc:127:simplemap_reduce$1169[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$370[0] $auto$simplemap.cc:127:simplemap_reduce$370[1] $auto$simplemap.cc:127:simplemap_reduce$375[0]
+.names $procmux$104.B_AND_S[19] $procmux$104.B_AND_S[23] $auto$simplemap.cc:127:simplemap_reduce$1169[2]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$370[2] $auto$simplemap.cc:127:simplemap_reduce$370[3] $auto$simplemap.cc:127:simplemap_reduce$375[1]
+.names $auto$simplemap.cc:127:simplemap_reduce$1151[3] $procmux$104.B_AND_S[31] $auto$simplemap.cc:127:simplemap_reduce$1169[3]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$375[0] $auto$simplemap.cc:127:simplemap_reduce$375[1] $auto$opt_reduce.cc:132:opt_mux$208
+.names $procmux$104.B_AND_S[35] $procmux$104.B_AND_S[39] $auto$simplemap.cc:127:simplemap_reduce$1169[4]
 1- 1
 -1 1
-.names $procmux$133_CMP $procmux$123_CMP $auto$simplemap.cc:127:simplemap_reduce$396[1]
+.names $procmux$104.B_AND_S[51] $procmux$104.B_AND_S[55] $auto$simplemap.cc:127:simplemap_reduce$1169[6]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$289[0] $auto$simplemap.cc:127:simplemap_reduce$396[1] $auto$simplemap.cc:127:simplemap_reduce$401[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$1169[0] $auto$simplemap.cc:127:simplemap_reduce$1169[1] $auto$simplemap.cc:127:simplemap_reduce$1177[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$396[2] $auto$simplemap.cc:127:simplemap_reduce$396[3] $auto$simplemap.cc:127:simplemap_reduce$401[1]
+.names $auto$simplemap.cc:127:simplemap_reduce$1169[2] $auto$simplemap.cc:127:simplemap_reduce$1169[3] $auto$simplemap.cc:127:simplemap_reduce$1177[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$401[0] $auto$simplemap.cc:127:simplemap_reduce$401[1] $auto$opt_reduce.cc:132:opt_mux$200
+.names $auto$simplemap.cc:127:simplemap_reduce$1169[4] $auto$simplemap.cc:127:simplemap_reduce$1169[5] $auto$simplemap.cc:127:simplemap_reduce$1177[2]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$435[0] $auto$simplemap.cc:127:simplemap_reduce$435[1] $auto$simplemap.cc:256:simplemap_eqne$433
+.names $auto$simplemap.cc:127:simplemap_reduce$1169[6] $procmux$104.B_AND_S[59] $auto$simplemap.cc:127:simplemap_reduce$1177[3]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$450[0] $auto$simplemap.cc:127:simplemap_reduce$435[1] $auto$simplemap.cc:256:simplemap_eqne$448
+.names $auto$simplemap.cc:127:simplemap_reduce$1177[0] $auto$simplemap.cc:127:simplemap_reduce$1177[1] $auto$simplemap.cc:127:simplemap_reduce$1182[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$465[0] $auto$simplemap.cc:127:simplemap_reduce$435[1] $auto$simplemap.cc:256:simplemap_eqne$463
+.names $auto$simplemap.cc:127:simplemap_reduce$1177[2] $auto$simplemap.cc:127:simplemap_reduce$1177[3] $auto$simplemap.cc:127:simplemap_reduce$1182[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$480[0] $auto$simplemap.cc:127:simplemap_reduce$480[1] $auto$simplemap.cc:256:simplemap_eqne$478
+.names $auto$simplemap.cc:127:simplemap_reduce$1182[0] $auto$simplemap.cc:127:simplemap_reduce$1182[1] $procmux$104.Y_B[3]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$435[0] $auto$simplemap.cc:127:simplemap_reduce$480[1] $auto$simplemap.cc:256:simplemap_eqne$493
+.names $procmux$104.B_AND_S[10] $procmux$104.B_AND_S[15] $auto$simplemap.cc:127:simplemap_reduce$1187[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:250:simplemap_eqne$442[0] state[1] $auto$simplemap.cc:127:simplemap_reduce$450[0]
+.names $procmux$104.B_AND_S[18] $procmux$104.B_AND_S[22] $auto$simplemap.cc:127:simplemap_reduce$1187[2]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$450[0] $auto$simplemap.cc:127:simplemap_reduce$480[1] $auto$simplemap.cc:256:simplemap_eqne$508
+.names $procmux$104.B_AND_S[34] $procmux$104.B_AND_S[38] $auto$simplemap.cc:127:simplemap_reduce$1187[4]
 1- 1
 -1 1
-.names $auto$simplemap.cc:250:simplemap_eqne$472[2] state[3] $auto$simplemap.cc:127:simplemap_reduce$480[1]
+.names $procmux$104.B_AND_S[42] $procmux$104.B_AND_S[46] $auto$simplemap.cc:127:simplemap_reduce$1187[5]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$465[0] $auto$simplemap.cc:127:simplemap_reduce$480[1] $auto$simplemap.cc:256:simplemap_eqne$523
+.names $auto$simplemap.cc:127:simplemap_reduce$1187[0] $auto$simplemap.cc:127:simplemap_reduce$1187[1] $auto$simplemap.cc:127:simplemap_reduce$1195[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:250:simplemap_eqne$442[0] $auto$simplemap.cc:250:simplemap_eqne$427[1] $auto$simplemap.cc:127:simplemap_reduce$480[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$1187[2] $auto$simplemap.cc:127:simplemap_reduce$1187[3] $auto$simplemap.cc:127:simplemap_reduce$1195[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$480[0] $auto$simplemap.cc:127:simplemap_reduce$540[1] $auto$simplemap.cc:256:simplemap_eqne$538
+.names $auto$simplemap.cc:127:simplemap_reduce$1187[4] $auto$simplemap.cc:127:simplemap_reduce$1187[5] $auto$simplemap.cc:127:simplemap_reduce$1195[2]
 1- 1
 -1 1
-.names state[0] $auto$simplemap.cc:250:simplemap_eqne$427[1] $auto$simplemap.cc:127:simplemap_reduce$435[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$1187[6] $procmux$104.B_AND_S[58] $auto$simplemap.cc:127:simplemap_reduce$1195[3]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$435[0] $auto$simplemap.cc:127:simplemap_reduce$540[1] $auto$simplemap.cc:256:simplemap_eqne$553
+.names $auto$simplemap.cc:127:simplemap_reduce$1195[0] $auto$simplemap.cc:127:simplemap_reduce$1195[1] $auto$simplemap.cc:127:simplemap_reduce$1200[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$450[0] $auto$simplemap.cc:127:simplemap_reduce$540[1] $auto$simplemap.cc:256:simplemap_eqne$568
+.names $auto$simplemap.cc:127:simplemap_reduce$1195[2] $auto$simplemap.cc:127:simplemap_reduce$1195[3] $auto$simplemap.cc:127:simplemap_reduce$1200[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$480[0] $auto$simplemap.cc:127:simplemap_reduce$591[1] $auto$simplemap.cc:256:simplemap_eqne$589
+.names $auto$simplemap.cc:127:simplemap_reduce$1200[0] $auto$simplemap.cc:127:simplemap_reduce$1200[1] $procmux$104.Y_B[2]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$435[0] $auto$simplemap.cc:127:simplemap_reduce$591[1] $auto$simplemap.cc:256:simplemap_eqne$604
+.names $procmux$104.B_AND_S[48] $procmux$104.B_AND_S[46] $auto$simplemap.cc:127:simplemap_reduce$652[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$450[0] $auto$simplemap.cc:127:simplemap_reduce$591[1] $auto$simplemap.cc:256:simplemap_eqne$619
+.names $auto$simplemap.cc:127:simplemap_reduce$652[0] $auto$simplemap.cc:127:simplemap_reduce$652[1] $auto$simplemap.cc:127:simplemap_reduce$657[0]
 1- 1
 -1 1
-.names state[0] state[1] $auto$simplemap.cc:127:simplemap_reduce$465[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$1051[2] $auto$simplemap.cc:127:simplemap_reduce$652[3] $auto$simplemap.cc:127:simplemap_reduce$657[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:250:simplemap_eqne$472[2] $auto$simplemap.cc:250:simplemap_eqne$427[3] $auto$simplemap.cc:127:simplemap_reduce$591[1]
+.names $auto$simplemap.cc:127:simplemap_reduce$657[0] $auto$simplemap.cc:127:simplemap_reduce$657[1] $0\state_obs1[0:0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$465[0] $auto$simplemap.cc:127:simplemap_reduce$591[1] $auto$simplemap.cc:256:simplemap_eqne$634
+.names $auto$simplemap.cc:127:simplemap_reduce$678[0] $auto$simplemap.cc:127:simplemap_reduce$678[1] $auto$rtlil.cc:1600:Not$226
 1- 1
 -1 1
-.names state[2] $auto$simplemap.cc:250:simplemap_eqne$427[3] $auto$simplemap.cc:127:simplemap_reduce$435[1]
+.names $auto$simplemap.cc:127:simplemap_reduce$718[0] $auto$simplemap.cc:127:simplemap_reduce$678[1] $auto$rtlil.cc:1600:Not$224
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$480[0] $auto$simplemap.cc:127:simplemap_reduce$435[1] $auto$simplemap.cc:256:simplemap_eqne$649
+.names $auto$simplemap.cc:127:simplemap_reduce$737[0] $auto$simplemap.cc:127:simplemap_reduce$678[1] $auto$rtlil.cc:1600:Not$222
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[10] $procmux$128_CMP $auto$simplemap.cc:127:simplemap_reduce$666[1]
+.names $procmux$148_CMP $procmux$141_CMP $auto$simplemap.cc:127:simplemap_reduce$744[0]
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[18] $procmux$35.B_AND_S[22] $auto$simplemap.cc:127:simplemap_reduce$666[2]
+.names $auto$simplemap.cc:127:simplemap_reduce$744[0] $auto$simplemap.cc:127:simplemap_reduce$1051[2] $auto$simplemap.cc:127:simplemap_reduce$749[0]
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[34] $procmux$35.B_AND_S[38] $auto$simplemap.cc:127:simplemap_reduce$666[4]
+.names $auto$simplemap.cc:127:simplemap_reduce$749[0] $auto$simplemap.cc:127:simplemap_reduce$749[1] $0\state_obs3[0:0]
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[42] $procmux$108_CMP $auto$simplemap.cc:127:simplemap_reduce$666[5]
+.names $auto$simplemap.cc:250:simplemap_eqne$670[2] $auto$simplemap.cc:250:simplemap_eqne$670[3] $auto$simplemap.cc:127:simplemap_reduce$678[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$666[0] $auto$simplemap.cc:127:simplemap_reduce$666[1] $auto$simplemap.cc:127:simplemap_reduce$674[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$766[0] $auto$simplemap.cc:127:simplemap_reduce$678[1] $auto$rtlil.cc:1600:Not$220
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$666[2] $auto$simplemap.cc:127:simplemap_reduce$666[3] $auto$simplemap.cc:127:simplemap_reduce$674[1]
+.names $auto$simplemap.cc:127:simplemap_reduce$678[0] $auto$simplemap.cc:127:simplemap_reduce$785[1] $auto$rtlil.cc:1600:Not$218
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$666[4] $auto$simplemap.cc:127:simplemap_reduce$666[5] $auto$simplemap.cc:127:simplemap_reduce$674[2]
+.names $auto$simplemap.cc:127:simplemap_reduce$718[0] $auto$simplemap.cc:127:simplemap_reduce$785[1] $auto$rtlil.cc:1600:Not$216
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$666[6] $procmux$35.B_AND_S[58] $auto$simplemap.cc:127:simplemap_reduce$674[3]
+.names $auto$simplemap.cc:127:simplemap_reduce$737[0] $auto$simplemap.cc:127:simplemap_reduce$785[1] $auto$rtlil.cc:1600:Not$214
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$674[0] $auto$simplemap.cc:127:simplemap_reduce$674[1] $auto$simplemap.cc:127:simplemap_reduce$679[0]
+.names $procmux$148_CMP $procmux$105_CMP $auto$opt_reduce.cc:132:opt_mux$607
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$674[2] $auto$simplemap.cc:127:simplemap_reduce$674[3] $auto$simplemap.cc:127:simplemap_reduce$679[1]
+.names state[2] $auto$simplemap.cc:250:simplemap_eqne$670[3] $auto$simplemap.cc:127:simplemap_reduce$785[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$679[0] $auto$simplemap.cc:127:simplemap_reduce$679[1] $procmux$35.Y_B[2]
+.names $auto$simplemap.cc:127:simplemap_reduce$766[0] $auto$simplemap.cc:127:simplemap_reduce$785[1] $auto$rtlil.cc:1600:Not$212
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[11] $procmux$128_CMP $auto$simplemap.cc:127:simplemap_reduce$684[1]
+.names $procmux$170_CMP $procmux$166_CMP $auto$simplemap.cc:127:simplemap_reduce$847[0]
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[19] $procmux$130_CMP $auto$simplemap.cc:127:simplemap_reduce$684[2]
+.names $procmux$159_CMP $procmux$155_CMP $auto$simplemap.cc:127:simplemap_reduce$652[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$702[3] $procmux$35.B_AND_S[31] $auto$simplemap.cc:127:simplemap_reduce$684[3]
+.names $auto$simplemap.cc:127:simplemap_reduce$1169[0] $procmux$105_CMP $auto$simplemap.cc:127:simplemap_reduce$652[3]
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[35] $procmux$35.B_AND_S[39] $auto$simplemap.cc:127:simplemap_reduce$684[4]
+.names $auto$simplemap.cc:127:simplemap_reduce$847[0] $auto$simplemap.cc:127:simplemap_reduce$652[1] $auto$simplemap.cc:127:simplemap_reduce$852[0]
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[51] $procmux$35.B_AND_S[55] $auto$simplemap.cc:127:simplemap_reduce$684[6]
+.names $auto$simplemap.cc:127:simplemap_reduce$1051[1] $auto$simplemap.cc:127:simplemap_reduce$652[3] $auto$simplemap.cc:127:simplemap_reduce$749[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$684[0] $auto$simplemap.cc:127:simplemap_reduce$684[1] $auto$simplemap.cc:127:simplemap_reduce$692[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$852[0] $auto$simplemap.cc:127:simplemap_reduce$749[1] $0\state_obs2[0:0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$684[2] $auto$simplemap.cc:127:simplemap_reduce$684[3] $auto$simplemap.cc:127:simplemap_reduce$692[1]
+.names $auto$simplemap.cc:250:simplemap_eqne$670[0] $auto$simplemap.cc:250:simplemap_eqne$670[1] $auto$simplemap.cc:127:simplemap_reduce$678[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$684[4] $auto$simplemap.cc:127:simplemap_reduce$684[5] $auto$simplemap.cc:127:simplemap_reduce$692[2]
+.names $auto$simplemap.cc:127:simplemap_reduce$678[0] $auto$simplemap.cc:127:simplemap_reduce$869[1] $auto$rtlil.cc:1600:Not$210
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$684[6] $procmux$35.B_AND_S[59] $auto$simplemap.cc:127:simplemap_reduce$692[3]
+.names state[0] $auto$simplemap.cc:250:simplemap_eqne$670[1] $auto$simplemap.cc:127:simplemap_reduce$718[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$692[0] $auto$simplemap.cc:127:simplemap_reduce$692[1] $auto$simplemap.cc:127:simplemap_reduce$697[0]
+.names $auto$simplemap.cc:250:simplemap_eqne$670[2] state[3] $auto$simplemap.cc:127:simplemap_reduce$869[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$692[2] $auto$simplemap.cc:127:simplemap_reduce$692[3] $auto$simplemap.cc:127:simplemap_reduce$697[1]
+.names $auto$simplemap.cc:127:simplemap_reduce$718[0] $auto$simplemap.cc:127:simplemap_reduce$869[1] $auto$rtlil.cc:1600:Not$208
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$697[0] $auto$simplemap.cc:127:simplemap_reduce$697[1] $procmux$35.Y_B[3]
+.names $procmux$188_CMP $procmux$104.B_AND_S[46] $auto$simplemap.cc:127:simplemap_reduce$895[0]
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[1] $auto$simplemap.cc:127:simplemap_reduce$684[0] $auto$simplemap.cc:127:simplemap_reduce$702[0]
+.names $procmux$166_CMP $procmux$155_CMP $auto$simplemap.cc:127:simplemap_reduce$895[1]
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[9] $procmux$35.B_AND_S[13] $auto$simplemap.cc:127:simplemap_reduce$702[1]
+.names $procmux$141_CMP $procmux$127_CMP $auto$simplemap.cc:127:simplemap_reduce$895[2]
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[17] $procmux$35.B_AND_S[21] $auto$simplemap.cc:127:simplemap_reduce$702[2]
+.names $procmux$116_CMP $procmux$105_CMP $auto$simplemap.cc:127:simplemap_reduce$895[3]
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[33] $procmux$35.B_AND_S[38] $auto$simplemap.cc:127:simplemap_reduce$702[4]
+.names $auto$simplemap.cc:127:simplemap_reduce$895[0] $auto$simplemap.cc:127:simplemap_reduce$895[1] $auto$simplemap.cc:127:simplemap_reduce$900[0]
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[49] $procmux$35.B_AND_S[53] $auto$simplemap.cc:127:simplemap_reduce$702[6]
+.names $auto$simplemap.cc:127:simplemap_reduce$895[2] $auto$simplemap.cc:127:simplemap_reduce$895[3] $auto$simplemap.cc:127:simplemap_reduce$900[1]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$702[0] $auto$simplemap.cc:127:simplemap_reduce$702[1] $auto$simplemap.cc:127:simplemap_reduce$710[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$900[0] $auto$simplemap.cc:127:simplemap_reduce$900[1] $0\state_obs0[0:0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$702[2] $auto$simplemap.cc:127:simplemap_reduce$702[3] $auto$simplemap.cc:127:simplemap_reduce$710[1]
+.names $auto$simplemap.cc:127:simplemap_reduce$737[0] $auto$simplemap.cc:127:simplemap_reduce$869[1] $auto$rtlil.cc:1600:Not$206
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$702[4] $auto$simplemap.cc:127:simplemap_reduce$702[5] $auto$simplemap.cc:127:simplemap_reduce$710[2]
+.names $auto$simplemap.cc:127:simplemap_reduce$766[0] $auto$simplemap.cc:127:simplemap_reduce$869[1] $auto$rtlil.cc:1600:Not$204
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$702[6] $procmux$35.B_AND_S[57] $auto$simplemap.cc:127:simplemap_reduce$710[3]
+.names $auto$simplemap.cc:127:simplemap_reduce$678[0] $auto$simplemap.cc:127:simplemap_reduce$955[1] $auto$rtlil.cc:1600:Not$202
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$710[0] $auto$simplemap.cc:127:simplemap_reduce$710[1] $auto$simplemap.cc:127:simplemap_reduce$715[0]
+.names $auto$simplemap.cc:127:simplemap_reduce$718[0] $auto$simplemap.cc:127:simplemap_reduce$955[1] $auto$rtlil.cc:1600:Not$200
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$710[2] $auto$simplemap.cc:127:simplemap_reduce$710[3] $auto$simplemap.cc:127:simplemap_reduce$715[1]
+.names $auto$simplemap.cc:250:simplemap_eqne$670[0] state[1] $auto$simplemap.cc:127:simplemap_reduce$737[0]
 1- 1
 -1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$715[0] $auto$simplemap.cc:127:simplemap_reduce$715[1] $procmux$35.Y_B[1]
+.names $auto$simplemap.cc:127:simplemap_reduce$737[0] $auto$simplemap.cc:127:simplemap_reduce$955[1] $auto$rtlil.cc:1600:Not$198
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[0] $auto$simplemap.cc:127:simplemap_reduce$684[0] $auto$simplemap.cc:127:simplemap_reduce$720[0]
+.names state[0] state[1] $auto$simplemap.cc:127:simplemap_reduce$766[0]
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[8] $procmux$128_CMP $auto$simplemap.cc:127:simplemap_reduce$720[1]
+.names state[2] state[3] $auto$simplemap.cc:127:simplemap_reduce$955[1]
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[16] $procmux$35.B_AND_S[21] $auto$simplemap.cc:127:simplemap_reduce$720[2]
+.names $auto$simplemap.cc:127:simplemap_reduce$766[0] $auto$simplemap.cc:127:simplemap_reduce$955[1] $auto$rtlil.cc:1600:Not$196
 1- 1
 -1 1
-.names $procmux$35.B_AND_S[40] $procmux$35.B_AND_S[44] $auto$simplemap.cc:127:simplemap_reduce$720[5]
-1- 1
--1 1
-.names $procmux$115_CMP $procmux$35.B_AND_S[52] $auto$simplemap.cc:127:simplemap_reduce$720[6]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$720[0] $auto$simplemap.cc:127:simplemap_reduce$720[1] $auto$simplemap.cc:127:simplemap_reduce$728[0]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$720[4] $auto$simplemap.cc:127:simplemap_reduce$720[5] $auto$simplemap.cc:127:simplemap_reduce$728[2]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$720[6] $procmux$35.B_AND_S[56] $auto$simplemap.cc:127:simplemap_reduce$728[3]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$728[0] $auto$simplemap.cc:127:simplemap_reduce$720[2] $auto$simplemap.cc:127:simplemap_reduce$733[0]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$728[2] $auto$simplemap.cc:127:simplemap_reduce$728[3] $auto$simplemap.cc:127:simplemap_reduce$733[1]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$733[0] $auto$simplemap.cc:127:simplemap_reduce$733[1] $procmux$35.Y_B[0]
-1- 1
--1 1
-.names $auto$opt_reduce.cc:132:opt_mux$214 $auto$simplemap.cc:127:simplemap_reduce$684[0] $auto$simplemap.cc:127:simplemap_reduce$802[0]
-1- 1
--1 1
-.names $procmux$127_CMP $procmux$128_CMP $auto$simplemap.cc:127:simplemap_reduce$259[2]
-1- 1
--1 1
-.names $procmux$129_CMP $procmux$130_CMP $auto$simplemap.cc:127:simplemap_reduce$259[1]
-1- 1
--1 1
-.names $procmux$131_CMP $procmux$133_CMP $auto$simplemap.cc:127:simplemap_reduce$802[3]
-1- 1
--1 1
-.names $procmux$134_CMP $procmux$135_CMP $auto$simplemap.cc:127:simplemap_reduce$289[0]
-1- 1
--1 1
-.names $procmux$101_CMP $procmux$108_CMP $auto$simplemap.cc:127:simplemap_reduce$396[3]
-1- 1
--1 1
-.names $procmux$115_CMP $procmux$119_CMP $auto$simplemap.cc:127:simplemap_reduce$396[2]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$802[0] $auto$simplemap.cc:127:simplemap_reduce$259[2] $auto$simplemap.cc:127:simplemap_reduce$810[0]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$259[1] $auto$simplemap.cc:127:simplemap_reduce$802[3] $auto$simplemap.cc:127:simplemap_reduce$810[1]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$289[0] $auto$simplemap.cc:127:simplemap_reduce$396[3] $auto$simplemap.cc:127:simplemap_reduce$810[2]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$396[2] $procmux$123_CMP $auto$simplemap.cc:127:simplemap_reduce$810[3]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$810[0] $auto$simplemap.cc:127:simplemap_reduce$810[1] $auto$simplemap.cc:127:simplemap_reduce$815[0]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$810[2] $auto$simplemap.cc:127:simplemap_reduce$810[3] $auto$simplemap.cc:127:simplemap_reduce$815[1]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$815[0] $auto$simplemap.cc:127:simplemap_reduce$815[1] $techmap$procmux$35.$reduce_or$?techmap.v?:445$301_Y
-1- 1
--1 1
-.names $auto$opt_reduce.cc:132:opt_mux$198 $auto$opt_reduce.cc:132:opt_mux$200 $techmap$procmux$124.$reduce_or$?techmap.v?:445$422_Y
-1- 1
--1 1
-.names $auto$opt_reduce.cc:132:opt_mux$202 $auto$opt_reduce.cc:132:opt_mux$204 $techmap$procmux$141.$reduce_or$?techmap.v?:445$422_Y
-1- 1
--1 1
-.names $auto$opt_reduce.cc:132:opt_mux$206 $auto$opt_reduce.cc:132:opt_mux$208 $techmap$procmux$158.$reduce_or$?techmap.v?:445$422_Y
-1- 1
--1 1
-.names $auto$opt_reduce.cc:132:opt_mux$210 $auto$opt_reduce.cc:132:opt_mux$212 $techmap$procmux$175.$reduce_or$?techmap.v?:445$422_Y
-1- 1
--1 1
-.names state[2] state[3] $auto$simplemap.cc:127:simplemap_reduce$540[1]
-1- 1
--1 1
-.names $auto$simplemap.cc:127:simplemap_reduce$465[0] $auto$simplemap.cc:127:simplemap_reduce$540[1] $auto$simplemap.cc:168:logic_reduce$580
-1- 1
--1 1
-.names $auto$simplemap.cc:256:simplemap_eqne$433 $procmux$130_CMP
+.names $auto$rtlil.cc:1600:Not$196 $procmux$192_CMP
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$448 $procmux$131_CMP
+.names $auto$rtlil.cc:1600:Not$226 $procmux$105_CMP
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$463 $procmux$132_CMP
+.names $auto$rtlil.cc:1600:Not$224 $auto$simplemap.cc:127:simplemap_reduce$1169[0]
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$478 $procmux$133_CMP
+.names $auto$rtlil.cc:1600:Not$222 $procmux$116_CMP
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$493 $procmux$134_CMP
+.names $auto$rtlil.cc:1600:Not$220 $procmux$104.B_AND_S[15]
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$508 $procmux$135_CMP
+.names $auto$rtlil.cc:1600:Not$218 $procmux$127_CMP
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$523 $procmux$101_CMP
+.names $auto$rtlil.cc:1600:Not$216 $procmux$104.B_AND_S[23]
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$538 $procmux$108_CMP
+.names $auto$rtlil.cc:1600:Not$214 $procmux$141_CMP
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$553 $procmux$115_CMP
+.names $auto$rtlil.cc:1600:Not$212 $procmux$148_CMP
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$568 $procmux$119_CMP
+.names $auto$rtlil.cc:1600:Not$210 $procmux$155_CMP
 0 1
-.names $auto$simplemap.cc:168:logic_reduce$580 $procmux$123_CMP
+.names $auto$rtlil.cc:1600:Not$208 $procmux$159_CMP
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$589 $procmux$125_CMP
+.names $auto$rtlil.cc:1600:Not$206 $procmux$166_CMP
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$604 $auto$simplemap.cc:127:simplemap_reduce$684[0]
+.names $auto$rtlil.cc:1600:Not$204 $procmux$170_CMP
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$619 $procmux$127_CMP
+.names $auto$rtlil.cc:1600:Not$202 $procmux$104.B_AND_S[46]
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$634 $procmux$128_CMP
+.names $auto$rtlil.cc:1600:Not$200 $procmux$104.B_AND_S[48]
 0 1
-.names $auto$simplemap.cc:256:simplemap_eqne$649 $procmux$129_CMP
+.names $auto$rtlil.cc:1600:Not$198 $procmux$188_CMP
 0 1
-.names state[3] $true TMS $procmux$45_Y[3]
+.names $true state[0] TMS $procmux$190_Y[0]
 1-0 1
 -11 1
-.names state[0] $true TMS $procmux$88_Y[0]
+.names $false state[1] TMS $procmux$190_Y[1]
 1-0 1
 -11 1
-.names state[1] $false TMS $procmux$56_Y[1]
+.names $false state[2] TMS $procmux$190_Y[2]
 1-0 1
 -11 1
-.names state[2] $true TMS $procmux$45_Y[2]
+.names $false state[3] TMS $procmux$190_Y[3]
 1-0 1
 -11 1
-.names TMS $procmux$113_Y[1]
+.names state[0] $procmux$104.Y_B[0] $techmap$procmux$104.$reduce_or$?techmap.v?:445$685_Y $0\state[3:0][0]
+1-0 1
+-11 1
+.names state[1] $procmux$104.Y_B[1] $techmap$procmux$104.$reduce_or$?techmap.v?:445$685_Y $0\state[3:0][1]
+1-0 1
+-11 1
+.names state[2] $procmux$104.Y_B[2] $techmap$procmux$104.$reduce_or$?techmap.v?:445$685_Y $0\state[3:0][2]
+1-0 1
+-11 1
+.names state[3] $procmux$104.Y_B[3] $techmap$procmux$104.$reduce_or$?techmap.v?:445$685_Y $0\state[3:0][3]
+1-0 1
+-11 1
+.names state[3] $true TMS $procmux$114_Y[3]
+1-0 1
+-11 1
+.names state[3] $false TMS $procmux$157_Y[3]
+1-0 1
+-11 1
+.names state[0] $true TMS $procmux$157_Y[0]
+1-0 1
+-11 1
+.names state[1] $false TMS $procmux$125_Y[1]
+1-0 1
+-11 1
+.names state[2] $true TMS $procmux$114_Y[2]
+1-0 1
+-11 1
+.names TMS $procmux$102_Y[0]
 0 1
-.names state[0] $false TMS $procmux$117_Y[0]
+.names state[0] $false TMS $procmux$114_Y[0]
 1-0 1
 -11 1
-.names state[1] $true TMS $procmux$117_Y[1]
+.names state[1] $true TMS $procmux$114_Y[1]
 1-0 1
 -11 1
-.names state[2] $false TMS $procmux$117_Y[2]
+.names state[2] $false TMS $procmux$186_Y[2]
 1-0 1
 -11 1
-.names state[3] $false TMS $procmux$117_Y[3]
-1-0 1
--11 1
-.names $true state[0] TMS $procmux$121_Y[0]
-1-0 1
--11 1
-.names $false state[1] TMS $procmux$121_Y[1]
-1-0 1
--11 1
-.names $false state[2] TMS $procmux$121_Y[2]
-1-0 1
--11 1
-.names $false state[3] TMS $procmux$121_Y[3]
-1-0 1
--11 1
-.names state[0] $procmux$35.Y_B[0] $techmap$procmux$35.$reduce_or$?techmap.v?:445$301_Y $0\state[3:0][0]
-1-0 1
--11 1
-.names state[1] $procmux$35.Y_B[1] $techmap$procmux$35.$reduce_or$?techmap.v?:445$301_Y $0\state[3:0][1]
-1-0 1
--11 1
-.names state[2] $procmux$35.Y_B[2] $techmap$procmux$35.$reduce_or$?techmap.v?:445$301_Y $0\state[3:0][2]
-1-0 1
--11 1
-.names state[3] $procmux$35.Y_B[3] $techmap$procmux$35.$reduce_or$?techmap.v?:445$301_Y $0\state[3:0][3]
-1-0 1
--11 1
-.names state_obs3 $auto$opt_reduce.cc:132:opt_mux$198 $techmap$procmux$124.$reduce_or$?techmap.v?:445$422_Y $0\state_obs3[0:0]
-1-0 1
--11 1
-.names state_obs2 $auto$opt_reduce.cc:132:opt_mux$202 $techmap$procmux$141.$reduce_or$?techmap.v?:445$422_Y $0\state_obs2[0:0]
-1-0 1
--11 1
-.names state_obs1 $auto$opt_reduce.cc:132:opt_mux$206 $techmap$procmux$158.$reduce_or$?techmap.v?:445$422_Y $0\state_obs1[0:0]
-1-0 1
--11 1
-.names state_obs0 $auto$opt_reduce.cc:132:opt_mux$210 $techmap$procmux$175.$reduce_or$?techmap.v?:445$422_Y $0\state_obs0[0:0]
-1-0 1
--11 1
-.subckt $_DFF_PP0_ C=TCK D=$0\state_obs0[0:0] Q=state_obs0 R=TRST
-.subckt $_DFF_PP0_ C=TCK D=$0\state_obs1[0:0] Q=state_obs1 R=TRST
-.subckt $_DFF_PP0_ C=TCK D=$0\state_obs2[0:0] Q=state_obs2 R=TRST
-.subckt $_DFF_PP0_ C=TCK D=$0\state_obs3[0:0] Q=state_obs3 R=TRST
+.names $auto$rtlil.cc:1604:ReduceOr$292 $auto$rtlil.cc:1600:Not$293
+0 1
 .subckt $_DFF_PP0_ C=TCK D=$0\state[3:0][0] Q=state[0] R=TRST
 .subckt $_DFF_PP0_ C=TCK D=$0\state[3:0][1] Q=state[1] R=TRST
 .subckt $_DFF_PP0_ C=TCK D=$0\state[3:0][2] Q=state[2] R=TRST
 .subckt $_DFF_PP0_ C=TCK D=$0\state[3:0][3] Q=state[3] R=TRST
-.names state[2] $true $auto$simplemap.cc:250:simplemap_eqne$472[2]
+.latch $0\state_obs0[0:0] state_obs0 ah $auto$rtlil.cc:1600:Not$293 2
+.latch $0\state_obs1[0:0] state_obs1 ah $auto$rtlil.cc:1600:Not$293 2
+.latch $0\state_obs2[0:0] state_obs2 ah $auto$rtlil.cc:1600:Not$293 2
+.latch $0\state_obs3[0:0] state_obs3 ah $auto$rtlil.cc:1600:Not$293 2
+.names $auto$rtlil.cc:1600:Not$224 $auto$rtlil.cc:1600:Not$226 $auto$rtlil.cc:1604:ReduceOr$236
+11 1
+.names $auto$rtlil.cc:1600:Not$208 $auto$rtlil.cc:1604:ReduceOr$264 $auto$rtlil.cc:1604:ReduceOr$268
+11 1
+.names $auto$rtlil.cc:1600:Not$206 $auto$rtlil.cc:1604:ReduceOr$268 $auto$rtlil.cc:1604:ReduceOr$272
+11 1
+.names $auto$rtlil.cc:1600:Not$204 $auto$rtlil.cc:1604:ReduceOr$272 $auto$rtlil.cc:1604:ReduceOr$276
+11 1
+.names $auto$rtlil.cc:1600:Not$200 $auto$rtlil.cc:1604:ReduceOr$280 $auto$rtlil.cc:1604:ReduceOr$284
+11 1
+.names $auto$rtlil.cc:1600:Not$198 $auto$rtlil.cc:1604:ReduceOr$284 $auto$rtlil.cc:1604:ReduceOr$288
+11 1
+.names $auto$rtlil.cc:1600:Not$196 $auto$rtlil.cc:1604:ReduceOr$288 $auto$rtlil.cc:1604:ReduceOr$292
+11 1
+.names $auto$rtlil.cc:1600:Not$214 $auto$rtlil.cc:1604:ReduceOr$252 $auto$rtlil.cc:1604:ReduceOr$256
+11 1
+.names $auto$rtlil.cc:1600:Not$212 $auto$rtlil.cc:1604:ReduceOr$256 $auto$rtlil.cc:1604:ReduceOr$260
+11 1
+.names $auto$rtlil.cc:1600:Not$210 $auto$rtlil.cc:1604:ReduceOr$260 $auto$rtlil.cc:1604:ReduceOr$264
+11 1
+.names $auto$rtlil.cc:1600:Not$202 $auto$rtlil.cc:1604:ReduceOr$276 $auto$rtlil.cc:1604:ReduceOr$280
+11 1
+.names $auto$rtlil.cc:1600:Not$222 $auto$rtlil.cc:1604:ReduceOr$236 $auto$rtlil.cc:1604:ReduceOr$240
+11 1
+.names $auto$rtlil.cc:1600:Not$220 $auto$rtlil.cc:1604:ReduceOr$240 $auto$rtlil.cc:1604:ReduceOr$244
+11 1
+.names $auto$rtlil.cc:1600:Not$218 $auto$rtlil.cc:1604:ReduceOr$244 $auto$rtlil.cc:1604:ReduceOr$248
+11 1
+.names $auto$rtlil.cc:1600:Not$216 $auto$rtlil.cc:1604:ReduceOr$248 $auto$rtlil.cc:1604:ReduceOr$252
+11 1
+.names $procmux$102_Y[0] $auto$opt_reduce.cc:132:opt_mux$607 $procmux$104.B_AND_S[0]
+11 1
+.names TMS $auto$opt_reduce.cc:132:opt_mux$607 $procmux$104.B_AND_S[1]
+11 1
+.names TMS $auto$simplemap.cc:127:simplemap_reduce$1169[0] $auto$simplemap.cc:127:simplemap_reduce$1187[0]
+11 1
+.names $procmux$114_Y[0] $procmux$116_CMP $procmux$104.B_AND_S[8]
+11 1
+.names $procmux$114_Y[1] $procmux$116_CMP $procmux$104.B_AND_S[9]
+11 1
+.names $procmux$114_Y[2] $procmux$116_CMP $procmux$104.B_AND_S[10]
+11 1
+.names $procmux$114_Y[3] $procmux$116_CMP $procmux$104.B_AND_S[11]
+11 1
+.names TMS $procmux$104.B_AND_S[15] $procmux$104.B_AND_S[13]
+11 1
+.names $procmux$114_Y[0] $procmux$127_CMP $procmux$104.B_AND_S[16]
+11 1
+.names $procmux$125_Y[1] $procmux$127_CMP $procmux$104.B_AND_S[17]
+11 1
+.names $procmux$114_Y[2] $procmux$127_CMP $procmux$104.B_AND_S[18]
+11 1
+.names $procmux$114_Y[3] $procmux$127_CMP $procmux$104.B_AND_S[19]
+11 1
+.names $procmux$102_Y[0] $procmux$104.B_AND_S[23] $procmux$104.B_AND_S[21]
+11 1
+.names TMS $procmux$104.B_AND_S[23] $procmux$104.B_AND_S[22]
+11 1
+.names $procmux$102_Y[0] $procmux$141_CMP $auto$simplemap.cc:127:simplemap_reduce$1151[3]
+11 1
+.names $procmux$102_Y[0] $procmux$155_CMP $auto$simplemap.cc:127:simplemap_reduce$1187[3]
+11 1
+.names TMS $procmux$155_CMP $procmux$104.B_AND_S[31]
+11 1
+.names $procmux$157_Y[0] $procmux$159_CMP $auto$simplemap.cc:127:simplemap_reduce$1133[4]
+11 1
+.names $procmux$114_Y[1] $procmux$159_CMP $procmux$104.B_AND_S[33]
+11 1
+.names $procmux$114_Y[2] $procmux$159_CMP $procmux$104.B_AND_S[34]
+11 1
+.names $procmux$157_Y[3] $procmux$159_CMP $procmux$104.B_AND_S[35]
+11 1
+.names $procmux$102_Y[0] $procmux$166_CMP $procmux$104.B_AND_S[38]
+11 1
+.names TMS $procmux$166_CMP $procmux$104.B_AND_S[39]
+11 1
+.names $procmux$157_Y[0] $procmux$170_CMP $procmux$104.B_AND_S[40]
+11 1
+.names $procmux$125_Y[1] $procmux$170_CMP $auto$simplemap.cc:127:simplemap_reduce$1151[5]
+11 1
+.names $procmux$114_Y[2] $procmux$170_CMP $procmux$104.B_AND_S[42]
+11 1
+.names $procmux$157_Y[3] $procmux$170_CMP $auto$simplemap.cc:127:simplemap_reduce$1169[5]
+11 1
+.names TMS $procmux$104.B_AND_S[46] $procmux$104.B_AND_S[44]
+11 1
+.names $procmux$102_Y[0] $procmux$104.B_AND_S[48] $procmux$104.B_AND_S[49]
+11 1
+.names TMS $procmux$104.B_AND_S[48] $procmux$104.B_AND_S[51]
+11 1
+.names $procmux$114_Y[0] $procmux$188_CMP $procmux$104.B_AND_S[52]
+11 1
+.names $procmux$114_Y[1] $procmux$188_CMP $procmux$104.B_AND_S[53]
+11 1
+.names $procmux$186_Y[2] $procmux$188_CMP $auto$simplemap.cc:127:simplemap_reduce$1187[6]
+11 1
+.names $procmux$157_Y[3] $procmux$188_CMP $procmux$104.B_AND_S[55]
+11 1
+.names $procmux$190_Y[0] $procmux$192_CMP $procmux$104.B_AND_S[56]
+11 1
+.names $procmux$190_Y[1] $procmux$192_CMP $procmux$104.B_AND_S[57]
+11 1
+.names $procmux$190_Y[2] $procmux$192_CMP $procmux$104.B_AND_S[58]
+11 1
+.names $procmux$190_Y[3] $procmux$192_CMP $procmux$104.B_AND_S[59]
+11 1
+.names state[3] $true $auto$simplemap.cc:250:simplemap_eqne$670[3]
 10 1
 01 1
-.names state[0] $true $auto$simplemap.cc:250:simplemap_eqne$442[0]
+.names state[2] $true $auto$simplemap.cc:250:simplemap_eqne$670[2]
 10 1
 01 1
-.names state[1] $true $auto$simplemap.cc:250:simplemap_eqne$427[1]
+.names state[1] $true $auto$simplemap.cc:250:simplemap_eqne$670[1]
 10 1
 01 1
-.names state[3] $true $auto$simplemap.cc:250:simplemap_eqne$427[3]
+.names state[0] $true $auto$simplemap.cc:250:simplemap_eqne$670[0]
 10 1
 01 1
-.names $procmux$121_Y[0] $procmux$123_CMP $procmux$35.B_AND_S[56]
-11 1
-.names $procmux$121_Y[1] $procmux$123_CMP $procmux$35.B_AND_S[57]
-11 1
-.names $procmux$121_Y[2] $procmux$123_CMP $procmux$35.B_AND_S[58]
-11 1
-.names $procmux$121_Y[3] $procmux$123_CMP $procmux$35.B_AND_S[59]
-11 1
-.names $procmux$117_Y[0] $procmux$119_CMP $procmux$35.B_AND_S[52]
-11 1
-.names $procmux$117_Y[1] $procmux$119_CMP $procmux$35.B_AND_S[53]
-11 1
-.names $procmux$117_Y[2] $procmux$119_CMP $auto$simplemap.cc:127:simplemap_reduce$666[6]
-11 1
-.names $procmux$117_Y[3] $procmux$119_CMP $procmux$35.B_AND_S[55]
-11 1
-.names $procmux$113_Y[1] $procmux$115_CMP $procmux$35.B_AND_S[49]
-11 1
-.names TMS $procmux$115_CMP $procmux$35.B_AND_S[51]
-11 1
-.names TMS $procmux$108_CMP $procmux$35.B_AND_S[44]
-11 1
-.names $procmux$88_Y[0] $procmux$101_CMP $procmux$35.B_AND_S[40]
-11 1
-.names $procmux$56_Y[1] $procmux$101_CMP $auto$simplemap.cc:127:simplemap_reduce$702[5]
-11 1
-.names $procmux$45_Y[2] $procmux$101_CMP $procmux$35.B_AND_S[42]
-11 1
-.names $procmux$117_Y[3] $procmux$101_CMP $auto$simplemap.cc:127:simplemap_reduce$684[5]
-11 1
-.names $procmux$113_Y[1] $procmux$135_CMP $procmux$35.B_AND_S[38]
-11 1
-.names TMS $procmux$135_CMP $procmux$35.B_AND_S[39]
-11 1
-.names $procmux$88_Y[0] $procmux$134_CMP $auto$simplemap.cc:127:simplemap_reduce$720[4]
-11 1
-.names $procmux$117_Y[1] $procmux$134_CMP $procmux$35.B_AND_S[33]
-11 1
-.names $procmux$45_Y[2] $procmux$134_CMP $procmux$35.B_AND_S[34]
-11 1
-.names $procmux$117_Y[3] $procmux$134_CMP $procmux$35.B_AND_S[35]
-11 1
-.names $procmux$113_Y[1] $procmux$133_CMP $auto$simplemap.cc:127:simplemap_reduce$666[3]
-11 1
-.names TMS $procmux$133_CMP $procmux$35.B_AND_S[31]
-11 1
-.names $procmux$113_Y[1] $procmux$131_CMP $auto$simplemap.cc:127:simplemap_reduce$702[3]
-11 1
-.names $procmux$113_Y[1] $procmux$130_CMP $procmux$35.B_AND_S[21]
-11 1
-.names TMS $procmux$130_CMP $procmux$35.B_AND_S[22]
-11 1
-.names $procmux$117_Y[0] $procmux$129_CMP $procmux$35.B_AND_S[16]
-11 1
-.names $procmux$56_Y[1] $procmux$129_CMP $procmux$35.B_AND_S[17]
-11 1
-.names $procmux$45_Y[2] $procmux$129_CMP $procmux$35.B_AND_S[18]
-11 1
-.names $procmux$45_Y[3] $procmux$129_CMP $procmux$35.B_AND_S[19]
-11 1
-.names TMS $procmux$128_CMP $procmux$35.B_AND_S[13]
-11 1
-.names $procmux$117_Y[0] $procmux$127_CMP $procmux$35.B_AND_S[8]
-11 1
-.names $procmux$117_Y[1] $procmux$127_CMP $procmux$35.B_AND_S[9]
-11 1
-.names $procmux$45_Y[2] $procmux$127_CMP $procmux$35.B_AND_S[10]
-11 1
-.names $procmux$45_Y[3] $procmux$127_CMP $procmux$35.B_AND_S[11]
-11 1
-.names TMS $auto$simplemap.cc:127:simplemap_reduce$684[0] $auto$simplemap.cc:127:simplemap_reduce$666[0]
-11 1
-.names $procmux$113_Y[1] $auto$opt_reduce.cc:132:opt_mux$214 $procmux$35.B_AND_S[0]
-11 1
-.names TMS $auto$opt_reduce.cc:132:opt_mux$214 $procmux$35.B_AND_S[1]
-11 1
 .end
