@@ -12,9 +12,13 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
                     Select_IR_Scan = 4'b1001, Capture_IR = 4'b1010, Shift_IR = 4'b1011, Exit1_IR = 4'b1100, Pause_IR = 4'b1101, Exit2_IR = 4'b1110, Update_IR = 4'b1111;
 
     initial begin
-        state <= Test_logic_Reset;    
+        state = Test_logic_Reset; 
+        /*state_obs0 = 1'b0;
+        state_obs1 = 1'b0; 
+        state_obs2 = 1'b0;
+        state_obs3 = 1'b0; */  
     end
-    always @(posedge clk or posedge TRST)
+    always @(posedge clk)
         begin 
             if (TRST==1'b1) begin
                 state <= Test_logic_Reset; 
