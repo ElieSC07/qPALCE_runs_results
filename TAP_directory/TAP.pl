@@ -1,5 +1,5 @@
 UCLA pl 1.0
-# Written by BLIF2BOOKSHELF on Tue Aug 16 09:56:34 2022
+# Written by BLIF2BOOKSHELF on Tue Aug 16 10:31:50 2022
 # SPORT Lab, University of Southern California, Los Angeles, CA 90089
 # Developers: Ting-Ru Lin <tingruli@usc.edu> and Massoud Pedram <pedram@usc.edu>
 
@@ -331,6 +331,6 @@ UCLA pl 1.0
 	state_obs2_Pad	2150	1550	: /FIXED
 	state_obs3_Pad	1625	280	: /FIXED
 	TMS_Pad	875	2000	: /FIXED
-	clk_Pad	2150	850	: /FIXED
+	clk_Pad	875	280	: /FIXED
 	GCLK_Pad	300	1550	: /FIXED
-	TRST_Pad	875	280	: /FIXED
+	TRST_Pad	2150	850	: /FIXED
