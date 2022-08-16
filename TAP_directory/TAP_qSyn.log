@@ -45,7 +45,7 @@ Replacing latches with SFQ DRO DFFs finished successfully!
 Max fanout count is : 4
 [Called: SPORT_InsertSplitters_Command]
 [Called: SPORT_Command_addSplitters_to_Ntk]
-Warning! : There is an input pin (TCK) which is not connected to anywhere!
+Warning! : There is an input pin (clk) which is not connected to anywhere!
 There are no objects with out-degrees of more than 2!
 Inserting gate splitters finished successfully!
 *************************************************************

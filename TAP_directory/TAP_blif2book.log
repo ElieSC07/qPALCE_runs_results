@@ -8,7 +8,7 @@ Reading from file: TAP.levels
 Reading primary inputs
 Reading primary outputs
 Reading gate information
-Net TCK with net degree less than 2 is dropped
+Net clk with net degree less than 2 is dropped
 Writing .aux file
 Writing .net file
 Writing .node file

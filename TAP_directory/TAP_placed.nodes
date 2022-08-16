@@ -2,7 +2,7 @@ UCLA nodes 1.0
 # Created by Soheil Nazar Shahsavani (nazarsha@usc.edu) 
 # Platform
 
-NumNodes : 595
+NumNodes : 594
 NumTerminals : 8
 	DFFT_199__FPB_n619	80	70
 	DFFT_245_state_obs3	80	70
@@ -331,8 +331,8 @@ NumTerminals : 8
 	state_obs1_Pad	100	120 terminal
 	state_obs2_Pad	100	120 terminal
 	state_obs3_Pad	100	120 terminal
-	TCK_Pad	100	120 terminal
 	TMS_Pad	100	120 terminal
+	clk_Pad	100	120 terminal
 	GCLK_Pad	100	120 terminal
 	TRST_Pad	100	120 terminal
 	SplitCLK_4_239	50	70
@@ -400,14 +400,14 @@ NumTerminals : 8
 	SplitCLK_4_301	50	70
 	SplitCLK_4_302	50	70
 	SplitCLK_4_303	50	70
-	SplitCLK_2_304	50	70
+	SplitCLK_4_304	50	70
 	SplitCLK_4_305	50	70
 	SplitCLK_4_306	50	70
 	SplitCLK_6_307	50	70
 	SplitCLK_4_308	50	70
 	SplitCLK_6_309	50	70
-	SplitCLK_6_310	50	70
-	SplitCLK_4_311	50	70
+	SplitCLK_4_310	50	70
+	SplitCLK_6_311	50	70
 	SplitCLK_4_312	50	70
 	SplitCLK_0_313	50	70
 	SplitCLK_0_314	50	70
@@ -500,11 +500,11 @@ NumTerminals : 8
 	SplitCLK_0_401	50	70
 	SplitCLK_6_402	50	70
 	SplitCLK_4_403	50	70
-	SplitCLK_0_404	50	70
-	SplitCLK_0_405	50	70
+	SplitCLK_4_404	50	70
+	SplitCLK_4_405	50	70
 	SplitCLK_0_406	50	70
 	SplitCLK_4_407	50	70
-	SplitCLK_0_408	50	70
+	SplitCLK_4_408	50	70
 	SplitCLK_2_409	50	70
 	SplitCLK_4_410	50	70
 	SplitCLK_4_411	50	70
@@ -518,14 +518,14 @@ NumTerminals : 8
 	SplitCLK_4_419	50	70
 	SplitCLK_4_420	50	70
 	SplitCLK_4_421	50	70
-	SplitCLK_0_422	50	70
+	SplitCLK_6_422	50	70
 	SplitCLK_4_423	50	70
 	SplitCLK_4_424	50	70
-	SplitCLK_2_425	50	70
+	SplitCLK_6_425	50	70
 	SplitCLK_4_426	50	70
-	SplitCLK_2_427	50	70
-	SplitCLK_2_428	50	70
-	SplitCLK_6_429	50	70
+	SplitCLK_6_427	50	70
+	SplitCLK_6_428	50	70
+	SplitCLK_4_429	50	70
 	SplitCLK_4_430	50	70
 	SplitCLK_4_431	50	70
 	SplitCLK_4_432	50	70
@@ -535,32 +535,32 @@ NumTerminals : 8
 	SplitCLK_0_436	50	70
 	SplitCLK_4_437	50	70
 	SplitCLK_4_438	50	70
-	SplitCLK_6_439	50	70
+	SplitCLK_4_439	50	70
 	SplitCLK_4_440	50	70
 	SplitCLK_4_441	50	70
-	SplitCLK_2_442	50	70
+	SplitCLK_6_442	50	70
 	SplitCLK_4_443	50	70
 	SplitCLK_0_444	50	70
 	SplitCLK_4_445	50	70
-	SplitCLK_0_446	50	70
+	SplitCLK_4_446	50	70
 	SplitCLK_6_447	50	70
 	SplitCLK_4_448	50	70
 	SplitCLK_4_449	50	70
-	SplitCLK_4_450	50	70
-	SplitCLK_0_451	50	70
+	SplitCLK_2_450	50	70
+	SplitCLK_4_451	50	70
 	SplitCLK_4_452	50	70
 	SplitCLK_4_453	50	70
-	SplitCLK_6_454	50	70
+	SplitCLK_2_454	50	70
 	SplitCLK_4_455	50	70
-	SplitCLK_2_456	50	70
-	SplitCLK_2_457	50	70
+	SplitCLK_6_456	50	70
+	SplitCLK_6_457	50	70
 	SplitCLK_6_458	50	70
 	SplitCLK_4_459	50	70
 	SplitCLK_4_460	50	70
 	SplitCLK_6_461	50	70
 	SplitCLK_4_462	50	70
-	SplitCLK_4_463	50	70
-	SplitCLK_4_464	50	70
+	SplitCLK_2_463	50	70
+	SplitCLK_0_464	50	70
 	SplitCLK_4_465	50	70
 	SplitCLK_4_466	50	70
 	SplitCLK_6_467	50	70
@@ -576,15 +576,15 @@ NumTerminals : 8
 	SplitCLK_2_477	50	70
 	SplitCLK_2_478	50	70
 	SplitCLK_2_479	50	70
-	SplitCLK_2_480	50	70
-	SplitCLK_4_481	50	70
+	SplitCLK_4_480	50	70
+	SplitCLK_2_481	50	70
 	SplitCLK_2_482	50	70
 	SplitCLK_2_483	50	70
 	SplitCLK_2_484	50	70
-	SplitCLK_2_485	50	70
-	SplitCLK_2_486	50	70
+	SplitCLK_4_485	50	70
+	SplitCLK_4_486	50	70
 	SplitCLK_2_487	50	70
-	SplitCLK_2_488	50	70
+	SplitCLK_4_488	50	70
 	SplitCLK_2_489	50	70
 	SplitCLK_2_490	50	70
 	SplitCLK_2_491	50	70
@@ -598,4 +598,3 @@ NumTerminals : 8
 	Split_HOLD_591	50	70
 	Split_HOLD_592	50	70
 	Split_HOLD_593	50	70
-	Split_HOLD_594	50	70

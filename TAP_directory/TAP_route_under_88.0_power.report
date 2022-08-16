@@ -1,7 +1,7 @@
 Power Report for TAP_route
 
 
-Generated at 2022-08-16 09:33:25
+Generated at 2022-08-16 09:56:46
 
 
 -----------------------------------------------------------------------------------------
@@ -9,8 +9,8 @@ Circuit infomation
 
 	Primary inputs (PIs): 2
 	Primary outputs (POs): 4
-	Gates: 587
-		Combinational cells (clock tree cells excluded): 94
+	Gates: 586
+		Combinational cells (clock tree cells excluded): 93
 		Clock tree cells: 255
 		Register cells: 238
 -----------------------------------------------------------------------------------------
@@ -18,18 +18,18 @@ Input constraint:
 
 	Each input is independent, with 50% probability to be 0 and 50% probability to be 1
 -----------------------------------------------------------------------------------------
-Clock period: 84.0ps
+Clock period: 88.0ps
 -----------------------------------------------------------------------------------------
 Power analysis report summary
 
 	Unit:uW
 
 	                                        power consumption		    percentage
-	Total power consumption:                1731.53             		100
-	Static power consumption:               1719.78             		99.32     
-	Register cell power consumption:        2.89                		0.17                
-	Combinational cell power consumption:   1.40                		0.08                
-	Clock tree power consumption:           7.47                		0.43                
+	Total power consumption:                1727.99             		100
+	Static power consumption:               1716.79             		99.35     
+	Register cell power consumption:        2.76                		0.16                
+	Combinational cell power consumption:   1.31                		0.08                
+	Clock tree power consumption:           7.13                		0.41                
 -----------------------------------------------------------------------------------------
 Power analysis report detail
 
@@ -191,7 +191,7 @@ Power analysis report detail
 	X155     DFFT     {'0': 1.0}                                                            3.00             0.17      
 	X156     DFFT     {'0': 1.0}                                                            3.00             0.17      
 	X157     OR2T     {'00': 1.0}                                                           2.62             0.15      
-	X158     OR2T     {'11': 1.0}                                                           2.65             0.15      
+	X158     OR2T     {'11': 1.0}                                                           2.64             0.15      
 	X159     DFFT     {'0': 1.0}                                                            3.00             0.17      
 	X160     DFFT     {'0': 1.0}                                                            3.00             0.17      
 	X161     DFFT     {'0': 1.0}                                                            3.00             0.17      
@@ -617,7 +617,6 @@ Power analysis report detail
 	X581     SPLITT   {'1': 1.0}                                                            3.02             0.17      
 	X582     SPLITT   {'0': 1.0}                                                            3.00             0.17      
 	X583     SPLITT   {'0': 1.0}                                                            3.00             0.17      
-	X584     SPLITT   {'0': 0.5, '1': 0.5}                                                  3.01             0.17      
+	X584     SPLITT   {'0': 1.0}                                                            3.00             0.17      
 	X585     SPLITT   {'0': 1.0}                                                            3.00             0.17      
 	X586     SPLITT   {'0': 1.0}                                                            3.00             0.17      
-	X587     SPLITT   {'0': 1.0}                                                            3.00             0.17      

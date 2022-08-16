@@ -1,11 +1,11 @@
 ############################################################################################
-# Benchmark: "TAP" written by qABC on Tue Aug 16 09:33:12 2022
+# Benchmark: "TAP" written by qABC on Tue Aug 16 09:56:34 2022
 # Developer: Ghasem Pasandi (pasandi@usc.edu), University of Southern California (USC), CA.
 ############################################################################################
 
 .model TAP
 
-.inputs TMS TCK TRST
+.inputs TMS clk TRST
 .outputs state_obs0 state_obs1 state_obs2 state_obs3
 
 .gate NOTT       a=TRST O=n32
