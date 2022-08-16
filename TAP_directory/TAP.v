@@ -3,7 +3,7 @@
 module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3); 
     input TMS, TRST, clk; // clk :: TCK
     output state_obs0, state_obs1, state_obs2, state_obs3; 
-    reg state_obs0, state_obs1, state_obs2, state_obs3; 
+    reg[3:0] state_obs;
     reg[3:0] state; 
 
         /* Make State Assignments */
@@ -12,12 +12,19 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
                     Select_IR_Scan = 4'b1001, Capture_IR = 4'b1010, Shift_IR = 4'b1011, Exit1_IR = 4'b1100, Pause_IR = 4'b1101, Exit2_IR = 4'b1110, Update_IR = 4'b1111;
 
     initial begin
-        state = Test_logic_Reset; 
-        /*state_obs0 = 1'b0;
-        state_obs1 = 1'b0; 
-        state_obs2 = 1'b0;
-        state_obs3 = 1'b0; */  
+        state <= Test_logic_Reset;
+        /*state_obs <= 4'b0000;   
+        state_obs0 <= state_obs[0];
+        state_obs1 <= state_obs[1];
+        state_obs2 <= state_obs[2];
+        state_obs3 <= state_obs[3]; */
     end
+
+    /*assign state_obs0 = state_obs[0]
+    assign state_obs1 = state_obs[1]
+    assign state_obs2 = state_obs[2]
+    assign state_obs3 = state_obs[3] */
+
     always @(posedge clk)
         begin 
             if (TRST==1'b1) begin
@@ -173,10 +180,7 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
 
                     default: begin
                         state <= Test_logic_Reset;
-                        state_obs0 <= 1'b0;
-                        state_obs1 <= 1'b0; 
-                        state_obs2 <= 1'b0;
-                        state_obs3 <= 1'b0;
+                        state_obs <= 1'b0;
                     end 
                 endcase
             end
@@ -184,123 +188,76 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
 
     always @(state)
         begin
+        state_obs0 <= state_obs[0];
+        state_obs1 <= state_obs[1];
+        state_obs2 <= state_obs[2];
+        state_obs3 <= state_obs[3];
             case(state)
                     Test_logic_Reset: begin
-                        state_obs0 <= 1'b0;
-                        state_obs1 <= 1'b0; 
-                        state_obs2 <= 1'b0;
-                        state_obs3 <= 1'b0;
+                        state_obs <= 4'b0000;
                     end 
 
                     Run_Test_Idle: begin
-                        state_obs0 <= 1'b1;
-                        state_obs1 <= 1'b0; 
-                        state_obs2 <= 1'b0;
-                        state_obs3 <= 1'b0;
+                        state_obs <= 4'b0001;
                     end 
 
                     Select_DR_Scan: begin
-                        state_obs0 <= 1'b0;
-                        state_obs1 <= 1'b1; 
-                        state_obs2 <= 1'b0;
-                        state_obs3 <= 1'b0;
+                        state_obs <= 4'b0010;
                     end 
 
                     Capture_DR: begin
-                        state_obs0 <= 1'b1;
-                        state_obs1 <= 1'b1; 
-                        state_obs2 <= 1'b0;
-                        state_obs3 <= 1'b0;
+                        state_obs <= 4'b0011;
                     end 
 
                     Shift_DR: begin
-                        state_obs0 <= 1'b0;
-                        state_obs1 <= 1'b0; 
-                        state_obs2 <= 1'b1;
-                        state_obs3 <= 1'b0;
+                        state_obs <= 4'b0100;
                     end 
 
                     Exit1_DR: begin
-                        state_obs0 <= 1'b1;
-                        state_obs1 <= 1'b0; 
-                        state_obs2 <= 1'b1;
-                        state_obs3 <= 1'b0;
+                        state_obs <= 4'b0101;
                     end 
 
                     Pause_DR: begin
-                        state_obs0 <= 1'b0;
-                        state_obs1 <= 1'b1; 
-                        state_obs2 <= 1'b1;
-                        state_obs3 <= 1'b0;
+                        state_obs <= 4'b0110;
                     end 
 
                     Exit2_DR: begin
-                        state_obs0 <= 1'b1;
-                        state_obs1 <= 1'b1; 
-                        state_obs2 <= 1'b1;
-                        state_obs3 <= 1'b0;
+                        state_obs <= 4'b0111;
                     end 
 
                     Update_DR: begin
-                        state_obs0 <= 1'b0;
-                        state_obs1 <= 1'b0; 
-                        state_obs2 <= 1'b0;
-                        state_obs3 <= 1'b1;
+                        state_obs <= 4'b1000;
                     end 
                     
                     Select_IR_Scan: begin
-                        state_obs0 <= 1'b1;
-                        state_obs1 <= 1'b0; 
-                        state_obs2 <= 1'b0;
-                        state_obs3 <= 1'b1;
+                        state_obs <= 4'b1001;
                     end 
 
                     Capture_IR: begin
-                        state_obs0 <= 1'b0;
-                        state_obs1 <= 1'b1; 
-                        state_obs2 <= 1'b0;
-                        state_obs3 <= 1'b1;
+                        state_obs <= 4'b1010;
                     end 
 
                     Shift_IR: begin
-                        state_obs0 <= 1'b1;
-                        state_obs1 <= 1'b1; 
-                        state_obs2 <= 1'b0;
-                        state_obs3 <= 1'b1;
+                        state_obs <= 4'b1011;
                     end 
 
                     Exit1_IR: begin
-                        state_obs0 <= 1'b0;
-                        state_obs1 <= 1'b0; 
-                        state_obs2 <= 1'b1;
-                        state_obs3 <= 1'b1;
+                        state_obs <= 4'b1100;
                     end
 
                     Pause_IR: begin
-                        state_obs0 <= 1'b1;
-                        state_obs1 <= 1'b0; 
-                        state_obs2 <= 1'b1;
-                        state_obs3 <= 1'b1;
+                        state_obs <= 4'b1101;
                     end 
 
                     Exit2_IR: begin
-                        state_obs0 <= 1'b0;
-                        state_obs1 <= 1'b1; 
-                        state_obs2 <= 1'b1;
-                        state_obs3 <= 1'b1;
+                        state_obs <= 4'b1110;
                     end
 
                     Update_IR: begin
-                        state_obs0 <= 1'b1;
-                        state_obs1 <= 1'b1; 
-                        state_obs2 <= 1'b1;
-                        state_obs3 <= 1'b1;
+                        state_obs <= 4'b1111;
                     end
                     default: begin
-                        state_obs0 <= 1'b0;
-                        state_obs1 <= 1'b0; 
-                        state_obs2 <= 1'b0;
-                        state_obs3 <= 1'b0;    
+                        state_obs <= 4'b00000;  
                     end
             endcase
         end

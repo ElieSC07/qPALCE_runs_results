@@ -11,12 +11,12 @@ Adjustment of fanout counts for primary inputs finished successfully!
 [Called: CorrectLevels_Command] 
 [Called: Setup Latches] 
 [Called: init_in_loop_field] 
-Number of initial latches: 16
+Number of initial latches: 12
 [Called: SPORT_NtkWireNFBLs] 
-NetworkCheck: CI with ID 124 is in the network but not in the name table.
+NetworkCheck: CI with ID 127 is in the network but not in the name table.
 Abc_NtkCleanup: The network check has failed.
 Cleanup removed 0 dangling nodes.
-Number of latches now: 12
+Number of latches now: 8
 [Called: Correct_Levels_fast] 
 [Called: Topological_Sort] 
 Done: Topological sort. 
@@ -38,7 +38,7 @@ Balancing feedback latches with respect to each other ...
 
 Maximum level: 10
 [Called: repLatches]
-Latch-count: 136
+Latch-count: 124
 NDRO-count:  0
 [Called: SPORT_NtkReplaceLwDFF] 
 Replacing latches with SFQ DRO DFFs finished successfully!
@@ -49,19 +49,19 @@ Warning! : There is an input pin (clk) which is not connected to anywhere!
 There are no objects with out-degrees of more than 2!
 Inserting gate splitters finished successfully!
 *************************************************************
-Gate Count : 96
+Gate Count : 98
 Total NDRO DFF Count  : 0
-Total DRO DFF Count  : 136
+Total DRO DFF Count  : 124
 Splitter Count (without clock) : 0
-Splitter Count (with clock) : 231
-Total( Gates + DFFs + Splitters) : 463
-Total Area (Gates) : 537600.00 um^2
-Total Area (Gates + DFFs) : 1299200.00 um^2
-Total Area (Gates + DFFs + Splitters) : 2107700.00 um^2
-Total JJs : 3700
+Splitter Count (with clock) : 221
+Total( Gates + DFFs + Splitters) : 443
+Total Area (Gates) : 548800.00 um^2
+Total Area (Gates + DFFs) : 1243200.00 um^2
+Total Area (Gates + DFFs + Splitters) : 2016700.00 um^2
+Total JJs : 3558
 Worst Stage Delay : 29.80 ps
 Latency : 298.00 ps
-Static power in ERSFQ technology: 12.04 uW
-Static power in RSFQ technology: 376.42 uW
+Static power in ERSFQ technology: 11.52 uW
+Static power in RSFQ technology: 360.16 uW
 *************************************************************
 [Called: qWire_BLIF_Command]
