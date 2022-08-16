@@ -13,8 +13,8 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
 
     initial begin
         state <= Test_logic_Reset;
-        /*state_obs <= 4'b0000;   
-        state_obs0 <= state_obs[0];
+        //state_obs <= 4'b0000;   
+        /*state_obs0 <= state_obs[0];
         state_obs1 <= state_obs[1];
         state_obs2 <= state_obs[2];
         state_obs3 <= state_obs[3]; */
@@ -28,7 +28,7 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
     always @(posedge clk)
         begin 
             if (TRST==1'b1) begin
-                state <= Test_logic_Reset; 
+                state <= Test_logic_Reset;
             end
 
             else begin
@@ -188,10 +188,6 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
 
     always @(state)
         begin
-        state_obs0 <= state_obs[0];
-        state_obs1 <= state_obs[1];
-        state_obs2 <= state_obs[2];
-        state_obs3 <= state_obs[3];
             case(state)
                     Test_logic_Reset: begin
                         state_obs <= 4'b0000;
@@ -257,9 +253,14 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
                         state_obs <= 4'b1111;
                     end
                     default: begin
-                        state_obs <= 4'b00000;  
+                        state_obs <= 4'b0000;  
                     end
             endcase
+
+        state_obs0 <= state_obs[0];
+        state_obs1 <= state_obs[1];
+        state_obs2 <= state_obs[2];
+        state_obs3 <= state_obs[3];
         end
 
 endmodule
