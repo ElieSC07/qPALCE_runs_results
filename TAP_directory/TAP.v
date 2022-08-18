@@ -12,12 +12,12 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
                     Select_IR_Scan = 4'b1001, Capture_IR = 4'b1010, Shift_IR = 4'b1011, Exit1_IR = 4'b1100, Pause_IR = 4'b1101, Exit2_IR = 4'b1110, Update_IR = 4'b1111;
 
     initial begin
-        state = Test_logic_Reset;
-        //state_obs = 4'b0000;   
-        /*state_obs0 = state_obs[0];
-        state_obs1 = state_obs[1];
-        state_obs2 = state_obs[2];
-        state_obs3 = state_obs[3]; */
+        state <= Test_logic_Reset;
+        //state_obs <= 4'b0000;   
+        /*state_obs0 <= state_obs[0];
+        state_obs1 <= state_obs[1];
+        state_obs2 <= state_obs[2];
+        state_obs3 <= state_obs[3]; */
     end
 
     /*assign state_obs0 = state_obs[0]
@@ -28,7 +28,7 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
     always @(posedge clk or posedge TRST)
         begin 
             if (TRST==1) begin
-                state = Test_logic_Reset;
+                state <= Test_logic_Reset;
             end
 
             else begin
@@ -36,225 +36,224 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
                 case (state)
                     Test_logic_Reset: begin
                         if (TMS == 1) begin
-                            state = Test_logic_Reset;
+                            state <= Test_logic_Reset;
                         end
                         else begin
-                            state = Run_Test_Idle; 
+                            state <= Run_Test_Idle; 
                         end
                     end
 
                     Run_Test_Idle: begin
                         if (TMS == 1) begin
-                            state = Select_DR_Scan; 
+                            state <= Select_DR_Scan; 
                         end
                         else begin
-                            state = Run_Test_Idle; 
+                            state <= Run_Test_Idle; 
                         end
                     end
 
                     Select_DR_Scan: begin
                         if (TMS == 1) begin
-                            state = Select_IR_Scan;
+                            state <= Select_IR_Scan;
                         end
                         else begin
-                            state = Capture_DR; 
+                            state <= Capture_DR; 
                         end
                     end    
 
                     Capture_DR: begin
                         if (TMS == 1) begin
-                            state = Exit1_DR; 
+                            state <= Exit1_DR; 
                         end
                         else begin
-                            state = Shift_DR; 
+                            state <= Shift_DR; 
                         end
                     end
                 
                     Shift_DR: begin
                         if (TMS == 1) begin
-                            state = Exit1_DR; 
+                            state <= Exit1_DR; 
                         end
                         else begin 
-                            state = Shift_DR; 
+                            state <= Shift_DR; 
                         end    
                     end
 
                     Exit1_DR: begin
                         if (TMS == 1) begin
-                            state = Update_DR; 
+                            state <= Update_DR; 
                         end
                         else begin
-                            state = Pause_DR; 
+                            state <= Pause_DR; 
                         end
                     end
 
                     Pause_DR: begin
                         if (TMS == 1) begin
-                            state = Exit2_DR; 
+                            state <= Exit2_DR; 
                         end
                         else begin 
-                            state = Pause_DR; 
+                            state <= Pause_DR; 
                         end
                     end 
 
                     Exit2_DR: begin
                         if (TMS == 1) begin
-                            state = Update_DR; 
+                            state <= Update_DR; 
                         end
                         else begin
-                            state = Shift_DR; 
+                            state <= Shift_DR; 
                         end
                     end 
 
                     Update_DR: begin
                         if (TMS == 1) begin
-                            state = Select_DR_Scan; 
+                            state <= Select_DR_Scan; 
                         end
                         else begin
-                            state = Run_Test_Idle; 
+                            state <= Run_Test_Idle; 
                         end
                     end  
 
                     Select_IR_Scan: begin
                         if (TMS == 1) begin
-                            state = Test_logic_Reset; 
+                            state <= Test_logic_Reset; 
                         end
                         else begin
-                            state = Capture_IR; 
+                            state <= Capture_IR; 
                         end
                     end 
 
                     Capture_IR: begin
                         if (TMS == 1) begin
-                            state = Exit1_IR; 
+                            state <= Exit1_IR; 
                         end
                         else begin
-                            state = Shift_IR; 
+                            state <= Shift_IR; 
                         end
                     end 
 
                     Shift_IR: begin
                         if (TMS == 1) begin
-                            state = Exit1_IR; 
+                            state <= Exit1_IR; 
                         end
                         else begin 
-                            state = Shift_IR;
+                            state <= Shift_IR;
                         end
                     end
 
                     Exit1_IR: begin
                         if (TMS == 1) begin
-                            state = Update_IR; 
+                            state <= Update_IR; 
                         end
                         else begin
-                            state = Pause_IR; 
+                            state <= Pause_IR; 
                         end
                     end  
                     
                     Pause_IR: begin
                         if (TMS == 1) begin
-                            state = Exit2_IR; 
+                            state <= Exit2_IR; 
                         end
                         else begin
-                            state = Pause_IR; 
+                            state <= Pause_IR; 
                         end
                     end   
 
                     Exit2_IR: begin
                         if (TMS == 1) begin
-                            state = Update_IR; 
+                            state <= Update_IR; 
                         end
                         else begin
-                            state = Shift_IR; 
+                            state <= Shift_IR; 
                         end
                     end 
 
                     Update_IR: begin
                         if (TMS == 1) begin
-                            state = Select_DR_Scan; 
+                            state <= Select_DR_Scan; 
                         end
                         else begin
-                            state = Run_Test_Idle; 
+                            state <= Run_Test_Idle; 
                         end
                     end
 
                     default: begin
                         state <= Test_logic_Reset;
-                        //state_obs = 0;
-                        state_obs <= 4'b0000;
+                        //state_obs <= 4b'0000;
                     end 
                 endcase
             end
         end
 
-    always @(*)
+    always @(posedge clk)
         begin
             case(state)
                     Test_logic_Reset: begin
-                        state_obs = 4'b0000;
+                        state_obs <= 4'b0000;
                     end 
 
                     Run_Test_Idle: begin
-                        state_obs = 4'b0001;
+                        state_obs <= 4'b0001;
                     end 
 
                     Select_DR_Scan: begin
-                        state_obs = 4'b0010;
+                        state_obs <= 4'b0010;
                     end 
 
                     Capture_DR: begin
-                        state_obs = 4'b0011;
+                        state_obs <= 4'b0011;
                     end 
 
                     Shift_DR: begin
-                        state_obs = 4'b0100;
+                        state_obs <= 4'b0100;
                     end 
 
                     Exit1_DR: begin
-                        state_obs = 4'b0101;
+                        state_obs <= 4'b0101;
                     end 
 
                     Pause_DR: begin
-                        state_obs = 4'b0110;
+                        state_obs <= 4'b0110;
                     end 
 
                     Exit2_DR: begin
-                        state_obs = 4'b0111;
+                        state_obs <= 4'b0111;
                     end 
 
                     Update_DR: begin
-                        state_obs = 4'b1000;
+                        state_obs <= 4'b1000;
                     end 
                     
                     Select_IR_Scan: begin
-                        state_obs = 4'b1001;
+                        state_obs <= 4'b1001;
                     end 
 
                     Capture_IR: begin
-                        state_obs = 4'b1010;
+                        state_obs <= 4'b1010;
                     end 
 
                     Shift_IR: begin
-                        state_obs = 4'b1011;
+                        state_obs <= 4'b1011;
                     end 
 
                     Exit1_IR: begin
-                        state_obs = 4'b1100;
+                        state_obs <= 4'b1100;
                     end
 
                     Pause_IR: begin
-                        state_obs = 4'b1101;
+                        state_obs <= 4'b1101;
                     end 
 
                     Exit2_IR: begin
-                        state_obs = 4'b1110;
+                        state_obs <= 4'b1110;
                     end
 
                     Update_IR: begin
-                        state_obs = 4'b1111;
+                        state_obs <= 4'b1111;
                     end
                     default: begin
-                        state_obs = 4'b0000;  
+                        state_obs <= 4'b0000;  
                     end
             endcase
         end

@@ -1,7 +1,7 @@
 UCLA scl 1.0
 # Created by Soheil Nazar Shahsavani (nazarsha@usc.edu)
 
-NumRows : 14
+NumRows : 15
 
 CoreRow Horizontal
   Coordinate    :   1000
@@ -10,7 +10,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
 End
 CoreRow Horizontal
   Coordinate    :   1070
@@ -19,7 +19,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
 End
 CoreRow Horizontal
   Coordinate    :   1140
@@ -28,7 +28,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
 End
 CoreRow Horizontal
   Coordinate    :   1210
@@ -37,7 +37,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
 End
 CoreRow Horizontal
   Coordinate    :   1280
@@ -46,7 +46,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
 End
 CoreRow Horizontal
   Coordinate    :   1350
@@ -55,7 +55,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
 End
 CoreRow Horizontal
   Coordinate    :   1420
@@ -64,7 +64,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
 End
 CoreRow Horizontal
   Coordinate    :   1490
@@ -73,7 +73,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
 End
 CoreRow Horizontal
   Coordinate    :   1560
@@ -82,7 +82,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
 End
 CoreRow Horizontal
   Coordinate    :   1630
@@ -91,7 +91,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
 End
 CoreRow Horizontal
   Coordinate    :   1700
@@ -100,7 +100,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
 End
 CoreRow Horizontal
   Coordinate    :   1770
@@ -109,7 +109,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
 End
 CoreRow Horizontal
   Coordinate    :   1840
@@ -118,7 +118,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
 End
 CoreRow Horizontal
   Coordinate    :   1910
@@ -127,5 +127,14 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   38
+  SubrowOrigin    :   1000  NumSites  :   41
+End
+CoreRow Horizontal
+  Coordinate    :   1980
+  Height    :   70
+  Sitewidth    :   50
+  Sitespacing    :   50
+  Siteorient    :   1
+  Sitesymmetry    :   1
+  SubrowOrigin    :   1000  NumSites  :   41
 End
