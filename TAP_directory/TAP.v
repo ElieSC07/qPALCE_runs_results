@@ -191,139 +191,79 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
             case(state)
                     Test_logic_Reset: begin
                         state_obs <= 4'b0000;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end 
 
                     Run_Test_Idle: begin
                         state_obs <= 4'b0001;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end 
 
                     Select_DR_Scan: begin
                         state_obs <= 4'b0010;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end 
 
                     Capture_DR: begin
                         state_obs <= 4'b0011;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end 
 
                     Shift_DR: begin
                         state_obs <= 4'b0100;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end 
 
                     Exit1_DR: begin
                         state_obs <= 4'b0101;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end 
 
                     Pause_DR: begin
                         state_obs <= 4'b0110;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end 
 
                     Exit2_DR: begin
                         state_obs <= 4'b0111;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end 
 
                     Update_DR: begin
                         state_obs <= 4'b1000;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end 
                     
                     Select_IR_Scan: begin
                         state_obs <= 4'b1001;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end 
 
                     Capture_IR: begin
                         state_obs <= 4'b1010;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end 
 
                     Shift_IR: begin
                         state_obs <= 4'b1011;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end 
 
                     Exit1_IR: begin
                         state_obs <= 4'b1100;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end
 
                     Pause_IR: begin
                         state_obs <= 4'b1101;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end 
 
                     Exit2_IR: begin
                         state_obs <= 4'b1110;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end
 
                     Update_IR: begin
                         state_obs <= 4'b1111;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];
                     end
                     default: begin
-                        state_obs <= 4'b0000;
-                        state_obs0 <= state_obs[0];
-                        state_obs1 <= state_obs[1];
-                        state_obs2 <= state_obs[2];
-                        state_obs3 <= state_obs[3];  
+                        state_obs <= 4'b0000;  
                     end
             endcase
         end
+
+    always @(posedge clk)
+        begin
+        state_obs0 <= state_obs[0];
+        state_obs1 <= state_obs[1];
+        state_obs2 <= state_obs[2];
+        state_obs3 <= state_obs[3];
+    end
 
 endmodule

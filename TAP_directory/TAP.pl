@@ -1,5 +1,5 @@
 UCLA pl 1.0
-# Written by BLIF2BOOKSHELF on Thu Aug 18 10:25:13 2022
+# Written by BLIF2BOOKSHELF on Thu Aug 18 10:53:11 2022
 # SPORT Lab, University of Southern California, Los Angeles, CA 90089
 # Developers: Ting-Ru Lin <tingruli@usc.edu> and Massoud Pedram <pedram@usc.edu>
 
@@ -18,11 +18,10 @@ UCLA pl 1.0
 	NOTT_9_n45	0	0	: N
 	XOR2T_66_n102	0	0	: N
 	DFFT_110__PIPL_n158	0	0	: N
-	AND2T_10_n46	0	0	: N
-	AND2T_11_n47	0	0	: N
 	AND2T_20_n56	0	0	: N
 	AND2T_12_n48	0	0	: N
 	AND2T_21_n57	0	0	: N
+	AND2T_14_n50	0	0	: N
 	AND2T_22_n58	0	0	: N
 	AND2T_15_n51	0	0	: N
 	AND2T_31_n67	0	0	: N
@@ -38,6 +37,7 @@ UCLA pl 1.0
 	AND2T_42_n78	0	0	: N
 	AND2T_35_n71	0	0	: N
 	AND2T_27_n63	0	0	: N
+	AND2T_19_n55	0	0	: N
 	AND2T_43_n79	0	0	: N
 	AND2T_44_n80	0	0	: N
 	AND2T_28_n64	0	0	: N
@@ -75,10 +75,10 @@ UCLA pl 1.0
 	DFFT_100_state1_buf	0	0	: N
 	DFFT_115__PIPL_n163	0	0	: N
 	DFFT_108__PIPL_n156	0	0	: N
+	NOTT_10_n46	0	0	: N
+	NOTT_11_n47	0	0	: N
 	NOTT_13_n49	0	0	: N
-	NOTT_14_n50	0	0	: N
 	NOTT_16_n52	0	0	: N
-	NOTT_19_n55	0	0	: N
 	DFFT_109__PIPL_n157	0	0	: N
 	DFFT_101_state2_buf	0	0	: N
 	AND2T_64_n100	0	0	: N
