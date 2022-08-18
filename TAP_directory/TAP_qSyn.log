@@ -11,9 +11,9 @@ Adjustment of fanout counts for primary inputs finished successfully!
 [Called: CorrectLevels_Command] 
 [Called: Setup Latches] 
 [Called: init_in_loop_field] 
-Number of initial latches: 16
+Number of initial latches: 12
 [Called: SPORT_NtkWireNFBLs] 
-NetworkCheck: CI with ID 139 is in the network but not in the name table.
+NetworkCheck: CI with ID 118 is in the network but not in the name table.
 Abc_NtkCleanup: The network check has failed.
 Cleanup removed 0 dangling nodes.
 Number of latches now: 8
@@ -38,7 +38,7 @@ Balancing feedback latches with respect to each other ...
 
 Maximum level: 10
 [Called: repLatches]
-Latch-count: 120
+Latch-count: 126
 NDRO-count:  0
 [Called: SPORT_NtkReplaceLwDFF] 
 Replacing latches with SFQ DRO DFFs finished successfully!
@@ -49,19 +49,19 @@ Warning! : There is an input pin (clk) which is not connected to anywhere!
 There are no objects with out-degrees of more than 2!
 Inserting gate splitters finished successfully!
 *************************************************************
-Gate Count : 98
+Gate Count : 90
 Total NDRO DFF Count  : 0
-Total DRO DFF Count  : 120
+Total DRO DFF Count  : 126
 Splitter Count (without clock) : 0
-Splitter Count (with clock) : 217
-Total( Gates + DFFs + Splitters) : 435
-Total Area (Gates) : 548800.00 um^2
-Total Area (Gates + DFFs) : 1220800.00 um^2
-Total Area (Gates + DFFs + Splitters) : 1980300.00 um^2
-Total JJs : 3502
+Splitter Count (with clock) : 215
+Total( Gates + DFFs + Splitters) : 431
+Total Area (Gates) : 504000.00 um^2
+Total Area (Gates + DFFs) : 1209600.00 um^2
+Total Area (Gates + DFFs + Splitters) : 1962100.00 um^2
+Total JJs : 3456
 Worst Stage Delay : 29.80 ps
 Latency : 298.00 ps
-Static power in ERSFQ technology: 11.31 uW
-Static power in RSFQ technology: 353.65 uW
+Static power in ERSFQ technology: 11.21 uW
+Static power in RSFQ technology: 350.40 uW
 *************************************************************
 [Called: qWire_BLIF_Command]
