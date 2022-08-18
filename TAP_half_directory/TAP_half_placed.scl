@@ -1,7 +1,7 @@
 UCLA scl 1.0
 # Created by Soheil Nazar Shahsavani (nazarsha@usc.edu)
 
-NumRows : 11
+NumRows : 6
 
 CoreRow Horizontal
   Coordinate    :   1000
@@ -10,7 +10,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   29
+  SubrowOrigin    :   1000  NumSites  :   18
 End
 CoreRow Horizontal
   Coordinate    :   1070
@@ -19,7 +19,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   29
+  SubrowOrigin    :   1000  NumSites  :   18
 End
 CoreRow Horizontal
   Coordinate    :   1140
@@ -28,7 +28,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   29
+  SubrowOrigin    :   1000  NumSites  :   18
 End
 CoreRow Horizontal
   Coordinate    :   1210
@@ -37,7 +37,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   29
+  SubrowOrigin    :   1000  NumSites  :   18
 End
 CoreRow Horizontal
   Coordinate    :   1280
@@ -46,7 +46,7 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   29
+  SubrowOrigin    :   1000  NumSites  :   18
 End
 CoreRow Horizontal
   Coordinate    :   1350
@@ -55,50 +55,5 @@ CoreRow Horizontal
   Sitespacing    :   50
   Siteorient    :   1
   Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   29
-End
-CoreRow Horizontal
-  Coordinate    :   1420
-  Height    :   70
-  Sitewidth    :   50
-  Sitespacing    :   50
-  Siteorient    :   1
-  Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   29
-End
-CoreRow Horizontal
-  Coordinate    :   1490
-  Height    :   70
-  Sitewidth    :   50
-  Sitespacing    :   50
-  Siteorient    :   1
-  Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   29
-End
-CoreRow Horizontal
-  Coordinate    :   1560
-  Height    :   70
-  Sitewidth    :   50
-  Sitespacing    :   50
-  Siteorient    :   1
-  Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   29
-End
-CoreRow Horizontal
-  Coordinate    :   1630
-  Height    :   70
-  Sitewidth    :   50
-  Sitespacing    :   50
-  Siteorient    :   1
-  Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   29
-End
-CoreRow Horizontal
-  Coordinate    :   1700
-  Height    :   70
-  Sitewidth    :   50
-  Sitespacing    :   50
-  Siteorient    :   1
-  Sitesymmetry    :   1
-  SubrowOrigin    :   1000  NumSites  :   29
+  SubrowOrigin    :   1000  NumSites  :   18
 End
