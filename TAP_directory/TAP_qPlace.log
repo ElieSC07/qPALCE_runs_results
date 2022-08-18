@@ -38,7 +38,7 @@ Max Cell Level : 10
 
 
 
-TotalParseTime: 0.013539
+TotalParseTime: 0.015152
 
 
 	Name of the LEF file is: /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef
@@ -8686,7 +8686,7 @@ Post Legalization HPWL: Total = 1.0115e+05
 (E): inst/pad name state_obs3  not in the library
 
 File seeds.out is in use; random seeds from this process will not be logged.
-Initial non-deterministic seed is 2444272534.
+Initial non-deterministic seed is 1750472366.
 If there is no other process running in this directory, then an earlier
 process may have terminated
 abnormally. You should remove or rename seeds.out
@@ -9161,10 +9161,10 @@ Writing 'TAP_placed.def' (DEF file)
 ['TAP_tmpdir/', 'TAP_placed', '-PLACEMENT', '-STA', '-SLACK', '-RPT_HOLD', '-LEF', '/home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef']
 bnchFullPath is:  /home/elijah/Documents/qPALACE/qPlace/TAP_tmpdir
  ./bookshelf2def TAP_placed.aux  -M 2 -lef /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef
-Created directory  /home/elijah/Documents/qPALACE/qSSTA/Circuits/TAP_placed-2022-08-18_10
-python3 qSSTA.py TAP_placed-2022-08-18_10/TAP_placed-2022-08-18_10_route -PLACEMENT -STA -SLACK -LEF /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef 
-Changing dir to:  /home/elijah/Documents/qPALACE/qSSTA/Circuits/TAP_placed-2022-08-18_10
-cp  TAP_placed-2022-08-18_10_route_PLACEMENT_skew.slack   /home/elijah/Documents/qPALACE/qPlace/TAP_tmpdir/TAP_hold.slack
+Created directory  /home/elijah/Documents/qPALACE/qSSTA/Circuits/TAP_placed-2022-08-18_11
+python3 qSSTA.py TAP_placed-2022-08-18_11/TAP_placed-2022-08-18_11_route -PLACEMENT -STA -SLACK -LEF /home/elijah/Documents/qPALACE/qLib/1.5.1//lef/lef_2_metals.lef 
+Changing dir to:  /home/elijah/Documents/qPALACE/qSSTA/Circuits/TAP_placed-2022-08-18_11
+cp  TAP_placed-2022-08-18_11_route_PLACEMENT_skew.slack   /home/elijah/Documents/qPALACE/qPlace/TAP_tmpdir/TAP_hold.slack
 
 
 Hold time analysis; iteration: 0
@@ -9282,10 +9282,10 @@ Saved the plot: TAP_tmpdir/TAP_final.plt
 	Writing to pl file   : 	TAP_tmpdir/TAP_placed.pl
 
 	Writing to scl file: TAP_tmpdir/TAP_placed.scl
-Current Date and time: 2022_8_18_10_42_
+Current Date and time: 2022_8_18_10_47_
 
 
-Writing statistics to file: TAP_tmpdir//TAP_2022_8_18_10_42__ALG_1_GS1.stat
+Writing statistics to file: TAP_tmpdir//TAP_2022_8_18_10_47__ALG_1_GS1.stat
   (Successfull Test in /qPlace_main.cpp:918): test_fullCircuits
 
 ***********************************************************************************************************

@@ -343,26 +343,26 @@
 .latch $0\state_obs[3:0][1] state_obs[1] re clk 2
 .latch $0\state_obs[3:0][2] state_obs[2] re clk 2
 .latch $0\state_obs[3:0][3] state_obs[3] re clk 2
-.names TRST net_8
+.names TRST net_55
 1 0
-.names $0\state[3:0][0] net_8 net_24
+.names $0\state[3:0][0] net_55 net_33
 11 1
-.latch net_24 state[0] 0
-.names TRST net_36
+.latch net_33 state[0] 0
+.names TRST net_35
 1 0
-.names $0\state[3:0][1] net_36 net_73
+.names $0\state[3:0][1] net_35 net_96
 11 1
-.latch net_73 state[1] 0
-.names TRST net_62
+.latch net_96 state[1] 0
+.names TRST net_96_38
 1 0
-.names $0\state[3:0][2] net_62 net_13
+.names $0\state[3:0][2] net_96_38 net_83
 11 1
-.latch net_13 state[2] 0
-.names TRST net_87
+.latch net_83 state[2] 0
+.names TRST net_40
 1 0
-.names $0\state[3:0][3] net_87 net_80
+.names $0\state[3:0][3] net_40 net_49
 11 1
-.latch net_80 state[3] 0
+.latch net_49 state[3] 0
 .names state[3] $true $auto$simplemap.cc:250:simplemap_eqne$267[3]
 10 1
 01 1
