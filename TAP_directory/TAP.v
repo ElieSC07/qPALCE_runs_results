@@ -179,8 +179,9 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
                     end
 
                     default: begin
-                        state = Test_logic_Reset;
+                        state <= Test_logic_Reset;
                         //state_obs = 0;
+                        state_obs <= 4'b0000;
                     end 
                 endcase
             end
