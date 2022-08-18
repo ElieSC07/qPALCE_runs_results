@@ -20,13 +20,14 @@ module TAP_half(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
         state_obs3 <= 0;
     end
 
-    always @(posedge clk or posedge TRST)
+//    always @(posedge clk or posedge TRST)
+    always @(posedge clk)
         begin 
             if (TRST==1) begin
                 state <= Test_logic_Reset;
             end
 
-            else begin
+            else if (TRST==0) begin
                 /* Define the next state transitions using a case statement based on the current state */ 
                 case (state)
                     Test_logic_Reset: begin
@@ -117,7 +118,7 @@ module TAP_half(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
             end
         end
 
-    always @(state)
+    always @(posedge clk)
         begin
             case(state)
                     Test_logic_Reset: begin
