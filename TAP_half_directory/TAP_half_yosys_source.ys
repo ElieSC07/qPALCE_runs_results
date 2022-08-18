@@ -1,0 +1,1 @@
+read_verilog TAP_half.v; hierarchy; proc; opt;  memory; opt; techmap; opt; write_blif TAP_half_yosys.blif

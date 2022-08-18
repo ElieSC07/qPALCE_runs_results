@@ -1,0 +1,6 @@
+ABC command line: "source TAP_half_qEC_source.ys".
+
+Entered genlib library with 8 gates from file "qSyn/qABC/src/qEC/qEC_Lib/SFQ.genlib".
+** cmd error: aborting 'source TAP_half_qEC_source.ys'
+Line 199: Cannot find the model for subcircuit $_DFF_PP0_.
+Reading network from file has failed.

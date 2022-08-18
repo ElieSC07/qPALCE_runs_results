@@ -1,0 +1,17 @@
+read_library /home/elijah/Documents/qPALACE/qLib/1.5.1/SFQ.genlib
+read TAP_half_yosys_mini.blif
+blnc_syn2 
+BM 
+adj -C 4 -l 
+adjPI -C 4 
+cl 
+IsSeq
+bfl -b 
+addLr -L 
+repL 
+pf -n -i -l
+InsS -B -v TAP_half_abc
+sprsl /home/elijah/Documents/qPALACE/qLib/1.5.1/qSyn_config.txt
+black -i -o -d
+qWrite_blif  -s TAP_half_abc.blif
+quit

@@ -3,6 +3,7 @@
 module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3); 
     input TMS, TRST, clk; // clk :: TCK
     output state_obs0, state_obs1, state_obs2, state_obs3; 
+    reg state_obs0, state_obs1, state_obs2, state_obs3; 
     reg[3:0] state_obs;
     reg[3:0] state; 
 
@@ -13,11 +14,11 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
 
     initial begin
         state <= Test_logic_Reset;
-        //state_obs <= 4'b0000;   
-        /*state_obs0 <= state_obs[0];
-        state_obs1 <= state_obs[1];
-        state_obs2 <= state_obs[2];
-        state_obs3 <= state_obs[3]; */
+        state_obs <= 4'b0000;   
+        state_obs0 <= 0;
+        state_obs1 <= 0;
+        state_obs2 <= 0;
+        state_obs3 <= 0; 
     end
 
     /*assign state_obs0 = state_obs[0]
@@ -180,13 +181,12 @@ module TAP(TMS, TRST, clk, state_obs0, state_obs1, state_obs2, state_obs3);
 
                     default: begin
                         state <= Test_logic_Reset;
-                        //state_obs <= 4b'0000;
                     end 
                 endcase
             end
         end
 
-    always @(posedge clk)
+    always @(state)
         begin
             case(state)
                     Test_logic_Reset: begin
