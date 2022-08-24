@@ -5,7 +5,7 @@ Vertical pitch (Y_space): 0.000000
 Reading from TAP_half_placed.aux
 Reading from TAP_half_placed.nodes
 Reading from TAP_half_placed.nets
-6 pad(s) connected to net.
+7 pad(s) connected to net.
 Reading from TAP_half_placed.pl
 Reading from TAP_half_placed.scl
 Reading from file: ../../qLib/1.5.1/lef/lef_2_metals.lef

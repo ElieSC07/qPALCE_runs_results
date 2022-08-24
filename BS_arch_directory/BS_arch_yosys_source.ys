@@ -1,0 +1,1 @@
+read_verilog BS_arch.v; hierarchy; proc; opt;  memory; opt; techmap; opt; write_blif BS_arch_yosys.blif

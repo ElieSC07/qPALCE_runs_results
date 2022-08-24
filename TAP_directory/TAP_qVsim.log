@@ -1,7 +1,7 @@
 dos2unix: converting file TAP_route_qVsim.sdf to Unix format...
 SFQLib.v:30: warning: task definition for "tPD" has an empty port declaration list!
 VCD info: dumpfile TAP_route.vcd opened for output.
-Gtk-Message: 14:41:45.528: Failed to load module "canberra-gtk-module"
+Gtk-Message: 02:39:07.375: Failed to load module "canberra-gtk-module"
 
 GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
 

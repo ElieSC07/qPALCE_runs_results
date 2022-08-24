@@ -1,0 +1,6 @@
+ABC command line: "source BS_arch_abc_source.ys".
+
+Entered genlib library with 7 gates from file "/home/elijah/Documents/qPALACE/qLib/1.5.1/SFQ.genlib".
+Line 302: Signal "BSRout[0]" is defined more than once.
+Reading network from file has failed.
+Error: Empty network.
