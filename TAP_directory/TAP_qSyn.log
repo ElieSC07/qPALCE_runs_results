@@ -11,24 +11,24 @@ Adjustment of fanout counts for primary inputs finished successfully!
 [Called: CorrectLevels_Command] 
 [Called: Setup Latches] 
 [Called: init_in_loop_field] 
-Number of initial latches: 9
+Number of initial latches: 14
 [Called: SPORT_NtkWireNFBLs] 
-NetworkCheck: CI with ID 108 is in the network but not in the name table.
+NetworkCheck: CI with ID 147 is in the network but not in the name table.
 Abc_NtkCleanup: The network check has failed.
 Cleanup removed 0 dangling nodes.
-Number of latches now: 9
+Number of latches now: 14
 [Called: Correct_Levels_fast] 
 [Called: Topological_Sort] 
 Done: Topological sort. 
 Correcting levels of Nodes (not PI/PO/BI/BO/Latches in topological order
 CL Done-Partially: corrected levels of Nodes
 Done CL-fast 
-The maximum level among feedback latches is : 9
-Every 9 fast clock cycle, a new set of inputs should be applied to the circuit.
+The maximum level among feedback latches is : 11
+Every 11 fast clock cycle, a new set of inputs should be applied to the circuit.
 Done: CL!
 ###Number of latches in the given circuit is : 1
 [Called: BalanceFLatch]
-Max level of feedback lacthes: 9
+Max level of feedback lacthes: 11
 Balancing feedback latches with respect to each other ... 
 
 
@@ -36,9 +36,9 @@ Balancing feedback latches with respect to each other ...
 [Called: addLatchRetime] 
 [Called: SPORT_NtkPathBalance]
 
-Maximum level: 9
+Maximum level: 11
 [Called: repLatches]
-Latch-count: 94
+Latch-count: 109
 NDRO-count:  0
 [Called: SPORT_NtkReplaceLwDFF] 
 Replacing latches with SFQ DRO DFFs finished successfully!
@@ -49,19 +49,19 @@ Warning! : There is an input pin (clk) which is not connected to anywhere!
 There are no objects with out-degrees of more than 2!
 Inserting gate splitters finished successfully!
 *************************************************************
-Gate Count : 94
+Gate Count : 139
 Total NDRO DFF Count  : 0
-Total DRO DFF Count  : 94
+Total DRO DFF Count  : 109
 Splitter Count (without clock) : 0
-Splitter Count (with clock) : 187
-Total( Gates + DFFs + Splitters) : 375
-Total Area (Gates) : 526400.00 um^2
-Total Area (Gates + DFFs) : 1052800.00 um^2
-Total Area (Gates + DFFs + Splitters) : 1707300.00 um^2
-Total JJs : 3096
+Splitter Count (with clock) : 247
+Total( Gates + DFFs + Splitters) : 495
+Total Area (Gates) : 778400.00 um^2
+Total Area (Gates + DFFs) : 1388800.00 um^2
+Total Area (Gates + DFFs + Splitters) : 2253300.00 um^2
+Total JJs : 4140
 Worst Stage Delay : 29.80 ps
-Latency : 268.20 ps
-Static power in ERSFQ technology: 9.75 uW
-Static power in RSFQ technology: 304.88 uW
+Latency : 327.80 ps
+Static power in ERSFQ technology: 12.87 uW
+Static power in RSFQ technology: 402.43 uW
 *************************************************************
 [Called: qWire_BLIF_Command]
